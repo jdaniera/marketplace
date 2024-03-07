@@ -6,7 +6,7 @@
 - Holden
 
 ## Description
-This application is a place where communities can help each other out and learn from each other
+The application is a community based service marketplace, that helps engage community members with their neighbors
 
 ## Resources
 
