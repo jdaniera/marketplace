@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'Hind Bold';
-    src: url('/Hind-Bold.ttf');
+    font-family: 'HindBold';
+    src: './Hind-Bold.ttf' format("truetype");
 }
 
 @font-face {
-    font-family: 'Hind Regular';
+    font-family: 'HindRegular';
     src: url('/Hind-Regular.ttf');
 }
 
@@ -21,7 +21,7 @@
     text-align: center;
     margin-left: 25px;
     margin-right: 25px;
-    font-family: 'Hind Bold';
+    font-family: 'HindBold';
 }
 
 .answers {
@@ -40,7 +40,7 @@
     width: 191px; 
     height: 208px;
     text-align: baseline;
-    font-family: 'Hind Regular';
+    font-family: 'HindRegular';
 }
 
 .answers button:nth-child(3):last-child {
@@ -51,5 +51,10 @@
 .answers button:nth-child(4) {
     grid-column: auto;
     width: 191px;
+}
+
+.answersContent {
+    display: flex;
+    align-content: center;
 }
 
