@@ -1,6 +1,15 @@
-import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
-import Survey from '@/components/Survey/Survey'
+import Head from 'next/head';
+import styles from '@/styles/Home.module.css';
+import Survey from '@/components/Survey/Survey';
+import { Hind } from 'next/font/google'
+
+const hind = Hind({
+  weight: '300',
+  weight: '400',
+  weight: '500',
+  weight: '600',
+  subsets: ['latin'],
+})
 
 export default function Home() {
   return (
@@ -11,7 +20,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main}`}>
+      <main className={`${styles.main} ${hind.className}`}>
         <Survey /> 
       </main>
     </>

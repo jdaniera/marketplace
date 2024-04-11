@@ -1,12 +1,13 @@
 import Image from 'next/image';
+import styles from './surveyQuestions.module.css'
 
 export const surveyQuestions = [
     {
       questionText: 'Who is going?',
       answerOptions: [
-        { answerText: 'Solo', score: "one", image: <Image src="/images/solo.png" alt="placeholder" width={97} height={175} />},
-        { answerText: 'Partner', score: "two", image: <Image src="/images/partner.png" alt="placeholder" width={170} height={175} /> },
-        { answerText: 'Group', score: "three", image: <Image src="/images/group.png" alt="placeholder" width={375} height={180} /> },
+        { answerText: 'Solo', score: "one", image: <Image src="/images/solo.png" alt="placeholder" width={97} height={175}/>},
+        { answerText: 'Partner', score: "two", image: <Image src="/images/partner.png" alt="placeholder" width={136} height={162} /> },
+        { answerText: 'Group', score: "three", image: <Image src="/images/group.png" alt="placeholder" width={277} height={175} className={styles.soloImg}/> },
       ],
     },
     {
