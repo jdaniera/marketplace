@@ -1,18 +1,19 @@
 import { useState } from 'react';
-import Question from './Question';
-import surveyQuestions from '../data/surveyQuestions';
-import Option1 from './Option1';
-import Option2 from './Option2';
-import Option3 from './Option3';
-import Option4 from './Option4';
-import Option5 from './Option5';
-import Option6 from './Option6';
-import Option7 from './Option7';
-import Option8 from './Option8';
-import Option9 from './Option9';
-import Option10 from './Option10';
-import Option11 from './Option11';
-import Option12 from './Option12';
+import Question from '../Question/Question';
+import surveyQuestions from '@/data/surveyQuestions';
+import Option1 from '@/components/Options/Option1';
+import Option2 from '@/components/Options/Option2';
+import Option3 from '@/components/Options/Option3';
+import Option4 from '@/components/Options/Option4';
+import Option5 from '@/components/Options/Option5';
+import Option6 from '@/components/Options/Option6';
+import Option7 from '@/components/Options/Option7';
+import Option8 from '@/components/Options/Option8';
+import Option9 from '@/components/Options/Option9';
+import Option10 from '@/components/Options/Option10';
+import Option11 from '@/components/Options/Option11';
+import Option12 from '@/components/Options/Option12';
+import styles from './Survey.module.css';
 
 export default function Survey() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -24,7 +25,7 @@ export default function Survey() {
     const newAnswers = [...answers, answer];
 
     if (nextQuestion < surveyQuestions.length) {
-      setAnswers(newAnswers);
+      setAnswers(newAnswers); 
       setCurrentQuestion(nextQuestion);
     } else {
       displayRecommendation(newAnswers);
@@ -90,7 +91,7 @@ export default function Survey() {
   }
 
   return (
-    <div className="survey">
+    <div className={styles.survey}>
       <Question
         question={surveyQuestions[currentQuestion]}
         onAnswerClick={handleAnswerClick}
