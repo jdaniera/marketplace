@@ -14,7 +14,7 @@ export default function Question({ question, onAnswerClick }) {
               <div className={styles.answerContentContainer}>
                 <div className={styles.answerContent}>
                 {answer.image}
-                {answer.answerText}
+                <p>{answer.answerText}</p>
                 </div>
               </div>
             </button>

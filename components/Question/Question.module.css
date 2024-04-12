@@ -120,6 +120,11 @@
     align-items: center;
   }
 
+  .answerContent p{
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
   .questionInnerContainer {
     width: 430px;
     margin-top: 10em;
@@ -138,6 +143,9 @@
 
   .button:nth-child(3):last-child{
     grid-column: span 2;
+  }
+  .button:nth-child(2):last-child{
+    
   }
 
   .questionText {
