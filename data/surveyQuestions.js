@@ -31,10 +31,10 @@ export const surveyQuestions = [
     {
       questionText: 'What is your budget for this class?',
       answerOptions: [
-        { answerText: 'Up to $50', image: <Image src="/images/placeholderImage.jpg" alt="placeholder" width={170} height={175} />},
-        { answerText: 'Up to $100', image: <Image src="/images/placeholderImage.jpg" alt="placeholder" width={170} height={175} />},
-        { answerText: 'Up to $250', image: <Image src="/images/placeholderImage.jpg" alt="placeholder" width={170} height={175} />},
-        { answerText: 'Up to $500', image: <Image src="/images/placeholderImage.jpg" alt="placeholder" width={170} height={175} />},
+        { answerText: 'Up to $50', image: <Image src="/images/money1.png" alt="money gnome graphic 1" width={80} height={162} />},
+        { answerText: 'Up to $100', image: <Image src="/images/money2final.png" alt="money gnome graphic 2" width={157} height={170} />},
+        { answerText: 'Up to $250', image: <Image src="/images/money3final.png" alt="money gnome graphic 3" width={169} height={176} />},
+        { answerText: 'Up to $500', image: <Image src="/images/money4final.png" alt="money gnome graphic 4" width={189} height={181} />},
       ],
     },
 ];
