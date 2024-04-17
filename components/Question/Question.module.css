@@ -151,9 +151,9 @@
   .button:nth-child(3):last-child{
     grid-column: span 2;
   }
-  .button:nth-child(2):last-child{
+  /* .button:nth-child(2):last-child{
     
-  }
+  } */
 
   .questionText {
     text-align: center;
@@ -166,7 +166,7 @@
     padding-right: 1em;
     
   }
-
+/* 
   .footer {
     display: flex;
     background-color: #357C77;
@@ -182,4 +182,4 @@
     font-family: 'Neighbourly';
     color: white;
     font-size: 3em;
-  }
+  } */
