@@ -4,21 +4,20 @@ import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
 import Survey from '@/components/Survey/Survey';
 
-{/* <div className={`${layout} ${styles.nav}`}>
-<h1>{title}</h1>
-{subtitle && <h2>{subtitle}</h2>}
-{searchBar && (
-    <div className="searchBar">
-        <input type="text" placeholder='Search for ...'/>
-    </div>
-) }
-</div> */}
-
 export default function Home() {
 
-  const headerTitle = "Welcome, {user}!";
-  const pageLayout = 'layout1';
+  // const headerTitle = "Welcome, {user}!";
+  // const pageLayout = 'layout1';
+  // const backButton = true;
+  // const searchBar = true;
+  // const settings = true;
+
+  const headerTitle = 'James Plunk';
+  const subtitle = 'Plumber'
+  const pageLayout = 'layout2';
+  const backButton = true;
   const searchBar = true;
+  const settings = true;
 
   return (
     <>
@@ -28,7 +27,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavBar layout={pageLayout} title={headerTitle} searchBar={searchBar}/>
+      <NavBar layout={pageLayout} title={headerTitle} subtitle={subtitle} backButton={backButton} />
       <main className={`${styles.main}`}>
         <div className={styles.appContent}>
           <Survey /> 

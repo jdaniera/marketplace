@@ -17,6 +17,8 @@ body {
   --dark-grey: #6e6e6e;
   --med-grey: #d6d5d5;
   --button-grey: #f0f0f0;
+
+  --body-16pt: 16pt;
 }
 
 @font-face {
@@ -33,3 +35,4 @@ body {
   font-family: "Neighbourly";
   src: url("/fonts/ZTGatha-SemiBold.ttf");
 }
+

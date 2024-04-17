@@ -1,26 +1,19 @@
-/* .nav {
+.navContainer {
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
     z-index: 1000;
     height: 136px;
     background-color: var(--teal);
-} */
+    width: 432px;
+    font-family: Sen;
+    color: var(--white);
+}
 
 /* Title Only Header */
 .layout1 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    height: 136px;
-    background-color: var(--teal);
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: var(--white);
 }
 
 .layout1 h1 {
@@ -32,12 +25,26 @@
 /* Service Provider Header*/
 .layout2 {
     display: flex;
-    justify-content: center;
-
-    color: var(--white);
+    flex-direction: column;
+    justify-items: center;
+    padding-top: 1em;
+    padding-left: 2em;
 }
 
 .layout2 h1 {
-    border-bottom: 1px solid var(--black);
+    padding-bottom: 0.2em;
+    border-bottom: 2px solid var(--black);
+    width: max-content;
 }
 
+.layout2 h2 {
+    margin-top: -0.5em;
+}
+
+.buttonsContainer {
+    display: flex;
+    /* justify-content: space-around; */
+    width: 100%;
+    padding-top: 0.6em;
+    left: 2em;
+}
