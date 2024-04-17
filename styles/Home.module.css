@@ -1,7 +1,14 @@
-/* .main {
+#__next {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 20vh;
-} */
+  width: var(--iphone-width);
+  min-height: var(--iphone-height);
+  margin: 0;
+}
 
