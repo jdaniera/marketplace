@@ -13,10 +13,10 @@ export const surveyQuestions = [
     {
       questionText: 'What type of class are you in the mood for?',
       answerOptions: [
-        { answerText: 'Food & Drink', score: "FoodDrink", image: <Image src="/images/placeholderImage.jpg" alt="placeholder" width={170} height={175} /> },
-        { answerText: 'Arts & Crafts', score: "ArtsCrafts", image: <Image src="/images/placeholderImage.jpg" alt="placeholder" width={170} height={175} /> },
-        { answerText: 'Health & Fitness', score: "HealthFitness", image: <Image src="/images/placeholderImage.jpg" alt="placeholder" width={170} height={175} /> },
-        { answerText: 'Outdoor Activities', score: "Outdoor", image: <Image src="/images/placeholderImage.jpg" alt="placeholder" width={170} height={175} /> },
+        { answerText: 'Food & Drink', score: "FoodDrink", image: <Image src="/images/quiz/food.png" alt="placeholder" width={170} height={175} /> },
+        { answerText: 'Arts & Crafts', score: "ArtsCrafts", image: <Image src="/images/quiz/arts.png" alt="placeholder" width={170} height={175} /> },
+        { answerText: 'Health & Fitness', score: "HealthFitness", image: <Image src="/images/quiz/fitness.png" alt="placeholder" width={170} height={175} /> },
+        { answerText: 'Outdoor Activities', score: "Outdoor", image: <Image src="/images/quiz/outdoor.png" alt="placeholder" width={170} height={175} /> },
       ],
     }, 
     {

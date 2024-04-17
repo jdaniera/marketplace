@@ -20,6 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--white);
 }
 
 .layout1 h1 {
@@ -32,9 +33,11 @@
 .layout2 {
     display: flex;
     justify-content: center;
+
+    color: var(--white);
 }
 
-.layout h1 {
+.layout2 h1 {
     border-bottom: 1px solid var(--black);
 }
 
