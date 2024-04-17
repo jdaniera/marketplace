@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
+import TabBar from '@/components/TabBar';
 import Survey from '@/components/Survey/Survey';
 
 
@@ -13,8 +14,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
-        <Survey /> 
+        <div className={styles.appContent}>
+          <Survey /> 
+        </div>
       </main>
+      <TabBar/>
     </>
   )
 } 

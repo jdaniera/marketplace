@@ -5,7 +5,7 @@ export default function Question({ question, onAnswerClick }) {
       <>
       <div className={styles.questionContainer}>
         <div className={styles.questionInnerContainer}>
-        <header className={styles.header}> Neighbourly</header>
+        {/* <header className={styles.header}> Neighbourly</header> */}
         
         <div className={styles.questionText}>{question.questionText} </div>
         <div className={styles.answers}>
@@ -21,6 +21,7 @@ export default function Question({ question, onAnswerClick }) {
           ))}
         </div>
         <footer className={styles.footer}>
+        
         </footer>
         </div>
       </div>

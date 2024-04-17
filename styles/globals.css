@@ -1,6 +1,24 @@
-:root {
-  
+body {
+  /* no margin, center content container */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
+
+:root {
+  --iphone-width: 430px;
+  --iphone-height: 932px;
+
+  --teal: #357C77;
+  --yellow: #FDE9B0;
+  --white: #fff;
+  --black: #292929;
+  --dark-grey: #6e6e6e;
+  --med-grey: #d6d5d5;
+  --button-grey: #f0f0f0;
+}
+
   @font-face {
     font-family: "Hind";
     src: url("/fonts/Hind-Regular.ttf");

@@ -58,8 +58,9 @@
   .button:nth-child(3):last-child{
     grid-column: span 2;
   }
- 
-
+  .button:nth-child(2):last-child{
+    
+  }
 
   .questionText {
     text-align: center;
@@ -74,7 +75,7 @@
     /* background-color: rgb(234, 234, 234); */
     
   }
-
+/* 
   .footer {
     /* display: flex;
     background-color: #357C77;
@@ -107,11 +108,3 @@
     color: white;
     font-size: 3em;
   }
-
-  /* .button:nth-child(odd) .answerContent {
-    padding-left: 1.5em; 
-  }
-  
-  .button:nth-child(even) .answerContent {
-    padding-right: 1.5em; 
-  } */
