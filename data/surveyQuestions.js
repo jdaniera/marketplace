@@ -5,9 +5,9 @@ export const surveyQuestions = [
     {
       questionText: 'Who is going?',
       answerOptions: [
-        { answerText: 'Solo', score: "one", image: <Image src="/images/solo.png" alt="placeholder" width={97} height={175}/>},
-        { answerText: 'Partner', score: "two", image: <Image src="/images/partner.png" alt="placeholder" width={136} height={162} /> },
-        { answerText: 'Group', score: "three", image: <Image src="/images/group.png" alt="placeholder" width={277} height={175} className={styles.soloImg}/> },
+        { answerText: 'Solo', score: "one", image: <Image src="/images/gnome1.svg" alt="placeholder" width={190} height={210}/>},
+        { answerText: 'Partner', score: "two", image: <Image src="/images/gnome2.svg" alt="placeholder" width={190} height={210} /> },
+        { answerText: 'Group', score: "three", image: <Image src="/images/gnome3.svg" alt="placeholder" width={343} height={210} className={styles.soloImg}/> },
       ],
     },
     {
@@ -22,19 +22,19 @@ export const surveyQuestions = [
     {
       questionText: 'If you had three hours to yourself, what would you do?',
       answerOptions: [
-        { answerText: 'Beer & Wine Tasting', image: <Image src="/images/beertasting.svg" alt="placeholder" width={170} height={175} /> },
-        { answerText: 'Draw at a park', image: <Image src="/images/drawingpark.svg" alt="placeholder" width={170} height={175} />},
-        { answerText: 'Picnic on a beach', image: <Image src="/images/Asset19.svg" alt="placeholder" width={170} height={175} />},
-        { answerText: 'Go on a hike', image: <Image src="/images/hike.svg" alt="placeholder" width={170} height={175} />},
+        { answerText: 'Beer & Wine Tasting', image: <Image src="/images/activity1.svg" alt="placeholder" width={161.5} height={178.5} /> },
+        { answerText: 'Draw at a park', image: <Image src="/images/activity2.svg" alt="placeholder" width={161.5} height={178.5} />},
+        { answerText: 'Picnic on a beach', image: <Image src="/images/activity3.svg" alt="placeholder" width={161.5} height={178.5} />},
+        { answerText: 'Go on a hike', image: <Image src="/images/activity4.svg" alt="placeholder" width={161.5} height={178.5} />},
       ],
     },
     {
       questionText: 'What is your budget for this class?',
       answerOptions: [
-        { answerText: 'Up to $50', image: <Image src="/images/money1.png" alt="money gnome graphic 1" width={80} height={162} />},
-        { answerText: 'Up to $100', image: <Image src="/images/money2final.png" alt="money gnome graphic 2" width={157} height={170} />},
-        { answerText: 'Up to $250', image: <Image src="/images/money3final.png" alt="money gnome graphic 3" width={169} height={176} />},
-        { answerText: 'Up to $500', image: <Image src="/images/money4final.png" alt="money gnome graphic 4" width={189} height={181} />},
+        { answerText: 'Up to $50', image: <Image src="/images/money1.svg" alt="money gnome graphic 1" width={171} height={189} />},
+        { answerText: 'Up to $100', image: <Image src="/images/money2.svg" alt="money gnome graphic 2" width={171} height={189} />},
+        { answerText: 'Up to $250', image: <Image src="/images/money3.svg" alt="money gnome graphic 3" width={171} height={189} />},
+        { answerText: 'Up to $500', image: <Image src="/images/money4.svg" alt="money gnome graphic 4" width={171} height={189} />},
       ],
     },
 ];
