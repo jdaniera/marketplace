@@ -1,10 +1,25 @@
 import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
+import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
 import Survey from '@/components/Survey/Survey';
 
+{/* <div className={`${layout} ${styles.nav}`}>
+<h1>{title}</h1>
+{subtitle && <h2>{subtitle}</h2>}
+{searchBar && (
+    <div className="searchBar">
+        <input type="text" placeholder='Search for ...'/>
+    </div>
+) }
+</div> */}
 
 export default function Home() {
+
+  const headerTitle = "Welcome, {user}!";
+  const pageLayout = 'layout1';
+  const searchBar = true;
+
   return (
     <>
       <Head>
@@ -13,6 +28,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <NavBar layout={pageLayout} title={headerTitle} searchBar={searchBar}/>
       <main className={`${styles.main}`}>
         <div className={styles.appContent}>
           <Survey /> 

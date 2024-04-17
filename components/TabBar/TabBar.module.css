@@ -1,12 +1,14 @@
 .tabContainer {
-    margin-top: 0;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
     background-color: var(--teal);
-
+    align-content: center;
 }
 
 .tabContainer ul {
     display: flex;
-    margin-bottom: 0;
+    margin: 0;
     padding: 0;
     height: 77px;
     list-style: none;

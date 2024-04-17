@@ -90,16 +90,16 @@
     width: 100%;
     background-color: #357C77;
     height: 3rem; */
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
     left: 0;
     width: 100%; 
     background-color: #357C77;
     height: 3rem;
     z-index: 999;
-  }
+  } */
 
-  .header {
+  /* .header {
     background-color: #357C77;
     height: 4rem;
     text-align: center;
@@ -107,4 +107,4 @@
     font-family: 'Neighbourly';
     color: white;
     font-size: 3em;
-  }
+  } */

@@ -19,17 +19,17 @@ body {
   --button-grey: #f0f0f0;
 }
 
-  @font-face {
-    font-family: "Hind";
-    src: url("/fonts/Hind-Regular.ttf");
-  }
+@font-face {
+  font-family: "Hind";
+  src: url("/fonts/Hind-Regular.ttf");
+}
 
-  @font-face {
-    font-family: "HindBold";
-    src: url("/fonts/Hind-Bold.ttf");
-  }
+@font-face {
+  font-family: "HindBold";
+  src: url("/fonts/Hind-Bold.ttf");
+}
 
-  @font-face {
-    font-family: "Neighbourly";
-    src: url("/fonts/ZTGatha-SemiBold.ttf");
-  }
+@font-face {
+  font-family: "Neighbourly";
+  src: url("/fonts/ZTGatha-SemiBold.ttf");
+}
