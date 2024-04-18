@@ -1,13 +1,7 @@
-# Marketplace
+# Exercise 1
 
-## Created By
-- Jackson
-- Jasmine
-- Holden
+## Created by
+- Saini
 
 ## Description
-The application is a community based service marketplace, that helps engage community members with their neighbors
-
-## Resources
-
-## Packages Installed
+- This is a recreation of the twitter login page

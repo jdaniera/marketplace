@@ -1,0 +1,17 @@
+.tabContainer {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    background-color: var(--teal);
+    align-content: center;
+}
+
+.tabContainer ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 77px;
+    list-style: none;
+    overflow: hidden;
+}
+
