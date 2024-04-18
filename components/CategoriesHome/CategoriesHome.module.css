@@ -11,7 +11,6 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1em;
 }
-
 .categoryHeading p{
     font-family: 'HindSemiBold';
     font-size: 1.2500em;

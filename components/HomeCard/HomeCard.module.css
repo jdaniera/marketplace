@@ -31,7 +31,7 @@
 }
 
 .button button{
-   margin-top: 0.6em;
+   margin-top: 0.5em;
     position: absolute;
     left: 23.5em;
     width: 76px;
@@ -40,4 +40,9 @@
     border-radius: 10px;
     font-family: 'HindSemiBold';
     font-size: 0.8em;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.button button:hover{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
 }
