@@ -25,65 +25,27 @@ export default function Survey() {
     const newAnswers = [...answers, answer];
 
     if (nextQuestion < surveyQuestions.length) {
-      setAnswers(newAnswers); 
+      setAnswers(newAnswers);
       setCurrentQuestion(nextQuestion);
     } else {
       displayRecommendation(newAnswers);
     }
-  }; 
+  };
+
+  const handleBackClick = () => {
+    if (currentQuestion > 0) {
+      setCurrentQuestion(currentQuestion - 1);
+    }
+  };
+
+  const handleNextClick = () => {
+    if (currentQuestion < surveyQuestions.length - 1) {
+      setCurrentQuestion(currentQuestion + 1);
+    }
+  };
 
   const displayRecommendation = (answers) => {
-    if (answers.includes("one") && answers.includes("FoodDrink")) {
-      let recommendation = <Option1 />;
-      setRecommendation(recommendation);
-      return;
-    } else if (answers.includes("one") && answers.includes("ArtsCrafts")) {
-      let recommendation = <Option2 />;
-      setRecommendation(recommendation);
-      return;
-    } else if (answers.includes("one") && answers.includes("HealthFitness")) {
-      let recommendation = <Option3 />;
-      setRecommendation(recommendation);
-      return;
-    } else if (answers.includes("one") && answers.includes("Outdoor")) {
-      let recommendation = <Option4 />;
-      setRecommendation(recommendation);
-      return;
-    }
-    else if (answers.includes("two") && answers.includes("FoodDrink")) {
-      let recommendation = <Option5 />;
-      setRecommendation(recommendation);
-      return;
-    } else if (answers.includes("two") && answers.includes("ArtsCrafts")) {
-      let recommendation = <Option6 />;
-      setRecommendation(recommendation);
-      return;
-    } else if (answers.includes("two") && answers.includes("HealthFitness")) {
-      let recommendation = <Option7 />;
-      setRecommendation(recommendation);
-      return;
-    } else if (answers.includes("two") && answers.includes("Outdoor")) {
-      let recommendation = <Option8 />;
-      setRecommendation(recommendation);
-      return;
-    }
-    else if (answers.includes("three") && answers.includes("FoodDrink")) {
-      let recommendation = <Option9 />;
-      setRecommendation(recommendation);
-      return;
-    } else if (answers.includes("three") && answers.includes("ArtsCrafts")) {
-      let recommendation = <Option10 />;
-      setRecommendation(recommendation);
-      return;
-    } else if (answers.includes("three") && answers.includes("HealthFitness")) {
-      let recommendation = <Option11 />;
-      setRecommendation(recommendation);
-      return;
-    } else if (answers.includes("three") && answers.includes("Outdoor")) {
-      let recommendation = <Option12 />;
-      setRecommendation(recommendation);
-      return;
-    }
+
   };
 
   if (recommendation) {
@@ -96,6 +58,14 @@ export default function Survey() {
         question={surveyQuestions[currentQuestion]}
         onAnswerClick={handleAnswerClick}
       />
+      <div className={styles.buttonContainer}>
+        <button className={styles.backButton} onClick={handleBackClick} disabled={currentQuestion === 0}>
+          Back
+        </button>
+        <button className={styles.nextButton} onClick={handleNextClick} disabled={currentQuestion === surveyQuestions.length - 1}>
+          Next
+        </button>
+      </div>
     </div>
   );
 }

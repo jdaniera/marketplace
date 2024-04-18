@@ -1,0 +1,44 @@
+.iphoneFrame {
+    display: flex;
+    justify-content: center;
+    width: var(--iphone-width);
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 9.5em;
+    margin-bottom: 5em;
+  }
+  
+
+  .quizIntro {
+    font-family: 'Hind';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .quizIntro h1 {
+    text-align: center;
+    font-size: 24pt;
+  }
+
+  .quizIntro p {
+    text-align: center;
+    font-size: 16pt;
+  }
+
+  .startButton {
+    border: none;
+    height: 3em;
+    width: 70%;
+    margin-left: 6em;
+    border-radius: 30px;
+  }
+  
+  .genie {
+  margin-left: 5em;
+  }
+  
