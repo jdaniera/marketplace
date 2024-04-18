@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css';
 import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
 import Survey from '@/components/Survey/Survey';
+import CategoriesHome from '@/components/CategoriesHome';
 
 export default function Home() {
 
@@ -23,7 +24,11 @@ export default function Home() {
       <div className={styles.iphoneFrame}>
         <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} />
         <main className={`${styles.main}`}>
-            {/* Quiz moved to quiz.js*/}
+          <div className={styles.mainInnerContainer}>
+          <CategoriesHome/>
+
+
+          </div>
         </main>
         <TabBar/>
       </div>
