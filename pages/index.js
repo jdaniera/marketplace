@@ -7,6 +7,8 @@ import CategoriesHome from '@/components/CategoriesHome';
 import Menotrship from '@/components/Mentorship';
 import HomeCardSection from '@/components/HomeCardSection';
 
+import ServicesCard from '@/components/ServicesCard';
+
 export default function Home() {
 
   const headerTitle = 'Welcome, {user}!';
@@ -30,6 +32,7 @@ export default function Home() {
           <CategoriesHome/>
           <Menotrship/>
           <HomeCardSection/>
+
 
 
           </div>

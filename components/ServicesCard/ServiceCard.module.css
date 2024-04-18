@@ -1,0 +1,40 @@
+.serviceCardImage Image {
+    max-height: 168px;
+    max-width: 191px;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+}
+
+.serviceCardContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 240px;
+    width: 191px;
+    
+}
+
+.serviceCardHeader{
+    font-family: 'Hindbold';
+    font-size: 1.2em;
+    bottom: 20px;
+    position: relative;
+    text-align: left;
+    width: 191px;
+}
+
+.button button{
+   margin-top: 0.7em;
+    position: absolute;
+    left: 0em;
+    bottom: 16px;
+    width: 88px;
+    height: 24px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'HindSemiBold';
+    font-size: 0.8em;
+}
