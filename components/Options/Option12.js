@@ -1,7 +1,14 @@
+import QuizCard from '../QuizCard';
+
 export default function Option12() {
   return (
     <div>
-      <h1>Option 12</h1>
+      <QuizCard
+        header='Wilderness Survival Skills Workshop'
+        date='Friday, April 13, 2024'
+        image='/images/quizOptions/option12.svg'
+        alt='Fire starting image'
+      />
     </div>
   );
 }

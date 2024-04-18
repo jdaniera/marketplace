@@ -1,0 +1,101 @@
+.quizCardContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+
+}
+.quizCardInnerContainer{
+    max-width: var(--iphone-width);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: var(--white);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.quizCardHeader p{
+    font-family: 'hindSemiBold';
+    font-size: 0.7em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    line-height: 0.7em;
+    text-align: left;
+    padding-left: 3px;
+
+}
+.quizCardDate p{
+    font-family: 'hind';
+    font-size: 0.5em;
+    color: var(--black);
+    margin-top: 0em;
+    margin-bottom: 0em;
+    text-align: left;
+    padding-left: 3px;
+
+}
+.QuizCardImage img{
+    margin-bottom: 1em;
+    /* position: relative; */
+}
+
+.mentorshipButton button{
+   margin-top: 0.6em;
+    width: 223px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'HindSemiBold';
+    font-size: 0.65em;
+    background-color: var(--yellow);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);   
+}
+
+.mentorshipButton button:hover{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);   
+}
+
+.mentorshipButton{
+    display: flex;
+    justify-content: center;
+}
+
+.startOverButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1em;
+}
+.startOverButton button{
+    border: none;
+    border-radius: 10px;
+    width: 146px;
+    height: 32px;
+    font-size: 0.5em;
+    font-family: 'hindSemiBold';
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.startOverButton button:hover{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.quizCardTitle {
+    max-width: var(--iphone-width);
+    width: 397px;
+    text-align: center;
+
+}
+
+.quizCardTitle p{
+    font-family: 'Sen';
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 1em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+
+
+}

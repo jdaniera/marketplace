@@ -1,7 +1,14 @@
+import QuizCard from '../QuizCard';
+
 export default function Option7() {
   return (
     <div>
-      <h1>Option 7</h1>
+      <QuizCard
+        header='Couples Acro Yoga Class'
+        date='Tuesday, March 29, 2024'
+        image='/images/quizOptions/option07.svg'
+        alt='Couples yoga image'
+      />
     </div>
   );
 }
