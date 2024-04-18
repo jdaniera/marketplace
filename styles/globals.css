@@ -36,3 +36,7 @@ body {
   src: url("/fonts/ZTGatha-SemiBold.ttf");
 }
 
+@font-face {
+  font-family: "sen";
+  src: url("/fonts/Sen-VariableFont_wght.ttf")
+}
