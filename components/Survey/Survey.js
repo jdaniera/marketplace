@@ -35,6 +35,8 @@ export default function Survey() {
   const handleBackClick = () => {
     if (currentQuestion > 0) {
       setCurrentQuestion(currentQuestion - 1);
+      // Remove the last answer when going back
+      setAnswers(answers.slice(0, -1));
     }
   };
 
@@ -45,7 +47,31 @@ export default function Survey() {
   };
 
   const displayRecommendation = (answers) => {
-
+    if (answers.includes("one") && answers.includes("FoodDrink")) {
+      setRecommendation(<Option1 />);
+    } else if (answers.includes("one") && answers.includes("ArtsCrafts")) {
+      setRecommendation(<Option2 />);
+    } else if (answers.includes("one") && answers.includes("HealthFitness")) {
+      setRecommendation(<Option3 />);
+    } else if (answers.includes("one") && answers.includes("Outdoor")) {
+      setRecommendation(<Option4 />);
+    } else if (answers.includes("two") && answers.includes("FoodDrink")) {
+      setRecommendation(<Option5 />);
+    } else if (answers.includes("two") && answers.includes("ArtsCrafts")) {
+      setRecommendation(<Option6 />);
+    } else if (answers.includes("two") && answers.includes("HealthFitness")) {
+      setRecommendation(<Option7 />);
+    } else if (answers.includes("two") && answers.includes("Outdoor")) {
+      setRecommendation(<Option8 />);
+    } else if (answers.includes("three") && answers.includes("FoodDrink")) {
+      setRecommendation(<Option9 />);
+    } else if (answers.includes("three") && answers.includes("ArtsCrafts")) {
+      setRecommendation(<Option10 />);
+    } else if (answers.includes("three") && answers.includes("HealthFitness")) {
+      setRecommendation(<Option11 />);
+    } else if (answers.includes("three") && answers.includes("Outdoor")) {
+      setRecommendation(<Option12 />);
+    }
   };
 
   if (recommendation) {
