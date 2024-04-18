@@ -25,36 +25,36 @@ export default function TabBar() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/services.js" passHref>
+                        <Link href="/services" passHref>
                         <Image 
-                            src= {isActive('/services.js') ? "/images/tabButtons/services_active.svg" : "/images/tabButtons/services_default.svg"}
+                            src= {isActive('/services') ? "/images/tabButtons/services_active.svg" : "/images/tabButtons/services_default.svg"}
                             alt="services button"
                             width={86}
                             height={77}/>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/classes.js" passHref>
+                        <Link href="/classes" passHref>
                             <Image 
-                                src= {isActive('/classes.js') ? "/images/tabButtons/classes_active.svg" : "/images/tabButtons/classes_default.svg"}
+                                src= {isActive('/classes') ? "/images/tabButtons/classes_active.svg" : "/images/tabButtons/classes_default.svg"}
                                 alt="classes & workshops button"
                                 width={86}
                                 height={77}/>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/saved.js" passHref>
+                        <Link href="/saved" passHref>
                             <Image 
-                                src= {isActive('/saved.js') ? "/images/tabButtons/saved_active.svg" : "/images/tabButtons/saved_default.svg"}
+                                src= {isActive('/saved') ? "/images/tabButtons/saved_active.svg" : "/images/tabButtons/saved_default.svg"}
                                 alt="saved list button"
                                 width={86}
                                 height={77}/>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/profile.js" passHref>
+                        <Link href="/profile" passHref>
                             <Image 
-                                src= {isActive('/profile.js') ? "/images/tabButtons/profile_active.svg" : "/images/tabButtons/profile_default.svg"}
+                                src= {isActive('/profile') ? "/images/tabButtons/profile_active.svg" : "/images/tabButtons/profile_default.svg"}
                                 alt="profile button"
                                 width={86}
                                 height={77}/>

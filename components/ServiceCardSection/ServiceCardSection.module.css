@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px; /* adjust this value as needed */
+    margin-bottom: 100px;
+}
+
+.ServiceCard:nth-child(6) {
+    font-size: .9em;
+}
