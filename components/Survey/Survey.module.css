@@ -1,0 +1,23 @@
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+}
+
+.backButton {
+    border: none;
+    background-color: var(--button-grey);
+    margin-left: 2em;
+    width: 6em;
+    height: 3em;
+    border-radius: 1em;
+}
+
+.nextButton {
+    border: none;
+    background-color: var(--button-grey);
+    margin-right: 2em;
+    width: 6em;
+    height: 3em;
+    border-radius: 1em;
+}

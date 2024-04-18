@@ -39,7 +39,7 @@
   .questionInnerContainer {
     position: relative;
     width: 430px;
-    height: 932px;
+    height: max-content;
     background-color: white;
 
   }
@@ -47,7 +47,6 @@
     display: flex;
     justify-content: center;
     background-color: rgb(225, 225, 225);
-
   }
 
   .textImageContainer {
