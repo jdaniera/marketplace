@@ -63,9 +63,8 @@
 
   .questionText {
     text-align: center;
-    font-size: 2em;
-    font-family: 'Hind';
-    font-weight: 400;
+    font-size: 1.9em;
+    font-family: 'hindSemiBold';
     margin-top: 1em;
     line-height: 1em;
     /* padding-left: 1em;

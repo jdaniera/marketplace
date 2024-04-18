@@ -36,19 +36,28 @@ export default function Quiz() {
           
           {!showSurvey && (
             <div className={styles.quizIntro}>
+              <div className={styles.quizIntroTitle}>
               <h1>Let the Neighbourly Genie inspire your next great adventure!</h1>
+              </div>
+              <div className={styles.quizIntroInner}>
+              <div className={styles.quizIntoImage}>
               <Image
                 src='/images/quiz/genie.svg'
                 alt='image of genie'
                 width={300}
                 height={300}
-                className={styles.genie}
               />
+              </div>
+              <div className={styles.quizIntroDescription}>
               <p>
                 The Neighbourly Genie will ask you questions to understand your preferences, 
                 then recommends the perfect activity for you based on your answers.
               </p>
-              <button className={styles.startButton} onClick={toggleSurvey}>Start Quiz</button>
+              </div>
+              <div className={styles.quizIntroButton}>
+              <button onClick={toggleSurvey}>Start Quiz</button>
+              </div>
+              </div>
             </div>
             
           )}
