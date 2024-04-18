@@ -1,6 +1,5 @@
 import styles from './CategoriesHome.module.css';
 import Image from 'next/image';
-// import homeIcons from 'public/images/homeIcons';
 
 export default function CategoriesHome() {
     return (

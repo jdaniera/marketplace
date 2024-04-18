@@ -1,0 +1,43 @@
+.homeCardContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+.homeCardInnerContainer{
+    max-width: var(--iphone-width);
+}
+.homeCardHeader p{
+    font-family: 'hindSemiBold';
+    font-size: 1.1em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    line-height: 0.7em;
+
+}
+.homeCardDate p{
+    font-family: 'hind';
+    font-size: 1em;
+    color: var(--black);
+    margin-top: 0em;
+    margin-bottom: 0em;
+
+}
+.homeCardImage img{
+    margin-bottom: 1em;
+    /* position: relative; */
+}
+
+.button button{
+   margin-top: 0.7em;
+    position: absolute;
+    left: 23.5em;
+    width: 76px;
+    height: 24px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'HindSemiBold';
+    font-size: 0.8em;
+}
