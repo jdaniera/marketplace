@@ -1,7 +1,14 @@
+import QuizCard from '../QuizCard';
+
 export default function Option4() {
   return (
     <div>
-      <h1>Option 4</h1>
+      <QuizCard
+        header='Nature Photography Workshop'
+        date='Saturday, March 24, 2024'
+        image='/images/quizOptions/option04.svg'
+        alt='Photographer Image'
+      />
     </div>
   );
 }

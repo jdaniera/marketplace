@@ -1,7 +1,14 @@
+import QuizCard from '../QuizCard';
+
 export default function Option10() {
   return (
     <div>
-      <h1>Option 10</h1>
+      <QuizCard
+        header='Paint and Sip Party'
+        date='Saturday, April 05, 2024'
+        image='/images/quizOptions/option10.svg'
+        alt='Painting image'
+      />
     </div>
   );
 }
