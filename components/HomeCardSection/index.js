@@ -8,26 +8,26 @@ export default function HomeCardSection() {
             <div className={styles.homeCardSectionInnerContainer}>
                 <div className={styles.homeCard}>
                 <HomeCard
-                header='French Pastries Bootcamp'
-                date='Saturday, March 23, 2024'
-                image='/images/homeCardImages/homeCard1.svg'
-                alt='Baking Image'
+                    header='French Pastries Bootcamp'
+                    date='Saturday, March 23, 2024'
+                    image='/images/homeCardImages/homeCard1.svg'
+                    alt='Baking Image'
                 />
                 </div>
                 <div className={styles.homeCard}>
                 <HomeCard
-                header='Drumming 101'
-                date='Monday, March 26, 2024'
-                image='/images/homeCardImages/homeCard2.svg'
-                alt='Drumming Image'
+                    header='Drumming 101'
+                    date='Monday, March 26, 2024'
+                    image='/images/homeCardImages/homeCard2.svg'
+                    alt='Drumming Image'
                 />
                 </div>
                 <div className={styles.homeCard}>
                 <HomeCard
-                header='Cocktail Mixing Class'
-                date='Monday, April 8, 2024'
-                image='/images/homeCardImages/homeCard3.svg'
-                alt='Cocktail Image'
+                    header='Cocktail Mixing Class'
+                    date='Monday, April 8, 2024'
+                    image='/images/homeCardImages/homeCard3.svg'
+                    alt='Cocktail Image'
                 />
                 </div>
             </div>

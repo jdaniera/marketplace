@@ -4,7 +4,7 @@ import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
 import Survey from '@/components/Survey/Survey';
 import CategoriesHome from '@/components/CategoriesHome';
-import Menotrship from '@/components/Mentorship';
+import Mentorship from '@/components/Mentorship';
 import HomeCardSection from '@/components/HomeCardSection';
 
 import ServicesCard from '@/components/ServicesCard';
@@ -30,7 +30,7 @@ export default function Home() {
         <main className={`${styles.main}`}>
           <div className={styles.mainInnerContainer}>
           <CategoriesHome/>
-          <Menotrship/>
+          <Mentorship/>
           <HomeCardSection/>
 
 

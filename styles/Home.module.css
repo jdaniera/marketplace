@@ -1,13 +1,12 @@
 .iphoneFrame {
-  display: flex;
-  justify-content: center;
+  width: var(--iphone-width);
 }
 
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 9.5em;
+  margin-top: 3em;
 }
 
 

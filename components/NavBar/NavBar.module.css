@@ -1,5 +1,5 @@
 .navContainer {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     z-index: 1000;
     height: 136px;
@@ -47,4 +47,7 @@
     width: 100%;
     padding-top: 0.6em;
     left: 2em;
+    position: sticky;
+    background-color: var(--button-grey);
+    opacity: 60%;
 }
