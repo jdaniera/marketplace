@@ -26,9 +26,8 @@ export default function Services() {
         <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} />
         <main className={`${styles.main}`}>
           <div className={styles.mainInnerContainer}>
-          <Mentorship/>
+            <Mentorship/>
             <ServicesCardSection />
-
           </div>
         </main>
         <TabBar/>

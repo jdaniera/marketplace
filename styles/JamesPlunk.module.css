@@ -1,0 +1,311 @@
+.iphoneFrame {
+    width: var(--iphone-width);
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mainInnerContainer {
+    max-width: 398px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0em;
+  }  
+
+.mainImage {
+    margin-top: 100px;
+    margin-bottom: -5px;
+}
+
+.mainName {
+    background-color: var(--teal);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: 78px;
+}
+
+.mainNameContainer {
+    position: absolute;
+    transform: translate(103px, -20px);
+}
+
+.nametitle {
+    font-family: "Sen" !important;
+    font-weight: 700 !important;
+    color: white !important;
+    font-size: 18pt !important;
+}
+
+.mainName p {
+    font-family: "Hind";
+    color: white;
+    font-size: 14pt;
+}
+
+.spacingLine {
+    position: relative;
+    width: 191px;
+    height: 2px;
+    background-color: var(--black);
+    margin: 0 auto;
+    border-radius: 50px; 
+    margin-top: -18px;
+    margin-bottom: -15px;
+}
+
+.serviceDetails {
+    width: 372px;
+    margin-left: 10px;
+}
+
+.serviceDetailsHeader {
+    font-family: "HindSemiBold";
+    font-size: 14pt;
+    margin-bottom: -10px;
+}
+
+.serviceDetailsBody {
+    font-family: "Hind";
+    font-size: 12pt;
+    line-height: 1.25;
+}
+
+.spacingLine2 {
+    position: relative;
+    width: 312px;
+    height: 2px;
+    background-color: var(--black);
+    margin: 0 auto;
+    border-radius: 50px; 
+}
+
+.span {
+    font-family: "HindSemiBold";
+    font-size: 12pt;
+}
+
+.bookButton {
+    background-color: var(--yellow);
+    border-radius: 10px;
+    width: 223px;
+    height: 48px;
+    font-family: "HindSemiBold";
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.reviewsContainer {
+    height: 240px;
+    width: 398px;
+    background-color: white;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 8px; 
+}
+
+.reviewsHeader {
+    font-family: "HindBold";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roseInfo img {
+    /* position: absolute; */
+    transform: translate(24px, -15px);
+}
+
+.roseInfo p {
+    font-family: "Hind";
+    transform: translate(30px, -80px);
+    text-align: center;
+    line-height: .5;
+}
+
+.roseReview {
+    font-family: "Hind";
+    line-height: 1;
+    margin-left: 10px;
+    text-align: center;
+    position: relative;
+    top: -70px;
+}
+
+.spacingLine3 {
+    width: 60px;
+    height: 1px;
+    background-color: var(--black);
+    position: absolute;
+    bottom: 164px;
+    left: 97px;
+    border-radius: 10px;
+}
+
+.reviewsRightCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "HindBold";
+    max-height: 240px;
+    margin-bottom: 50px;
+    line-height: .5;
+}
+
+.reviewsRightCol h1 {
+    font-family: "Sen";
+}
+
+.reviewsRightCol p {
+    margin-bottom: 5px;
+}
+
+.spacingLine4 {
+    background-color: black;
+    width: 112px;
+    height: 2px;
+    position: absolute;
+    transform: translate(1px, 0);
+    border-radius: 10px;
+}
+
+.bottomContainer {
+    margin-top: 20px;
+    line-height: .75;
+    font-family: "Hind";
+    max-width: 398px;
+    
+}
+
+.detailsHeader {
+    font-family: "HindBold";
+    font-size: 16pt;
+    text-align: center;
+}
+
+.spacingLine5 {
+    width: 398px;
+    height: 2px;
+    background-color: #b0b0b0;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.reviewSummary {
+    font-family: "HindBold";
+    font-size: 16pt;
+    text-align: center;
+}
+
+.bubble1 {
+    background-color: var(--yellow);
+    font-family: "HindSemiBold";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 126px;
+    height: 32px;
+}
+.bubble2 {
+    background-color: var(--yellow);
+    font-family: "HindSemiBold";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 126px;
+   height: 32px;
+   position: absolute;
+   transform: translate(140px, -32px);
+}
+.bubble3 {
+    background-color: var(--yellow);
+    font-family: "HindSemiBold";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 77px;
+    height: 32px;
+    font-size: 11pt;
+    transform: translate(280px, -32px);
+}
+.bubble4 {
+    background-color: var(--yellow);
+    font-family: "HindSemiBold";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 155px;
+    height: 32px;
+    transform: translate(0px, -20px);
+}
+.bubble5 {
+    background-color: var(--yellow);
+    font-family: "HindSemiBold";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 11.5pt;
+    width: 149px;
+    height: 32px;
+    transform: translate(170px, -52px);
+}
+
+.spacingLine6 {
+    width: 398px;
+    height: 2px;
+    background-color: #b0b0b0;
+    margin-top: -30px;
+    border-radius: 10px;
+}
+
+.messageField {
+    height: 104px;
+    width: 398px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.messageField input {
+    height: 104px;
+    width: 398px;
+    
+    font-family: "Hind";
+    font-size: 12pt;
+    border-radius: 10px;
+    border: none;
+    filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
+
+}
+
+.messageButton {
+    background-color: var(--yellow);
+    border-radius: 10px;
+    width: 169px;
+    height: 43px;
+    font-family: "HindSemiBold";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 230px;
+    margin-top: 10px;
+    margin-bottom: 125px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}

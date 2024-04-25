@@ -1,0 +1,13 @@
+.calender {
+    font-family: "Hind";
+    line-height: 2.01;
+    width: 352px;
+    height: 331px;
+}
+
+.highlight {
+    background-color: var(--yellow);
+    color: var(--black);    
+    border-radius: 10px;
+}
+

@@ -8,3 +8,8 @@
 .ServiceCard:nth-child(6) {
     font-size: .9em;
 }
+
+.LinkedCard {
+    text-decoration: none;
+    color: black;
+}
