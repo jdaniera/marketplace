@@ -1,0 +1,32 @@
+.classCardContainer {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.classCardInnerContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 1.5em;
+    column-gap: 15px;
+    max-width: 397px;
+    margin: 0 auto;
+
+}
+
+.classCardSectionHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.classCardSectionHeader p{
+    font-family: 'hindSemiBold';
+    font-size: 1.3em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.main {
+    margin-bottom: 8em;
+}
