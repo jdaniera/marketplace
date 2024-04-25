@@ -2,13 +2,8 @@ import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
 import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
-import Survey from '@/components/Survey/Survey';
-import CategoriesHome from '@/components/CategoriesHome';
 import Mentorship from '@/components/Mentorship';
-import HomeCardSection from '@/components/HomeCardSection';
-import Map from '@/components/Map'
-
-import ServicesCard from '@/components/ServicesCard';
+import MentorSection from '@/components/MentorSection';
 
 export default function Home() {
 
@@ -30,11 +25,8 @@ export default function Home() {
         <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} />
         <main className={`${styles.main}`}>
           <div className={styles.mainInnerContainer}>
-          <CategoriesHome/>
-          <Map/>
           <Mentorship/>
-          <HomeCardSection/>
-
+          <MentorSection/>
           </div>
         </main>
         <TabBar/>
