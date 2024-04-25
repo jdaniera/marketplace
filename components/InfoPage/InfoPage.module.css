@@ -1,0 +1,34 @@
+.iphoneFrame {
+    width: var(--iphone-width);
+  }
+  
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2em;
+}
+  
+.mainInnerContainer {
+    max-width: 397px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0em;
+  
+}
+
+.main h1 {
+    font-family: hindSemiBold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.main h2 {
+    font-family: hindSemiBold;
+    font-size: 1.2em;
+}
+
+.main p,
+.main li {
+    font-family: Hind;
+}

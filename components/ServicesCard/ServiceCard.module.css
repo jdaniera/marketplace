@@ -1,3 +1,14 @@
+.serviceCardContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: fit-content;
+    width: 191px;
+    margin-bottom: 1em;
+}
+
 .serviceCardImage Image {
     max-height: 168px;
     max-width: 191px;
@@ -6,35 +17,40 @@
     flex-direction: row;
 }
 
-.serviceCardContainer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    height: 240px;
-    width: 191px;
-    
+.serviceCardContainer p{
+    padding: 0;
+    margin: 0;
 }
 
 .serviceCardHeader{
     font-family: 'Hindbold';
     font-size: 1.2em;
-    bottom: 20px;
+    /* bottom: 20px; */
+    padding: 0;
+    position: relative;
+    text-align: left;
+    width: 191px;
+}
+
+.serviceCardSubheader {
+    font-family: 'Hind';
+    font-size: 0.8em;
+    /* bottom: 20px; */
     position: relative;
     text-align: left;
     width: 191px;
 }
 
 .button button{
-   margin-top: 0.7em;
-    position: absolute;
+    margin-top: 0.7em;
+    /* position: absolute; */
     left: 0em;
-    bottom: 16px;
+    /* bottom: 16px; */
     width: 88px;
     height: 24px;
     border: none;
     border-radius: 10px;
     font-family: 'HindSemiBold';
     font-size: 0.8em;
+    margin-top: 0.2em;
 }

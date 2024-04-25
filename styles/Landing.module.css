@@ -1,0 +1,17 @@
+.iphoneFrame {
+    width: var(--iphone-width);
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mainInnerContainer {
+    max-width: 397px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0em;
+  }
+  
+  
