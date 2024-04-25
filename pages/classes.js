@@ -5,6 +5,7 @@ import TabBar from "@/components/TabBar";
 import ClassesCard from "@/components/ClassesCard";
 import Image from 'next/image';
 import Link from 'next/link';
+import TakeQuizCard from "@/components/TakeQuizCard";
 
 export default function Classes() {
     const headerTitle = 'Classes';
@@ -22,6 +23,9 @@ export default function Classes() {
                     </div>
                 <div className={styles.featuredCard}>
                     <ClassesFeaturedCard />
+                </div>
+                <div className={styles.takeQuizCard}>
+                    <TakeQuizCard />
                 </div>
                 <div className={styles.classesCardContainer}>
                     <div className={styles.classCardSectionHeader}>
