@@ -1,5 +1,6 @@
 import ServiceCard from '@/components/ServicesCard';
 import styles from './MentorSection.module.css'
+import Link from 'next/link'
 
 export default function MentorSection() {
     return(

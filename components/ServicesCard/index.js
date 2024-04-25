@@ -1,9 +1,10 @@
 import React from "react";
 import styles from './ServiceCard.module.css';
 import Image from 'next/image';
+import Link from 'next/link'
 
 
-export default function ServicesCard({ header, subheader, image, alt, buttonText}) {
+export default function ServicesCard({ header, subheader, image, alt, buttonText, buttonLink}) {
     return (
         <div className={styles.serviceCardContainer}>
             <div className={styles.serviceCardImage}>
@@ -17,7 +18,7 @@ export default function ServicesCard({ header, subheader, image, alt, buttonText
                  <p>{subheader}</p>
                 </div>
                 <div className={styles.button}>
-                    <button>{buttonText}</button>
+                        <button>{buttonText}</button>
                 </div>
             </div>
         </div>
