@@ -1,5 +1,6 @@
 import styles from './Mentorship.module.css';
 import Image from 'next/image';
+import Link from 'next/link'
 
 
 export default function Mentorship() {
@@ -14,7 +15,9 @@ export default function Mentorship() {
             <p>Finding a long-term mentor to help you learn a new skill or discover a new passion is a hard choice. Neighbourly makes finding a Mentor simple and fast. Find one now!</p>
             </div>
             <div className={styles.mentorshipButton}>
-                <button>Find Mentor</button>
+                <Link href="/Mentorship">
+                    <button>Find Mentor</button>
+                </Link>
             </div>
         </div>
     </div>
