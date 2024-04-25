@@ -6,6 +6,8 @@ import Survey from '@/components/Survey/Survey';
 import CategoriesHome from '@/components/CategoriesHome';
 import Mentorship from '@/components/Mentorship';
 import HomeCardSection from '@/components/HomeCardSection';
+import Map from '@/components/Map'
+import PieChart from '@/components/PieChart';
 
 import ServicesCard from '@/components/ServicesCard';
 
@@ -30,11 +32,15 @@ export default function Home() {
         <main className={`${styles.main}`}>
           <div className={styles.mainInnerContainer}>
           <CategoriesHome/>
+          <Map/>
           <Mentorship/>
           <HomeCardSection/>
-
-
-
+          <div className={styles.statsContainer}>
+            <div className={styles.statsInnerContainer}>
+              <h3>Gig Workers in Canada</h3>
+              <PieChart/>
+            </div>
+          </div>
           </div>
         </main>
         <TabBar/>

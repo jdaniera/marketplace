@@ -1,0 +1,55 @@
+.takeQuizCardContainer{
+    display: flex;
+    justify-content: center;
+
+}
+.takeQuizCardInnerContainer{
+    max-width: 397px;
+    background-color: var( --teal);
+    margin-top: 2em;
+}
+
+.takeQuizContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.takeQuizContent p{
+    color: var(--white);
+    font-family: 'hind';
+    font-size: 0.8em;
+    margin: 0em;
+    padding: 0em;
+    text-align: center;
+
+}
+.takeQuizContent h1{
+    color: var(--white);
+    font-family: 'hindSemiBold';
+    margin: 0em;
+    margin-top: 0.7em;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    text-align: center;
+
+}
+
+
+.takeQuizContent button{
+    font-size: 1em;
+    font-family: 'hindSemiBold';
+    border: none;
+    background-color: var(--yellow);
+    width: 223px;
+    height: 32px;
+    color: var(--black);
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.takeQuizContent button:hover{
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+}

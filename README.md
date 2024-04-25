@@ -1,7 +1,7 @@
-# Exercise 1
+# Service Marketplace
 
 ## Created by
-- Saini
+- Holden Budiman, Jasmine Putri, Jackson Saini
 
 ## Description
-- This is a recreation of the twitter login page
+- Service Marketplace app, using next.js framework
