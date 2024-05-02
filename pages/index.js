@@ -27,23 +27,24 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.iphoneFrame}>
-        <main className={`${styles.main}`}>
-          <div className={styles.mainInnerContainer}>
-          <CategoriesHome/>
-          <Map/>
-          <div className={styles.mentorship}>
-          <Mentorship/>
-          </div>
-          <HomeCardSection/>
-          <div className={styles.statsContainer}>
-            <div className={styles.statsInnerContainer}>
-              <h3>Gig Workers in Canada</h3>
-              <PieChart/>
+      <NavBar layout={pageLayout} title={headerTitle} backButton={backButton}/>
+        <div className={styles.iphoneFrame}>
+          <main className={`${styles.main}`}>
+            <div className={styles.mainInnerContainer}>
+            <CategoriesHome/>
+            <Map/>
+            <div className={styles.mentorship}>
+            <Mentorship/>
             </div>
-          </div>
-          </div>
-        </main>
+            <HomeCardSection/>
+            <div className={styles.statsContainer}>
+              <div className={styles.statsInnerContainer}>
+                <h3>Gig Workers in Canada</h3>
+                <PieChart/>
+              </div>
+            </div>
+            </div>
+          </main>
         <TabBar/>
       </div>
     </>
