@@ -2,7 +2,7 @@ import React from "react";
 import Styles from '@/components/ClassesCard/ClassesCard.module.css';
 import Image from 'next/image';
 
-export default function ServicesCard({title, location, image, alt,}) {
+export default function ServicesCard({title, location, image, alt, buttonText}) {
     return(
         <div className={Styles.classesCardContainer}>
             <div className={Styles.classesCardInnerContainer}>
