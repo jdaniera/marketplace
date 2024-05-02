@@ -32,7 +32,9 @@ export default function Home() {
           <div className={styles.mainInnerContainer}>
           <CategoriesHome/>
           <Map/>
+          <div className={styles.mentorship}>
           <Mentorship/>
+          </div>
           <HomeCardSection/>
           <div className={styles.statsContainer}>
             <div className={styles.statsInnerContainer}>

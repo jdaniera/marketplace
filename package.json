@@ -9,16 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-
-    "next": "14.0.4",
-    "react": "^18",
-    "react-calendar": "^4.8.0",
-
+    "@googlemaps/js-api-loader": "^1.16.6",
     "@react-google-maps/api": "^2.19.3",
     "chart.js": "^4.4.2",
     "next": "14.0.4",
     "next-auth": "^4.24.7",
     "react": "^18",
+    "react-calendar": "^4.8.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18"
   }

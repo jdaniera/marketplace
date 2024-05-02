@@ -2,12 +2,11 @@ import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
 import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
-import Mentorship from '@/components/Mentorship';
-import MentorSection from '@/components/MentorSection';
+import ApplicationForm from '@/components/ApplicationForm';
 
-export default function Home() {
+export default function MentorApplication() {
 
-  const headerTitle = 'Welcome, {user}!';
+  const headerTitle = 'Mentee Application';
   const pageLayout = 'layout1';
   const backButton = true;
 
@@ -20,11 +19,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.iphoneFrame}>
-        <NavBar layout={pageLayout} title={headerTitle} backButton={backButton}/>
+        <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} />
         <main className={`${styles.main}`}>
           <div className={styles.mainInnerContainer}>
-          <Mentorship/>
-          <MentorSection/>
+            <ApplicationForm/>
           </div>
         </main>
         <TabBar/>
