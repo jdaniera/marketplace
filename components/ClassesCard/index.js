@@ -11,8 +11,7 @@ export default function ClassesCard({title, location, image, alt}) {
                 </div>
                 <div className={Styles.cardHeader}>
                 <p>{title}</p>
-                    <Image src="/images/classesFeaturedCard/heartIcon.svg" width={16.7} height={15.5} alt="Heart Icon" />
-                </div>
+                <Image src="/images/classesFeaturedCard/heartIcon.svg" width={16.7} height={15.5} alt="Heart Icon" />                </div>
                 <div className={Styles.cardLocation}>
                 <p>{location}</p>
                 </div>
@@ -24,6 +23,6 @@ export default function ClassesCard({title, location, image, alt}) {
             </div>
         </div>
         
-    )
+    ) 
 
 }
