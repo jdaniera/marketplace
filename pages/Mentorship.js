@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.iphoneFrame}>
-        <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} searchBar={searchBar} settings={settings}/>
+        <NavBar layout={pageLayout} title={headerTitle} backButton={backButton}/>
         <main className={`${styles.main}`}>
           <div className={styles.mainInnerContainer}>
           <Mentorship/>
