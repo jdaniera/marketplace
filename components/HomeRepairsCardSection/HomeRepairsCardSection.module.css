@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 105px;
+    margin-bottom: 100px;
+}
+
+.linkedPage {
+    text-decoration: none;
+    color: black;
+}

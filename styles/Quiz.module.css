@@ -1,32 +1,21 @@
-.iphoneFrame {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: var(--iphone-width);
-}
 
-.main {
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
-  align-content: center;
-  margin-top: 9.5em;
-  margin-bottom: 5em;
-}
-
+  .main {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    max-width: var(--iphone-width);
+  }
+  
 
 .quizIntro {
   font-family: 'Hind';
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.quizIntro {
-  text-align: center;
-  max-width: var(--iphone-width);
   width: 397px;
 }
+
 .quizIntro p {
   text-align: center;
   font-size: 1.2em;
@@ -45,7 +34,7 @@
 
 }
 .quizIntroTitle h1{
-  font-size: 1.9em;
+  font-size: 1.7em;
   font-family: 'hindSemiBold';
   line-height: 1em;
 
@@ -81,6 +70,3 @@ padding: 1em;
 
 }
 
-.quizIntro {
-margin-top: 1em;
-}

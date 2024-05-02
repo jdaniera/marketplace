@@ -10,8 +10,6 @@ export default function Home() {
   const headerTitle = 'Welcome, {user}!';
   const pageLayout = 'layout1';
   const backButton = true;
-  const searchBar = true;
-  const settings = true;
 
   return (
     <>

@@ -1,0 +1,65 @@
+.cardContainer {
+    width: 398px;
+    height: 248px;
+    position: relative;
+    border-bottom: 2px #b0b0b0 solid;
+}
+
+.saveButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 100%;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.saveButton:hover {
+    transform: translateY(-5px); 
+}
+
+.profilePic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 100%;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    bottom: 100px;
+    right: 24px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
+}
+
+.cardText {
+    font-family: "Hind";
+    line-height: .75em;
+}
+
+.textBolded {
+    font-family: "HindBold";
+}
+
+.bookButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    width: 146px;
+    height: 52px;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    font-family: "HindBold";
+}
+
+.bookButton:hover {
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.25);
+}

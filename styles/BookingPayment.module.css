@@ -1,0 +1,167 @@
+.iphoneFrame {
+    width: var(--iphone-width);
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mainInnerContainer {
+    max-width: 397px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0em;
+  }
+
+.profileContainer {
+    width: 398px;
+    height: auto;
+}
+
+.pfp {
+    margin-left: 24px;
+}
+
+.pageHeader {
+    font-family: "HindBold";
+    font-size: 16pt;
+    text-align: center;
+}
+
+.name {
+    font-family: "Hind";
+    font-size: 12pt;
+    position: absolute;
+    transform: translate(100px, -60px);
+}
+
+.editButton {
+    color: #3498db;
+    font-family: "Hind";
+    position: absolute;
+    transform: translateY(-100px);
+    margin-left: 363px;
+}
+.editAddButton {
+    color: #3498db;
+    font-family: "Hind";
+    position: absolute;
+    transform: translateY(-61px);
+    margin-left: 325px;
+    font-size: 12pt !important;
+}
+
+.serviceTitle   {
+    font-family: "Hind";
+    font-size: 16pt;
+    text-align: center;
+}
+
+.plumbingServiceContainer {
+    font-family: "Hind";
+}
+
+.group1 {
+    line-height: .25;
+}
+
+.spanLighterGrey {
+    color: #BDBDBD;
+    font-family: "Hind";
+}
+
+.price {
+    text-align: right;
+    position: relative;
+    bottom: 42px;
+    font-family: "HindSemiBold" !important;
+}
+
+.paymentHeader {
+    font-family: "Hind";
+    font-size: 14pt;
+    margin-top: -24px;
+}
+
+.addCardIcon {
+    margin-left: 24px;
+}
+
+.addingCard p {
+    font-family: "Hind";
+    position: absolute;
+    transform: translate(60px, -45px);
+}
+
+.spanLighterGrey2 {
+    color: #BDBDBD;
+    font-family: "Hind";
+
+}
+
+.cardInfoContainer {
+    font-family: "Hind";
+}
+
+.group2 {
+    line-height: .25;
+    margin-top: 36px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.expiryDate {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    line-height: .01;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.cvvContainer {
+    margin-left: 24px;
+}
+
+.rememberCard input {
+    height: 24px;
+    width: 24px;
+}
+
+.rememberCard {
+    font-family: "Hind";
+    margin-left: 24px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center; 
+}
+
+.rememberCard p {
+    margin-left: 16px;
+}
+
+.lineSpacer {
+    border: 1px solid #BDBDBD;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: -24px;
+}
+
+.payButton {
+    background-color: var(--yellow);
+    border-radius: 10px;
+    width: 223px;
+    height: 48px;
+    font-family: "HindSemiBold";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.payButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

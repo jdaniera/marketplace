@@ -1,0 +1,94 @@
+.classesFeaturedCardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.classesFeaturedCardInnerContainer {
+    max-width: 397px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skillLevelTag {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1em;
+}
+.tagOne{
+    border-radius: 15px;
+    font-family: 'Hind';
+}
+.tagOne p{
+    background-color: var(--beginner-tag-green);
+    padding: 0em 0.5em;
+    border-radius: 15px;
+    font-family: 'Hind';
+    margin-bottom: 0.4em;
+    /* margin-top: 1em; */
+}
+
+.tagTwo{
+    border-radius: 15px;
+    font-family: 'Hind';
+}
+.tagTwo p{
+    background-color: var(--intermediate-tag-yellow);
+    padding: 0em 0.5em;
+    border-radius: 15px;
+    font-family: 'Hind';
+    margin-bottom: 0.5em;
+    /* margin-top: 1em; */
+}
+
+.featuredCardHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0em;
+    align-items: center;
+}
+
+.featuredCardHeader p{
+    margin: 0em;
+    font-family: 'HindSemiBold';
+    font-size: 1.2em;
+}
+
+.skillLevelTag p {
+    margin-top: 0.8em;
+}
+
+.imageContainer{
+    height: 168px;
+}
+
+.featuredCardLocation {
+    margin: 0em;
+    padding: 0em;
+}
+.featuredCardLocation p{
+    margin: 0em;
+    padding: 0em;
+    font-family: 'Hind';
+    font-size: 1rem;
+    line-height: 0.6em;
+}
+
+.featuredCardButton {
+    margin: 0.8em 0em 0em 0em;
+
+}
+.featuredCardButton button{
+    background-color: var(--button-grey);
+    border-radius: 6px;
+    font-family: 'HindSemiBold';
+    font-size: 1em;
+    border: none;
+    padding: 0.1em 1em;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.featuredCardButton button:hover{
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+}

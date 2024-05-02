@@ -1,4 +1,5 @@
 import ServiceCard from '../ServicesCard';
+import Link from 'next/link';
 import styles from './ServiceCardSection.module.css';
 
 export default function ServiceCardSection() {
@@ -13,11 +14,13 @@ export default function ServiceCardSection() {
                     />
                 </div>
                 <div className={styles.ServiceCard}>
-                    <ServiceCard
-                    header='Home Repairs'
-                    image='/images/serviceCardImages/homeRepairs.jpg'
-                    alt='Couch Image'
-                    />
+                    <Link className={styles.LinkedCard} href="/homeRepairs">
+                        <ServiceCard
+                        header='Home Repairs'
+                        image='/images/serviceCardImages/homeRepairs.jpg'
+                        alt='Couch Image'
+                        />
+                    </Link> 
                 </div>
                 <div className={styles.ServiceCard}>
                     <ServiceCard
