@@ -17,7 +17,7 @@ export default function NavBar({ title, subtitle, layout, backButton, searchBar,
                 {subtitle && <h2>{subtitle}</h2>}
 
                 <div className={styles.buttonsContainer}>
-                    {backButton && (
+                    {backButton !== false && (
                         <div>
                             <button onClick={router.back} className={styles.backButton}>
                                 <Image
@@ -29,15 +29,15 @@ export default function NavBar({ title, subtitle, layout, backButton, searchBar,
                             </button>
                         </div>
                     )}
-                    {searchBar && (
-                        <div className="searchBar">
-                            <input type="text" 
-                                placeholder='Search for ...'
-                                className={styles.searchBar}
-                                />
-                        </div>
+                    {searchBar !== false && (
+                            <div className={styles.searchbarContainer}>
+                                <input type="text" 
+                                    placeholder='Search for ...'
+                                    className={styles.searchBar}
+                                    />
+                            </div>
                     )}
-                    {settings && (
+                    {settings !== false && (
                         <div>
                             <button className={styles.settingsButton}>
                                 <Link href="/settings" passHref>

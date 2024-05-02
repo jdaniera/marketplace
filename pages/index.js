@@ -27,7 +27,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavBar layout={pageLayout} title={headerTitle} backButton={backButton}/>
+      <NavBar layout={pageLayout} title={headerTitle} backButton={false} searchBar={searchBar} settings={false}/>
         <div className={styles.iphoneFrame}>
           <main className={`${styles.main}`}>
             <div className={styles.mainInnerContainer}>

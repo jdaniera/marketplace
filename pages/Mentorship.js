@@ -10,6 +10,8 @@ export default function Home() {
   const headerTitle = 'Welcome, {user}!';
   const pageLayout = 'layout1';
   const backButton = true;
+  const searchBar= true;
+  const settings = true;
 
   return (
     <>
@@ -20,7 +22,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.iphoneFrame}>
-        <NavBar layout={pageLayout} title={headerTitle} backButton={backButton}/>
+        <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} searchBar={searchBar} settings={settings}/>
         <main className={`${styles.main}`}>
           <div className={styles.mainInnerContainer}>
           <Mentorship/>
