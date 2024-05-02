@@ -15,7 +15,7 @@ export default function Mentorship() {
             <p>Finding a long-term mentor to help you learn a new skill or discover a new passion is a hard choice. Neighbourly makes finding a Mentor simple and fast. Find one now!</p>
             </div>
             <div className={styles.mentorshipButton}>
-                <Link href="/MentorshipPage">
+                <Link href="/Mentorship">
                     <button>Find Mentor</button>
                 </Link>
             </div>

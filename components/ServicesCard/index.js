@@ -19,6 +19,9 @@ export default function ServicesCard({title, location, image, alt,}) {
                 <div className={Styles.cardButton}>
                 <button>More info</button>
                 </div>
+                <button>
+                    {buttonText}
+                </button>
             </div>
         </div>
         

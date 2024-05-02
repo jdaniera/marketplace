@@ -12,6 +12,7 @@ export default function ServiceCardSection() {
                     title='Furniture Building'
                     image='/images/serviceCardImages/furnitureBuilding.svg'
                     alt='Couch Image'
+                    buttonText='See More'
                     display= 'display: none;'
                     />
                 </div>
@@ -21,6 +22,7 @@ export default function ServiceCardSection() {
                         title='Home Repairs'
                         image='/images/serviceCardImages/homeRepairs.svg'
                         alt='Couch Image'
+                        buttonText='See More'
                         />
                     </Link> 
                 </div>
@@ -29,6 +31,7 @@ export default function ServiceCardSection() {
                     title='Outdoor Work'
                     image='/images/serviceCardImages/outdoorWork.svg'
                     alt='Couch Image'
+                    buttonText='See More'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
@@ -36,6 +39,7 @@ export default function ServiceCardSection() {
                     title='Automotive Work'
                     image='/images/serviceCardImages/automotive.svg'
                     alt='Couch Image'
+                    buttonText='See More'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
@@ -43,6 +47,7 @@ export default function ServiceCardSection() {
                     title='Tutoring'
                     image='/images/serviceCardImages/tutoring.svg'
                     alt='Couch Image'
+                    buttonText='See More'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
@@ -50,6 +55,7 @@ export default function ServiceCardSection() {
                     title={<span className="smallerText">Indoor Home Cleaning</span>}
                     image='/images/serviceCardImages/indoorCleaning.svg'
                     alt='Couch Image'
+                    buttonText='See More'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
@@ -57,6 +63,7 @@ export default function ServiceCardSection() {
                     title='Moving Assistance'
                     image='/images/serviceCardImages/moving.svg'
                     alt='Couch Image'
+                    buttonText='See More'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
@@ -64,6 +71,7 @@ export default function ServiceCardSection() {
                     title='Dog Walking'
                     image='/images/serviceCardImages/dogWalker.svg'
                     alt='Couch Image'
+                    buttonText='See More'
                     />
                 </div>
         </div>
