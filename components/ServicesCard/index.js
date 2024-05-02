@@ -17,9 +17,9 @@ export default function ServicesCard({ header, subheader, image, alt, buttonText
                 <div className={styles.serviceCardSubheader}>
                  <p>{subheader}</p>
                 </div>
-                <div className={styles.button}>
-                        <button>{buttonText}</button>
-                </div>
+                <Link href='/Mentorship'>
+                    <button>{buttonText}</button>
+                </Link>
             </div>
         </div>
     );
