@@ -4,63 +4,65 @@ import styles from './ServiceCardSection.module.css';
 
 export default function ServiceCardSection() {
     return(
+        
         <>
             <div className={styles.container}>
                 <div className={styles.serviceCard}>
                     <ServiceCard
-                    header='Furniture Building'
-                    image='/images/serviceCardImages/furnitureBuilding.jpg'
+                    title='Furniture Building'
+                    image='/images/serviceCardImages/furnitureBuilding.svg'
                     alt='Couch Image'
+                    display= 'display: none;'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
                     <Link className={styles.LinkedCard} href="/homeRepairs">
                         <ServiceCard
-                        header='Home Repairs'
-                        image='/images/serviceCardImages/homeRepairs.jpg'
+                        title='Home Repairs'
+                        image='/images/serviceCardImages/homeRepairs.svg'
                         alt='Couch Image'
                         />
                     </Link> 
                 </div>
                 <div className={styles.ServiceCard}>
                     <ServiceCard
-                    header='Outdoor Work'
-                    image='/images/serviceCardImages/outddoorWork.jpg'
+                    title='Outdoor Work'
+                    image='/images/serviceCardImages/outdoorWork.svg'
                     alt='Couch Image'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
                     <ServiceCard
-                    header='Automotive Work'
-                    image='/images/serviceCardImages/automotive.jpg'
+                    title='Automotive Work'
+                    image='/images/serviceCardImages/automotive.svg'
                     alt='Couch Image'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
                     <ServiceCard
-                    header='Tutoring'
-                    image='/images/serviceCardImages/tutoring.jpg'
+                    title='Tutoring'
+                    image='/images/serviceCardImages/tutoring.svg'
                     alt='Couch Image'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
                     <ServiceCard
-                    header={<span className="smallerText">Indoor Home Cleaning</span>}
-                    image='/images/serviceCardImages/indoorCleaning.jpg'
+                    title={<span className="smallerText">Indoor Home Cleaning</span>}
+                    image='/images/serviceCardImages/indoorCleaning.svg'
                     alt='Couch Image'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
                     <ServiceCard
-                    header='Moving Assistance'
-                    image='/images/serviceCardImages/moving.jpg'
+                    title='Moving Assistance'
+                    image='/images/serviceCardImages/moving.svg'
                     alt='Couch Image'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
                     <ServiceCard
-                    header='Dog Walking'
-                    image='/images/serviceCardImages/dogWalker.jpg'
+                    title='Dog Walking'
+                    image='/images/serviceCardImages/dogWalker.svg'
                     alt='Couch Image'
                     />
                 </div>
