@@ -4,6 +4,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
+  background-color: var(--button-grey) 40%;
 }
 
 :root {
