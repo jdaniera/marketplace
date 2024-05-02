@@ -4,6 +4,7 @@ import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
 import Mentorship from '@/components/Mentorship';
 import ServicesCardSection from '@/components/ServiceCardSection';
+import Confirmation from '@/components/Confirmation';
 
 
 export default function Services() {
@@ -12,7 +13,7 @@ export default function Services() {
   const pageLayout = 'layout1';
   const backButton = false;
   const searchBar = true;
-  const settings = true;
+  const settings = true; 
 
   return (
     <>
