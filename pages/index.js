@@ -3,14 +3,13 @@ import styles from '@/styles/Home.module.css';
 import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
 import Survey from '@/components/Survey/Survey';
-import CategoriesHome from '@/components/CategoriesHome';
-import Mentorship from '@/components/Mentorship';
+import FindMentor from '@/components/FindMentor';
 import HomeCardSection from '@/components/HomeCardSection';
 import Map from '@/components/Map'
 import PieChart from '@/components/PieChart';
+import CategoriesHome from '@/components/CategoriesHome';
 
 import ServicesCard from '@/components/ServicesCard';
-
 export default function Home() {
 
   const headerTitle = 'Welcome, {user}!';
@@ -34,7 +33,7 @@ export default function Home() {
             <CategoriesHome/>
             <Map/>
             <div className={styles.mentorship}>
-            <Mentorship/>
+            <FindMentor/>
             </div>
             <HomeCardSection/>
             <div className={styles.statsContainer}>

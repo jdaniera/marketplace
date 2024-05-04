@@ -40,7 +40,7 @@ export default function NavBar({ title, subtitle, layout, backButton, searchBar,
                     {settings !== false && (
                         <div>
                             <button className={styles.settingsButton}>
-                                <Link href="/settings" passHref>
+                                <Link href="/Settings" passHref>
                                     <Image
                                         src='/images/tabButtons/settings.svg'
                                         alt='settings button'

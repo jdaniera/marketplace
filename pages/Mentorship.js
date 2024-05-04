@@ -2,8 +2,8 @@ import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
 import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
-import Mentorship from '@/components/Mentorship';
 import MentorSection from '@/components/MentorSection';
+import FindMentor from '@/components/FindMentor';
 
 export default function Home() {
 
@@ -25,7 +25,7 @@ export default function Home() {
         <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} searchBar={searchBar} settings={settings}/>
         <main className={`${styles.main}`}>
           <div className={styles.mainInnerContainer}>
-          <Mentorship/>
+          <FindMentor/>
           <MentorSection/>
           </div>
         </main>
