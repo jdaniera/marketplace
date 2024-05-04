@@ -25,27 +25,27 @@ export default function TabBar() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/services" passHref>
+                        <Link href="/Services" passHref>
                         <Image 
-                            src= {isActive('/services') ? "/images/tabButtons/services_active.svg" : "/images/tabButtons/services_default.svg"}
+                            src= {isActive('/Services') ? "/images/tabButtons/services_active.svg" : "/images/tabButtons/services_default.svg"}
                             alt="services button"
                             width={86}
                             height={77}/>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/classes" passHref>
+                        <Link href="/Classes" passHref>
                             <Image 
-                                src= {isActive('/classes') ? "/images/tabButtons/classes_active.svg" : "/images/tabButtons/classes_default.svg"}
+                                src= {isActive('/Classes') ? "/images/tabButtons/classes_active.svg" : "/images/tabButtons/classes_default.svg"}
                                 alt="classes & workshops button"
                                 width={86}
                                 height={77}/>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/saved" passHref>
+                        <Link href="/Saved" passHref>
                             <Image 
-                                src= {isActive('/saved') ? "/images/tabButtons/saved_active.svg" : "/images/tabButtons/saved_default.svg"}
+                                src= {isActive('/Saved') ? "/images/tabButtons/saved_active.svg" : "/images/tabButtons/saved_default.svg"}
                                 alt="saved list button"
                                 width={86}
                                 height={77}/>

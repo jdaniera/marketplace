@@ -1,9 +1,9 @@
-import styles from './Mentorship.module.css';
+import styles from './FindMentor.module.css';
 import Image from 'next/image';
 import Link from 'next/link'
 
 
-export default function Mentorship() {
+export default function FindMentor() {
  return (
     <div className={styles.mentorshipContainer}>
         <div className={styles.mentorshipInnerContainer}>

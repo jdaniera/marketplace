@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    width: 432px;
+    width: 100%;
     padding: 1em 0;
     position: sticky;
     background-color: var(--button-grey);
@@ -30,6 +30,14 @@
     border: none;
     background-color: transparent;
     margin-right: 1em;
+}
+
+.searchbarContainer {
+    margin: 0 auto;
+    display: flex;
+    /* make searchbar stays in the center when other buttons are not visible */
+    flex: 1;
+    justify-content: center;
 }
 
 .searchBar {
