@@ -42,6 +42,7 @@ export default function Home() {
                 <PieChart/>
               </div>
             </div>
+
             </div>
           </main>
         <TabBar/>

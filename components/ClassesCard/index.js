@@ -1,8 +1,9 @@
 import React from "react";
 import Styles from './ClassesCard.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
-export default function ClassesCard({title, location, image, alt}) {
+export default function ClassesCard({title, location, image, alt, link, buttonText}) {
     return(
         <div className={Styles.classesCardContainer}>
             <div className={Styles.classesCardInnerContainer}>
@@ -16,7 +17,9 @@ export default function ClassesCard({title, location, image, alt}) {
                 <p>{location}</p>
                 </div>
                 <div className={Styles.cardButton}>
-                <button>More info</button>
+                <Link href={link}>
+                    <button>{buttonText}</button>
+                </Link>
                 </div>
 
 
