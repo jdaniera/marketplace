@@ -1,56 +1,99 @@
-.serviceCardContainer {
+.classesCardContainer {
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    position: relative;
-    height: fit-content;
-    width: 191px;
-    margin-bottom: 1em;
 }
 
-.serviceCardImage Image {
-    max-height: 168px;
+.classesCardInnerContainer {
     max-width: 191px;
     display: flex;
-    align-self: flex-start;
+    flex-direction: column;
+
+}
+
+
+.skillLevelTag {
+    display: flex;
     flex-direction: row;
+    column-gap: 1em;
+    margin-top: 1em;
 }
-
-.serviceCardContainer p{
-    padding: 0;
-    margin: 0;
-}
-
-.serviceCardHeader{
-    font-family: 'Hindbold';
-    font-size: 1.2em;
-    /* bottom: 20px; */
-    padding: 0;
-    position: relative;
-    text-align: left;
-    width: 191px;
-}
-
-.serviceCardSubheader {
+.tagOne{
+    border-radius: 15px;
     font-family: 'Hind';
-    font-size: 0.8em;
-    /* bottom: 20px; */
-    position: relative;
-    text-align: left;
-    width: 191px;
+}
+.tagOne p{
+    background-color: var(--beginner-tag-green);
+    padding: 0em 0.5em;
+    border-radius: 15px;
+    font-family: 'Hind';
+    margin-bottom: 0.4em;
+    margin-top: 1em;
 }
 
-.button button{
-    margin-top: 0.7em;
-    /* position: absolute; */
-    left: 0em;
-    /* bottom: 16px; */
-    width: 88px;
-    height: 24px;
-    border: none;
-    border-radius: 10px;
+.tagTwo{
+    border-radius: 15px;
+    font-family: 'Hind';
+}
+.tagTwo p{
+    background-color: var(--intermediate-tag-yellow);
+    padding: 0em 0.5em;
+    border-radius: 15px;
+    font-family: 'Hind';
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+
+.cardHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0em;
+    align-items: center;
+}
+
+.cardHeader p{
+    margin: 0em;
     font-family: 'HindSemiBold';
-    font-size: 0.8em;
-    margin-top: 0.2em;
+    font-size: 1.2em;
+    line-height: 1em;
+    padding-top: 0.4em;
+    padding-bottom: 0.3em;
+}
+
+.imageContainer img {
+}
+
+.imageContainer{
+    height: 168px;
+}
+
+.cardLocation {
+    margin: 0em;
+    padding: 0em;
+}
+.cardLocation p{
+    margin: 0em;
+    padding: 0em;
+    font-family: 'Hind';
+    font-size: 1rem;
+    line-height: 0.6em;
+}
+
+.cardButton {
+    margin: 0em 0em .25em 0em;
+
+}
+.cardButton button{
+    background-color: var(--button-grey);
+    border-radius: 6px;
+    font-family: 'HindSemiBold';
+    font-size: 1em;
+    border: none;
+    padding: 0.1em 1em;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.cardButton button:hover{
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
 }
