@@ -2,3 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+.chartInnerContainer {
+    padding-left: 4em;
+    padding-right: 4em;
+    max-width: 300px;
+    margin-bottom: 2em;
+
+}

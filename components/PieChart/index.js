@@ -33,14 +33,16 @@ export default function PieChart() {
                     label: "# of People (thousand)",
                     data: [468, 245, 116, 65],
                     borderColor: [
-                        'rgb(53, 89, 235)',
-                        'rgb(89, 211, 65)',
-                        'rgb(23, 180, 53)',
+                        'rgb(36, 106, 115)', 
+                        'rgb(54, 143, 139)',  
+                        'rgb(243, 223, 193)',     
+                        'rgb(221, 190, 168)', 
                          ],
                     backgroundColor: [
-                        'rgb(53, 162, 235, 0.4)',
-                        'rgb(102, 53, 65, 0.4)',
-                        'rgb(23, 180, 32, 0.4)',
+                        'rgb(36, 106, 115)', 
+                        'rgb(54, 143, 139)',  
+                        'rgb(243, 223, 193)',    
+                        'rgb(221, 190, 168)', 
                     ]
                 }
             ]
@@ -65,7 +67,9 @@ export default function PieChart() {
     return(
         <>
             <div className={style.chartContainer}>
-                <Pie data={chartData} options={chartOptions} style={{width: "400px", height:"400px"}}/>
+                <div className={style.chartInnerContainer}>
+                    <Pie data={chartData} options={chartOptions} style={{width: "400px", height:"400px"}}/>
+                </div>
             </div>
         </>
     )
