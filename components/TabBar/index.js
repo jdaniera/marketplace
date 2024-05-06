@@ -52,7 +52,7 @@ export default function TabBar() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/profile" passHref>
+                        <Link href="/Profile" passHref>
                             <Image 
                                 src= {isActive('/profile') ? "/images/tabButtons/profile_active.svg" : "/images/tabButtons/profile_default.svg"}
                                 alt="profile button"

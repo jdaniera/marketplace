@@ -38,9 +38,12 @@ export default function Classes() {
                                 location='Kitsilano'
                                 image='/images/classCard/classCard01.svg'
                                 alt='Ring Making Image'
+
                                 link='./classInfo'
                                 buttonText={'View Class'}
-                            />
+
+                                buttonText='more info'
+           />
                         </div>
                         <div> 
                             <ClassesCard
@@ -62,7 +65,7 @@ export default function Classes() {
                         </div>
                         <div className={styles.viewMoreCardContainer}>
                             <div className={styles.viewMoreCard}>
-                            <Link href='/classesAll'>
+                            <Link href='/ClassesAll'>
                                 <div className={styles.viewMoreCardOverlay}></div>
                                     <div className={styles.viewMoreCardContent}>
                                         <p className={styles.viewMoreCardText}>View More</p>
@@ -105,7 +108,7 @@ export default function Classes() {
                         </div>
                         <div className={styles.viewMoreCardContainer}>
                             <div className={styles.viewMoreCard}> 
-                            <Link href='/workshops'>
+                            <Link href='/Workshops'>
                                 <div className={styles.viewMoreCardOverlay}></div>
                                     <div className={styles.viewMoreCardContent}>
                                         <p className={styles.viewMoreCardText}>View More</p>

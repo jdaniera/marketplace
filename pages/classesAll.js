@@ -4,7 +4,7 @@ import TabBar from '@/components/TabBar';
 import Image from 'next/image';
 import ClassesCard from '@/components/ClassesCard';
 
-export default function classesAll() {
+export default function ClassesAll() {
     const headerTitle = 'Workshops';
     const backButton = true;
     const pageLayout = 'layout1';
