@@ -1,8 +1,8 @@
 import React from "react";
-import Styles from '@/components/ClassesCard/ClassesCard.module.css';
+import Styles from './ServiceCard.module.css';
 import Image from 'next/image';
 
-export default function ServicesCard({title, location, image, alt, buttonText}) {
+export default function ServicesCard({title, image, alt, buttonText}) {
     return(
         <div className={Styles.classesCardContainer}>
             <div className={Styles.classesCardInnerContainer}>
@@ -10,18 +10,14 @@ export default function ServicesCard({title, location, image, alt, buttonText}) 
                 <Image src={image} alt={alt} width={191} height={168}/>
                 </div>
                 <div className={Styles.cardHeader}>
-                <p>{title}</p>
-                    <Image src="/images/classesFeaturedCard/heartIcon.svg" width={0} height={0} alt="Heart Icon"/>                 </div>
-                <div className={Styles.cardLocation}>
-                <p>{location}</p>
+                    <p>{title}</p>
+                    <Image src="/images/classesFeaturedCard/heartIcon.svg" width={0} height={0} alt="Heart Icon"/>
                 </div>
 
                 <div className={Styles.cardButton}>
-                <button>More info</button>
+                <button>{buttonText}</button>
                 </div>
-                <button>
-                    {buttonText}
-                </button>
+
             </div>
         </div>
         

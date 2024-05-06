@@ -13,7 +13,6 @@ export default function ServiceCardSection() {
                     image='/images/serviceCardImages/furnitureBuilding.svg'
                     alt='Couch Image'
                     buttonText='See More'
-                    display= 'display: none;'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
