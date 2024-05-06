@@ -3,9 +3,12 @@ import styles from '@/styles/BookingPayment.module.css';
 import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
 import Image from 'next/image';
+import Confirmation from '@/components/Confirmation';
+import { useState } from 'react';
 
 export default function BookingPayment() {
 
+  const [showConfirmation, setShowConfirmation] = useState(false);
   const headerTitle = 'Booking';
   const pageLayout = 'layout1';
   const backButton = true;
@@ -80,9 +83,10 @@ export default function BookingPayment() {
                         <p>Remember card for future purchases</p>
                     </div>
                     <div className={styles.payButtonContainer}>
-                        <p className={styles.payButton}>Pay Now</p>
+                        <p className={styles.payButton} onClick={() => setShowConfirmation(true)}>Pay Now</p>
                     </div>
-            </div>
+                    {showConfirmation && <Confirmation className={showConfirmation ? 'confirmation show' : 'confirmation'} />}
+                </div>
             </div>
         </main>
         <TabBar/>

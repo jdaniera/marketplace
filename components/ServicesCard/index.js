@@ -1,26 +1,30 @@
 import React from "react";
-import styles from './ServiceCard.module.css';
+import Styles from '@/components/ClassesCard/ClassesCard.module.css';
 import Image from 'next/image';
-import Link from 'next/link'
 
-
-export default function ServicesCard({ header, subheader, image, alt, buttonText, buttonLink}) {
-    return (
-        <div className={styles.serviceCardContainer}>
-            <div className={styles.serviceCardImage}>
+export default function ServicesCard({title, location, image, alt, buttonText}) {
+    return(
+        <div className={Styles.classesCardContainer}>
+            <div className={Styles.classesCardInnerContainer}>
+                <div className={Styles.imageContainer}>
                 <Image src={image} alt={alt} width={191} height={168}/>
-            </div>
-            <div className={styles.serviceCardBottom}>
-                <div className={styles.serviceCardHeader}>
-                    <p>{header}</p>
                 </div>
-                <div className={styles.serviceCardSubheader}>
-                 <p>{subheader}</p>
+                <div className={Styles.cardHeader}>
+                <p>{title}</p>
+                    <Image src="/images/classesFeaturedCard/heartIcon.svg" width={0} height={0} alt="Heart Icon"/>                 </div>
+                <div className={Styles.cardLocation}>
+                <p>{location}</p>
                 </div>
-                <div className={styles.button}>
-                        <button>{buttonText}</button>
+
+                <div className={Styles.cardButton}>
+                <button>More info</button>
                 </div>
+                <button>
+                    {buttonText}
+                </button>
             </div>
         </div>
-    );
+        
+    ) 
+
 }

@@ -1,4 +1,4 @@
-import styles from '@/styles/workshops.module.css'
+import styles from '@/styles/Workshops.module.css'
 import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
 import Image from 'next/image';
