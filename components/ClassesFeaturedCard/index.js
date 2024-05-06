@@ -12,7 +12,7 @@ export default function ClassesFeaturedCard() {
                 <div className={Styles.tagTwo}><p>Intermediate</p></div>
                 </div>
                 <div className={Styles.imageContainer}>
-                <Link href='/classInfo'>
+                <Link href='/ClassInfo'>
                     <Image src="/images/classesFeaturedCard/potteryClassesImg.svg" width={397} height={168} alt="Classes Featured Card Image" />
                 </Link>
                 </div>
@@ -24,7 +24,7 @@ export default function ClassesFeaturedCard() {
                 <p>Kitsilano</p>
                 </div>
                 <div className={Styles.featuredCardButton}>
-                <Link href='/classInfo'>
+                <Link href='/ClassInfo'>
                 <button>More info</button>
                 </Link>
                 </div>
