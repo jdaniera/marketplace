@@ -68,11 +68,11 @@
     height: 168px;
 }
 
-.cardLocation {
+.cardSubtitle {
     margin: 0em;
     padding: 0em;
 }
-.cardLocation p{
+.cardSubtitle p{
     margin: 0em;
     padding: 0em;
     font-family: 'Hind';

@@ -1,4 +1,4 @@
-import ServiceCard from '@/components/ServicesCard';
+import ClassesCard from '../ClassesCard'
 import styles from './MentorSection.module.css'
 import Link from 'next/link'
 
@@ -7,72 +7,73 @@ export default function MentorSection() {
         <>
             <div className={styles.container}>
                 <div className={styles.serviceCard}>
-                    <ServiceCard
-                    header='Ansa Odoom'
-                    subheader='Digital Marketing, SEO, Social Media Management'
-                    image='/images/mentors/ansa-odoom.png'
-                    alt='woman in professional attire'
-                    buttonText='See More'
+                    <ClassesCard
+                        title='Ansa Odoom'
+                        subtitle='Digital Marketing, SEO, Social Media Management'
+                        image='/images/mentors/ansa-odoom.png'
+                        alt='woman in professional attire'
+                        buttonText='See More'
+                        link='/Ansa'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
-                    <ServiceCard
-                    header='Robert Cash'
-                    subheader='Senior Marketer, Investment Specialist, SEO'
-                    image='/images/mentors/robert-cash.png'
-                    alt='man in professional attire'
-                    buttonText='See More'
+                    <ClassesCard
+                        title='Robert Cash'
+                        subtitle='Senior Marketer, Investment Specialist, SEO'
+                        image='/images/mentors/robert-cash.png'
+                        alt='man in professional attire'
+                        buttonText='See More'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
-                    <ServiceCard
-                    header='Erica Roth'
-                    subheader='Social Media Marketer, SEO'
-                    image='/images/mentors/erica-roth.png'
-                    alt='woman in professional attire'
-                    buttonText='See More'
+                    <ClassesCard
+                        title='Erica Roth'
+                        subtitle='Social Media Marketer, SEO'
+                        image='/images/mentors/erica-roth.png'
+                        alt='woman in professional attire'
+                        buttonText='See More'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
-                    <ServiceCard
-                    header='Emily Chen'
-                    subheader='Leadership Skills Development, Team Management, Agile & Scrum'
-                    image='/images/mentors/emily-chen.png'
-                    alt='woman in professional attire'
-                    buttonText='See More'
+                    <ClassesCard
+                        title='Emily Chen'
+                        subtitle='Leadership Skills Development, Team Management, Agile & Scrum'
+                        image='/images/mentors/emily-chen.png'
+                        alt='woman in professional attire'
+                        buttonText='See More'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
-                    <ServiceCard
-                    header='Frank Bosh'
-                    subheader='Brand Manager'
-                    image='/images/mentors/bill-bosh.png'
-                    alt='man in professional attire'
-                    buttonText='See More'
+                    <ClassesCard
+                        title='Frank Bosh'
+                        subtitle='Brand Manager'
+                        image='/images/mentors/bill-bosh.png'
+                        alt='man in professional attire'
+                        buttonText='See More'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
-                    <ServiceCard
-                    header='Maria Flores'
-                    subheader='Community Development, Fundraising, Non-Profit Management'
+                    <ClassesCard
+                    title='Maria Flores'
+                    subtitle='Community Development, Fundraising, Non-Profit Management'
                     image='/images/mentors/maria-flores.png'
                     alt='woman in professional attire'
                     buttonText='See More'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
-                    <ServiceCard
-                    header='Jordan Thompson'
-                    subheader='Personal Growth, Dating, Style Advisor'
+                    <ClassesCard
+                    title='Jordan Thompson'
+                    subtitle='Personal Growth, Dating, Style Advisor'
                     image='/images/mentors/jordan-thompson.png'
                     alt='man in professional attire'
                     buttonText='See More'
                     />
                 </div>
                 <div className={styles.ServiceCard}>
-                    <ServiceCard
-                    header='Marcus Nguyen'
-                    subheader='Business Growth, Investments, Real Estate'
+                    <ClassesCard
+                    title='Marcus Nguyen'
+                    subtitle='Business Growth, Investments, Real Estate'
                     image='/images/mentors/marcus-nguyen.png'
                     alt='man in professional attire'
                     buttonText='See More'
