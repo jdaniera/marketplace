@@ -79,7 +79,7 @@ export default function Classes() {
                     <div className={styles.classCardSectionHeader}>
                     <p>Workshops in Vancouver</p>
                     </div>
-                    <div className={styles.classCardInnerContainer}> . b
+                    <div className={styles.classCardInnerContainer}>
                         <div> 
                             <ClassesCard
                                 title='3-Day Technical Barber Workshop'
