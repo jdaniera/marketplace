@@ -17,10 +17,7 @@ export default function ClassesCard({title, location, image, alt, buttonText}) {
                 <p>{location}</p>
                 </div>
                 <div className={Styles.cardButton}>
-
-                <Link href='./classInfo'>
-
-
+                <Link href='./classInfo'/>
                     <button>{buttonText}</button>
                 </div>
             </div>
