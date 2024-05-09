@@ -38,15 +38,11 @@ export default function Classes() {
                                 subtitle='Kitsilano'
                                 image='/images/classCard/classCard01.svg'
                                 alt='Ring Making Image'
-<<<<<<< HEAD
+                                buttonText='View Class'
+                                link='/ClassesInfo'
                                 buttonText='More Info'
                                 link='/ClassInfo'
                             />
-=======
-                                link='./classInfo'
-                                buttonText={'View Class'}
-                             />
->>>>>>> main
                         </div>
                         <div> 
                             <ClassesCard
@@ -54,12 +50,8 @@ export default function Classes() {
                                 subtitle='North Vancouver'
                                 image='/images/classCard/classCard02.svg'
                                 alt='Knitting Image'
-<<<<<<< HEAD
-                                buttonText='More Info'
+                                buttonText='View Class'
                                 link='/ClassesInfo'
-=======
-                                buttonText={'View Class'}
->>>>>>> main
                             />
                         </div>
                         <div> 
@@ -67,14 +59,9 @@ export default function Classes() {
                                 title='Cooking Class'
                                 subtitle='Vancouver'
                                 image='/images/classCard/classCard03.svg'
-<<<<<<< HEAD
                                 alt='Cooking Image'
-                                buttonText='More Info'
+                                buttonText='View Class'
                                 link='/ClassesInfo'
-=======
-                                alt='Knitting Image'
-                                buttonText={'View Class'}
->>>>>>> main
                             />
                         </div>
                         <div className={styles.viewMoreCardContainer}>
@@ -99,12 +86,8 @@ export default function Classes() {
                                 subtitle='South Vancouver'
                                 image='/images/classCard/classCard05.svg'
                                 alt='Barber Image'
-<<<<<<< HEAD
-                                buttonText='More Info'
-                                link='/ClassInfo'
-=======
-                                buttonText={'View Class'}
->>>>>>> main
+                                buttonText='View Class'
+                                link='/ClassesInfo'
                             />
                         </div>
                         <div> 
@@ -113,12 +96,8 @@ export default function Classes() {
                                 subtitle='West Vancouver'
                                 image='/images/classCard/classCard06.svg'
                                 alt='Page and Pen Image'
-<<<<<<< HEAD
-                                buttonText='More Info'
-                                link='/ClassInfo'
-=======
-                                buttonText={'View Class'}
->>>>>>> main
+                                buttonText='View Class'
+                                link='/ClassesInfo'
                             />
                         </div>
                         <div>
@@ -127,12 +106,8 @@ export default function Classes() {
                                 subtitle='North Vancouver'
                                 image='/images/classCard/classCard07.svg'
                                 alt='Photo Image'
-<<<<<<< HEAD
-                                buttonText='More Info'
-                                link='/ClassInfo'
-=======
-                                buttonText={'View Class'}
->>>>>>> main
+                                buttonText='View Class'
+                                link='/ClassesInfo'
                             />
                         </div>
                         <div className={styles.viewMoreCardContainer}>
