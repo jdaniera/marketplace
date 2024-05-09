@@ -2,7 +2,7 @@
   width: var(--iphone-width);
   min-height: var(--iphone-height);
   background-color: var(--white);
-  box-shadow: 0 4px 8px 0 var(--med-grey), 0 6px 20px 0 var(--med-grey);
+  /* box-shadow: 0 4px 8px 0 var(--med-grey), 0 6px 20px 0 var(--med-grey); */
 }
 
 .main {

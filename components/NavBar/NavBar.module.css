@@ -3,9 +3,9 @@
     height: 136px;
     background-color: var(--teal);
     width: 432px;
-    font-family: Sen;
+    font-family: 'Sen';
     color: var(--white);
-    margin-bottom: 4em;
+    margin-bottom: 0em;
 }
 
 .buttonsContainer {
@@ -16,7 +16,7 @@
     width: 100%;
     padding: 1em 0;
     position: sticky;
-    background-color: var(--button-grey);
+    /* background-color: var(--button-grey); */
 }
 
 .backButton {

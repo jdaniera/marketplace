@@ -16,8 +16,8 @@ export default function Classes() {
     return (
         <div className={styles.classesContainer}>
             <div className={styles.classesInnerContainer}>
-                <main className={styles.main}>
                 <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} />
+                <main className={styles.main}>
                 <div className={styles.classCardSectionHeader}>
                     <p>Featured Class</p>
                     </div>
@@ -47,6 +47,7 @@ export default function Classes() {
                                 location='North Vancouver'
                                 image='/images/classCard/classCard02.svg'
                                 alt='Knitting Image'
+                                buttonText='more info'
                             />
                         </div>
                         <div> 
@@ -55,6 +56,7 @@ export default function Classes() {
                                 location='Vancouver'
                                 image='/images/classCard/classCard03.svg'
                                 alt='Knitting Image'
+                                buttonText='more info'
                             />
                         </div>
                         <div className={styles.viewMoreCardContainer}>
@@ -79,6 +81,7 @@ export default function Classes() {
                                 location='South Vancouver'
                                 image='/images/classCard/classCard05.svg'
                                 alt='Barber Image'
+                                buttonText='more info'
                             />
                         </div>
                         <div> 
@@ -87,6 +90,7 @@ export default function Classes() {
                                 location='West Vancouver'
                                 image='/images/classCard/classCard06.svg'
                                 alt='Page and Pen Image'
+                                buttonText='more info'
                             />
                         </div>
                         <div>
@@ -95,6 +99,7 @@ export default function Classes() {
                                 location='North Vancouver'
                                 image='/images/classCard/classCard07.svg'
                                 alt='Photo Image'
+                                buttonText='more info'
                             />
                         </div>
                         <div className={styles.viewMoreCardContainer}>
