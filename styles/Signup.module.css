@@ -1,0 +1,106 @@
+.iphoneFrame {
+    background-color: var(--teal);
+    height: 932px;
+    width: 430px;
+}
+
+.button {
+    height: 48px;
+    width: 223px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    font-family: 'HindBold';
+    font-size: 1em;
+    margin-left: 87px;
+    margin-top: 32px;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+} 
+
+.button2 {
+    height: 48px;
+    width: 223px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    font-family: 'HindBold';
+    font-size: 1em;
+    margin-left: 87px;
+    margin-top: 100px;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+} 
+
+.header {
+    padding-top: 50px;
+    line-height: .5;
+    margin-left: 16px;
+}
+
+.header h1 {
+    font-family: 'HindBold';
+    color: white;
+}
+
+.header h3 {
+    font-family: 'HindSemiBold';
+    font-size: 1.25em;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.progressBar {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    padding-top: 16px;
+}
+
+.cardBackground {
+    height: 592px;
+    width: 398px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 16px;
+}
+
+.title {
+    font-family: 'HindBold';
+    font-size: 1.5em;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.fieldTitle {
+    font-family: 'HindSemiBold';
+    font-size: 1em;
+    margin-left: 16px;
+    margin-top: 16px;
+    line-height: 1;
+}
+
+.fieldTitlePass {
+    font-family: 'HindSemiBold';
+    font-size: 1em;
+    margin-left: 16px;
+    margin-top: 40px;
+    line-height: 1;
+}
+
+.input {
+    height: 40px;
+    width: 352px;
+    border: 1.5px solid #292929;
+    border-radius: 10px;
+    margin-left: 16px;
+    padding-left: 16px;
+}
+.input2 {
+    height: 40px;
+    width: 352px;
+    border: 1.5px solid #292929;
+    border-radius: 10px;
+    margin-left: 16px;
+    padding-left: 16px;
+    margin-top: 16px;
+}
+

@@ -1,5 +1,60 @@
 .iphoneFrame {
-    color: var(--teal);
-    height: auto;
-    width: 100%;
+    background-color: var(--teal);
+    height: 932px;
+    width: 430px;
+}
+
+.topText {
+    padding-top: 50px;
+    line-height: .5;
+    margin-left: 16px;
+}
+
+.topText h1 {
+    font-family: 'HindBold';
+    color: white;
+}
+
+.topText h3 {
+    font-family: 'HindSemiBold';
+    font-size: 1.25em;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.cardBackground {
+    height: 592px;
+    width: 398px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 16px;
+    margin-top: 32px;
+}
+
+.image {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.bodyText {
+    font-family: 'HindSemiBold';
+    line-height: 1.25;
+    text-align: center;
+    margin-left: 30px;
+    padding-top: 24px;
+    width: 336px;   
+}
+
+.button {
+    height: 48px;
+    width: 223px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    font-family: 'HindBold';
+    font-size: 1em;
+    margin-left: 87px;
+    margin-top: 32px;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 }
