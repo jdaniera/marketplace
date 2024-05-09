@@ -1,5 +1,6 @@
 .classCardContainer {
     display: flex;
+    margin-top: 5em;
     /* justify-content: center;
     align-items: center; */
 }
@@ -29,4 +30,5 @@
 
 .main {
     margin-bottom: 8em;
+    margin-top: 3em;
 }
