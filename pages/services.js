@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '@/styles/Home.module.css';
+import styles from '@/styles/Services.module.css';
 import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
 import FindMentor from '@/components/FindMentor';
@@ -11,9 +11,9 @@ export default function Services() {
 
   const headerTitle = 'Services';
   const pageLayout = 'layout1';
-  const backButton = false;
+  const backButton = true;
   const searchBar = true;
-  const settings = true; 
+  const settings = false; 
 
   return (
     <>
@@ -27,7 +27,6 @@ export default function Services() {
         <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} />
         <main className={`${styles.main}`}>
           <div className={styles.mainInnerContainer}>
-            <FindMentor/>
             <ServicesCardSection />
           </div>
         </main>

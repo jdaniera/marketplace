@@ -8,8 +8,8 @@ import HomeCardSection from '@/components/HomeCardSection';
 import Map from '@/components/Map'
 import PieChart from '@/components/PieChart';
 import CategoriesHome from '@/components/CategoriesHome';
-
 import ServicesCard from '@/components/ServicesCard';
+
 export default function Home() {
 
   const headerTitle = 'Welcome, {user}!';
@@ -42,7 +42,6 @@ export default function Home() {
                 <PieChart/>
               </div>
             </div>
-
             </div>
           </main>
         <TabBar/>

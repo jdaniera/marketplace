@@ -26,8 +26,6 @@ export default function ClassesCard({title, subtitle, image, alt, link, buttonTe
                         <button>{buttonText}</button>
                     </Link>
                 </div>
-
-
             </div>
         </div>
         

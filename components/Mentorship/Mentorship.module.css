@@ -1,0 +1,54 @@
+.mentorshipContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mentorshipInnerContainer {
+    max-width: var(--iphone-width);
+    width: 397px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2em;
+}
+
+.mentorshipText p{
+   text-align: center;
+   margin: 0.6em auto;
+   width: 80%;
+   font-family: 'Hind';
+   line-height: 1.3em;
+   font-size: 16px;
+   color: var(--black);
+
+}
+
+.mentorshipHeader p{
+    font-size: 2em;
+    font-family: 'Sen';
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: var(--black);
+}
+
+.mentorshipButton button{
+    font-size: 1em;
+    font-family: 'Hind';
+    border: none;
+    background-color: var(--yellow);
+    width: 223px;
+    height: 32px;
+    color: var(--black);
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1.5em;
+}
+.mentorshipButton button:hover{
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+}
