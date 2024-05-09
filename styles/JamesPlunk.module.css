@@ -12,11 +12,15 @@
     display: flex;
     flex-direction: column;
     margin-top: 0em;
+    margin-bottom: 5em;
   }  
 
 .mainImage {
     margin-top: 100px;
     margin-bottom: -5px;
+}
+.mainImage img{
+    border-radius: 10px;
 }
 
 .mainName {
@@ -87,7 +91,7 @@
     font-size: 12pt;
 }
 
-.bookButton {
+/* .bookButton {
     background-color: var(--yellow);
     border-radius: 10px;
     width: 223px;
@@ -98,7 +102,7 @@
     align-self: center;
     margin-top: 10px;
     margin-bottom: 16px;
-}
+} */
 
 .reviewsContainer {
     height: 240px;
@@ -263,13 +267,13 @@
     transform: translate(170px, -52px);
 }
 
-.spacingLine6 {
+/* .spacingLine6 {
     width: 398px;
     height: 2px;
     background-color: #b0b0b0;
     margin-top: -30px;
     border-radius: 10px;
-}
+} */
 
 .messageField {
     height: 104px;

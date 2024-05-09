@@ -7,7 +7,7 @@
 }
 
 .descContainer {
-    margin-top: 0.8em;
+    margin-top: 0.5em;
 }
 
 .title h1 {
@@ -52,16 +52,21 @@
 }
 
 .infoDescription {
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
-
+.mentorBioLineContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
 .mentorBioLine {
+
     position: relative;
-    width: 88%;
     height: 1.2px;
+    width:88%;
     background-color: var(--dark-grey);
-    margin: 1.2em auto 2.5em;
+    margin: 0em;
     border-radius: 5px;
     border: none;
 }

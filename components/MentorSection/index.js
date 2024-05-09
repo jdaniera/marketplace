@@ -31,7 +31,7 @@ export default function MentorSection() {
                 <div className={styles.ServiceCard}>
                     <ClassesCard
                         title='Erica Roth'
-                        subtitle='Social Media Marketer, SEO'
+                        subtitle='Social Media Marketer, SEO, Agile & Scrum'
                         image='/images/mentors/erica-roth.png'
                         alt='woman in professional attire'
                         buttonText='See More'
@@ -40,7 +40,7 @@ export default function MentorSection() {
                 <div className={styles.ServiceCard}>
                     <ClassesCard
                         title='Emily Chen'
-                        subtitle='Leadership Skills Development, Team Management, Agile & Scrum'
+                        subtitle='Leadership Skills Development, Team Management'
                         image='/images/mentors/emily-chen.png'
                         alt='woman in professional attire'
                         buttonText='See More'
@@ -49,7 +49,7 @@ export default function MentorSection() {
                 <div className={styles.ServiceCard}>
                     <ClassesCard
                         title='Frank Bosh'
-                        subtitle='Brand Manager'
+                        subtitle='Brand Manager, Non-Profit Management'
                         image='/images/mentors/bill-bosh.png'
                         alt='man in professional attire'
                         buttonText='See More'
@@ -58,7 +58,7 @@ export default function MentorSection() {
                 <div className={styles.ServiceCard}>
                     <ClassesCard
                     title='Maria Flores'
-                    subtitle='Community Development, Fundraising, Non-Profit Management'
+                    subtitle='Community Development, Fundraising'
                     image='/images/mentors/maria-flores.png'
                     alt='woman in professional attire'
                     buttonText='See More'

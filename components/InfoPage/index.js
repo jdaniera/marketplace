@@ -45,10 +45,18 @@ export default function InfoPage({
           </div>
           <div className={styles.descContainer}>
             <div className={`${styles.infoDescription} ${styles.mentorBio}`}>
-              <h2>Bio</h2>
+              <h2>Bio:</h2>
               <p>"{bio}"</p>
             </div>
-            <hr className={styles.mentorBioLine}/>
+            <div className={styles.mentorBioLineContainer}>
+              <hr className={styles.mentorBioLine}/>
+            </div>
+            <div className={styles.buttonContainer}>
+            <ButtonBox
+              buttonText={buttonText}
+              link='/MentorApply'
+            />
+            </div>
             <div className={styles.shadowContainer}>
               <div className={styles.infoDescription}>
                 <h2>Skills</h2>
@@ -63,15 +71,7 @@ export default function InfoPage({
                 </div>
               </div>
             </div>
-
           </div>
-          <div className={styles.buttonContainer}>
-            <ButtonBox
-              buttonText={buttonText}
-              link='/MentorApply'
-            />
-          </div>
-
         </div>
           
       )}
