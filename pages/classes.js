@@ -40,8 +40,6 @@ export default function Classes() {
                                 alt='Ring Making Image'
                                 buttonText='View Class'
                                 link='/ClassesInfo'
-                                buttonText='More Info'
-                                link='/ClassInfo'
                             />
                         </div>
                         <div> 
