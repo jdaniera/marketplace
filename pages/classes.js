@@ -40,6 +40,7 @@ export default function Classes() {
                                 alt='Ring Making Image'
                                 buttonText='View Class'
                                 link='/ClassesInfo'
+                                prompt='ring making class'
                             />
                         </div>
                         <div> 
@@ -50,6 +51,7 @@ export default function Classes() {
                                 alt='Knitting Image'
                                 buttonText='View Class'
                                 link='/ClassesInfo'
+                                prompt='knitting class'
                             />
                         </div>
                         <div> 
@@ -60,6 +62,7 @@ export default function Classes() {
                                 alt='Cooking Image'
                                 buttonText='View Class'
                                 link='/ClassesInfo'
+                                prompt='cooking class'
                             />
                         </div>
                         <div className={styles.viewMoreCardContainer}>
@@ -86,6 +89,7 @@ export default function Classes() {
                                 alt='Barber Image'
                                 buttonText='View Class'
                                 link='/ClassesInfo'
+                                prompt='barber workshop'
                             />
                         </div>
                         <div> 
@@ -96,6 +100,7 @@ export default function Classes() {
                                 alt='Page and Pen Image'
                                 buttonText='View Class'
                                 link='/ClassesInfo'
+                                prompt='writing workshop'
                             />
                         </div>
                         <div>
@@ -106,6 +111,7 @@ export default function Classes() {
                                 alt='Photo Image'
                                 buttonText='View Class'
                                 link='/ClassesInfo'
+                                prompt='ring making class'
                             />
                         </div>
                         <div className={styles.viewMoreCardContainer}>
