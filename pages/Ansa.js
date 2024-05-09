@@ -1,21 +1,12 @@
-// import InfoPage from "@/components/InfoPage"
-
-// export default function Ansa() {
-//     return(
-//         <>
-//         <InfoPage/>
-//         </>
-//     )
-// }
 
 import Head from 'next/head';
-import styles from '@/components/InfoPage/InfoPage.module.css';
+import styles from '../styles/Home.module.css'
 import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
 import Image from 'next/image'
 
 
-export default function Home() {
+export default function Ansa() {
 
   const headerTitle = 'Welcome, {user}!';
   const pageLayout = 'layout1';
