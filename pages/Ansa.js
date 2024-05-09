@@ -27,9 +27,9 @@ export default function Ansa() {
             <InfoPage
                 mentor={true}
                 title='Ansa Odoom'
-                imageUrl='/images/mentors/ansa-odoom.png'
-                imageWidth={382}
-                imageHeight={336}
+                imageUrl='/images/mentors/ansa-odoom.svg'
+                imageWidth={397}
+                imageHeight={330}
                 imageAlt='woman in business attire'
                 bio="With over a decade of experience in the marketing realm, I am dedicated to mentoring aspiring marketers. 
                     My passion for the dynamic world of marketing is evident in my commitment to guiding and inspiring individuals in the industry."

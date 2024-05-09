@@ -4,6 +4,7 @@ import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
 import Image from 'next/image';
 import Link from 'next/link';
+import ButtonBox from '@/components/ButtonBox';
 
 export default function JamesPlunk() {
 
@@ -47,9 +48,10 @@ export default function JamesPlunk() {
             </div>
             
             <div className={styles.bookButton}>
-              <Link className={styles.link} href="/bookService">
+              <ButtonBox buttonText="Book Now" link="/bookService" />
+              {/* <Link className={styles.link} href="/bookService">
                 <p>Book Now</p>
-              </Link>
+              </Link> */}
             </div>
 
             <div className={styles.reviewsContainer}>
@@ -94,12 +96,12 @@ export default function JamesPlunk() {
                     <div className={styles.bubble5}><p>Prompt Payment (3)</p></div>
                 </div>
                 <div className={styles.spacingLine6}></div>
-                <div className={styles.messageField}>
+                {/* <div className={styles.messageField}>
                     <input type="text" placeholder="Enter your message:" />
                 </div>
                 <div className={styles.messageButton}>
                     <p>Send Message</p>
-                </div>
+                </div> */}
           </div>
             </div>
         </main>
