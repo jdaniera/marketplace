@@ -32,6 +32,7 @@ export default function ServiceCardSection() {
                             image='/images/serviceCardImages/homeRepairs.svg'
                             alt='Couch Image'
                             buttonText='More Info'
+                            link='/HomeRepairs'
                             />
                         </div>
                         <div> 

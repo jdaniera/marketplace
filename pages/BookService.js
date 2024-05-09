@@ -42,7 +42,7 @@ export default function BookService() {
                     <input className={styles.describe} type='text' placeholder="Please describe your issue in as much detail as you can:"></input>
                 </div>
                 <div className={styles.bookButton}>
-                    <Link className={styles.link} href="/bookingPayment">
+                    <Link className={styles.link} href="/BookingPayment">
                         <p>Book Now</p>
                     </Link>
                 </div>

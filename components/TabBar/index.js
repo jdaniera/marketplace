@@ -34,7 +34,7 @@ export default function TabBar() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/classes" passHref>
+                        <Link href="/Classes" passHref>
                             <Image 
                                 src= {isActive('/Classes') ? "/images/tabButtons/classes_active.svg" : "/images/tabButtons/classes_default.svg"}
                                 alt="classes & workshops button"
@@ -43,7 +43,7 @@ export default function TabBar() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/saved" passHref>
+                        <Link href="/Saved" passHref>
                             <Image 
                                 src= {isActive('/Saved') ? "/images/tabButtons/saved_active.svg" : "/images/tabButtons/saved_default.svg"}
                                 alt="saved list button"
@@ -54,7 +54,7 @@ export default function TabBar() {
                     <li>
                         <Link href="/Profile" passHref>
                             <Image 
-                                src= {isActive('/profile') ? "/images/tabButtons/profile_active.svg" : "/images/tabButtons/profile_default.svg"}
+                                src= {isActive('/Profile') ? "/images/tabButtons/profile_active.svg" : "/images/tabButtons/profile_default.svg"}
                                 alt="profile button"
                                 width={86}
                                 height={77}/>
