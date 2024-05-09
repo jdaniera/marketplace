@@ -5,6 +5,9 @@ import Link from 'next/link'
 export default function MentorSection() {
     return(
         <>
+            <div className={styles.header}>
+                <h2>Featured Mentors</h2>
+            </div>
             <div className={styles.container}>
                 <div className={styles.serviceCard}>
                     <ClassesCard
