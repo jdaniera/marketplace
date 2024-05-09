@@ -18,7 +18,9 @@
 .classCardSectionHeader {
     display: flex;
     justify-content: center;
+  
 }
+
 .classCardSectionHeader p{
     font-family: 'hindSemiBold';
     font-size: 1.3em;
@@ -81,4 +83,5 @@
 
 .main {
     margin-bottom: 8em;
+    margin-top: 3em;
 }

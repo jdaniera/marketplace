@@ -3,6 +3,7 @@ import Styles from './ClassesCard.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 
+
 export default function ClassesCard({title, subtitle, image, alt, link, buttonText, query}) {
     return(
         <div className={Styles.classesCardContainer}>
@@ -26,8 +27,6 @@ export default function ClassesCard({title, subtitle, image, alt, link, buttonTe
                         <button>{buttonText}</button>
                     </Link>
                 </div>
-
-
             </div>
         </div>
         
