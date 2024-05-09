@@ -11,9 +11,9 @@ export default function Services() {
 
   const headerTitle = 'Services';
   const pageLayout = 'layout1';
-  const backButton = false;
+  const backButton = true;
   const searchBar = true;
-  const settings = true; 
+  const settings = false; 
 
   return (
     <>

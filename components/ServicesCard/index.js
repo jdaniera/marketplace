@@ -3,7 +3,7 @@ import Styles from './ServiceCard.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function ClassesCard({title, location, image, alt, buttonText}) {
+export default function ClassesCard({title, image, alt, buttonText}) {
     return(
         <div className={Styles.classesCardContainer}>
             <div className={Styles.classesCardInnerContainer}>
