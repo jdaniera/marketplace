@@ -4,7 +4,7 @@ import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
 import MentorForm from '@/components/MentorForm';
 
-export default function MentorApplication() {
+export default function MentorApply() {
 
   const headerTitle = 'Mentee Application';
   const pageLayout = 'layout1';

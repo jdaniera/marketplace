@@ -10,6 +10,8 @@ body {
 :root {
   --iphone-width: 432px;
   --iphone-height: 932px;
+  --page-margin: 397px;
+  --form-width: 398px;
 
   --teal: #357C77;
   --yellow: #FDE9B0;
@@ -22,6 +24,7 @@ body {
   --beginner-tag-green: #C7FFB4;
   --intermediate-tag-yellow: #FDFFA6;
 
+  --info-h1: 20pt; 
   --body-16pt: 16pt;
 }
 

@@ -35,29 +35,31 @@ export default function Classes() {
                         <div> 
                             <ClassesCard
                                 title='Ring Making Class'
-                                location='Kitsilano'
+                                subtitle='Kitsilano'
                                 image='/images/classCard/classCard01.svg'
                                 alt='Ring Making Image'
-                                link='./classInfo'
-                                buttonText={'View Class'}
-                             />
+                                buttonText='More Info'
+                                link='/ClassInfo'
+                            />
                         </div>
                         <div> 
                             <ClassesCard
                                 title='Knitting Class'
-                                location='North Vancouver'
+                                subtitle='North Vancouver'
                                 image='/images/classCard/classCard02.svg'
                                 alt='Knitting Image'
-                                buttonText={'View Class'}
+                                buttonText='More Info'
+                                link='/ClassesInfo'
                             />
                         </div>
                         <div> 
                             <ClassesCard
                                 title='Cooking Class'
-                                location='Vancouver'
+                                subtitle='Vancouver'
                                 image='/images/classCard/classCard03.svg'
-                                alt='Knitting Image'
-                                buttonText={'View Class'}
+                                alt='Cooking Image'
+                                buttonText='More Info'
+                                link='/ClassesInfo'
                             />
                         </div>
                         <div className={styles.viewMoreCardContainer}>
@@ -75,32 +77,35 @@ export default function Classes() {
                     <div className={styles.classCardSectionHeader}>
                     <p>Workshops in Vancouver</p>
                     </div>
-                    <div className={styles.classCardInnerContainer}>
+                    <div className={styles.classCardInnerContainer}> . b
                         <div> 
                             <ClassesCard
                                 title='3-Day Technical Barber Workshop'
-                                location='South Vancouver'
+                                subtitle='South Vancouver'
                                 image='/images/classCard/classCard05.svg'
                                 alt='Barber Image'
-                                buttonText={'View Class'}
+                                buttonText='More Info'
+                                link='/ClassInfo'
                             />
                         </div>
                         <div> 
                             <ClassesCard
                                 title='2-Day Creative Writing Workshop'
-                                location='West Vancouver'
+                                subtitle='West Vancouver'
                                 image='/images/classCard/classCard06.svg'
                                 alt='Page and Pen Image'
-                                buttonText={'View Class'}
+                                buttonText='More Info'
+                                link='/ClassInfo'
                             />
                         </div>
                         <div>
                             <ClassesCard
                                 title='3-Day Photography Composition'
-                                location='North Vancouver'
+                                subtitle='North Vancouver'
                                 image='/images/classCard/classCard07.svg'
                                 alt='Photo Image'
-                                buttonText={'View Class'}
+                                buttonText='More Info'
+                                link='/ClassInfo'
                             />
                         </div>
                         <div className={styles.viewMoreCardContainer}>

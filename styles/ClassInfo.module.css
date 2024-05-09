@@ -6,7 +6,7 @@
 }
 
 .classInfoInnerContainer {
-    max-width: 397px;
+    max-width: var(--page-margin);
     display: flex;
     flex-direction: column;
     margin-top: 4em;
@@ -43,6 +43,8 @@
     margin-bottom: 0.5em;
     /* margin-top: 1em; */
 }
+
+
 
 .otherImageContainer {
     margin-top: 0.6em;

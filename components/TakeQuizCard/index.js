@@ -9,7 +9,7 @@ export default function TakeQuizCard() {
         <div className={styles.takeQuizCardContainer}>
             <div className={styles.takeQuizCardInnerContainer}>
                 <div className={styles.takeQuizContent}>
-                <h1>Out of Ideas</h1>
+                <h1>Out of Ideas?</h1>
                 <p>Take our quiz and receive a personalized recommendation tailored to your preferences, interests, and needs!</p>
                 <Link href="/Quiz">
                 <button>Take Quiz</button>

@@ -23,7 +23,7 @@ export default function ClassesAll() {
                             <div> 
                             <ClassesCard
                                 title='Pottery Class'
-                                location='Kitsilano'
+                                subtitle='Kitsilano'
                                 image='/images/classesAll/classAll01.svg'
                                 alt='Pottery Image'
                             />
@@ -31,7 +31,7 @@ export default function ClassesAll() {
                         <div> 
                             <ClassesCard
                                 title='Drumming Class'
-                                location='East Vancouver'
+                                subtitle='East Vancouver'
                                 image='/images/classesAll/classAll02.svg'
                                 alt='Drumming Image'
                             />
@@ -39,7 +39,7 @@ export default function ClassesAll() {
                         <div> 
                             <ClassesCard
                                 title='Cocktail Mixing Class'
-                                location='Granville Island'
+                                subtitle='Granville Island'
                                 image='/images/classesAll/classAll03.svg'
                                 alt='Cocktail Mixing Image'
                             />
@@ -47,7 +47,7 @@ export default function ClassesAll() {
                             <div> 
                                 <ClassesCard
                                     title='Learn Sign Language Class'
-                                    location='West Vancouver'
+                                    subtitle='West Vancouver'
                                     image='/images/classesAll/classAll04.svg'
                                     alt='Sign Language image'
                                 />
@@ -55,7 +55,7 @@ export default function ClassesAll() {
                             <div>
                                 <ClassesCard
                                     title='Comedy Class'
-                                    location='East Vancouver'
+                                    subtitle='East Vancouver'
                                     image='/images/classesAll/classAll05.svg'
                                     alt='Stand Up Comedy Image'
                                 />
@@ -63,7 +63,7 @@ export default function ClassesAll() {
                             <div> 
                                 <ClassesCard
                                     title='Puppy Training Class'
-                                    location='Stanley Park'
+                                    subheader='Stanley Park'
                                     image='/images/classesAll/classAll06.svg'
                                     alt='Dog Image'
                                 />
@@ -71,7 +71,7 @@ export default function ClassesAll() {
                             <div>
                                 <ClassesCard
                                     title='Wine Tasting Class'
-                                    location='Robson Street'
+                                    subtitle='Robson Street'
                                     image='/images/classesAll/classAll07.svg'
                                     alt='Wine Image'
                                 />
@@ -79,7 +79,7 @@ export default function ClassesAll() {
                             <div> 
                             <ClassesCard
                                 title='Ring Making Class'
-                                location='Kitsilano'
+                                subtitle='Kitsilano'
                                 image='/images/classCard/classCard01.svg'
                                 alt='Ring Making Image'
                             />
@@ -87,7 +87,7 @@ export default function ClassesAll() {
                             <div> 
                                 <ClassesCard
                                     title='Knitting Class'
-                                    location='North Vancouver'
+                                    subtitle='North Vancouver'
                                     image='/images/classCard/classCard02.svg'
                                     alt='Knitting Image'
                                 />
@@ -95,7 +95,7 @@ export default function ClassesAll() {
                             <div> 
                                 <ClassesCard
                                     title='Cooking Class'
-                                    location='Vancouver'
+                                    subtitle='Vancouver'
                                     image='/images/classCard/classCard03.svg'
                                     alt='Knitting Image'
                                 />

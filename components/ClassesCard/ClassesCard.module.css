@@ -68,16 +68,16 @@
     height: 168px;
 }
 
-.cardLocation {
+.cardSubtitle {
     margin: 0em;
     padding: 0em;
 }
-.cardLocation p{
+.cardSubtitle p{
     margin: 0em;
     padding: 0em;
     font-family: 'Hind';
-    font-size: 1rem;
-    line-height: 0.6em;
+    font-size: 0.8rem;
+    line-height: 1em;
 }
 
 .cardButton {
