@@ -48,7 +48,7 @@ export default function JamesPlunk() {
             </div>
             
             <div className={styles.bookButton}>
-              <ButtonBox buttonText="Book Now" link="/bookService" />
+              <ButtonBox buttonText="Book Now" link="/BookService" />
               {/* <Link className={styles.link} href="/bookService">
                 <p>Book Now</p>
               </Link> */}

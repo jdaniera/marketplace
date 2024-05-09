@@ -13,8 +13,8 @@ export default function Workshops() {
     return (
         <div className={styles.classesContainer}>
             <div className={styles.classesInnerContainer}>
-                <main className={styles.main}>
                 <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} />
+                <main className={styles.main}>
                 <div className={styles.classesCardContainer}>
                     <div className={styles.classCardSectionHeader}>
                         <p>Workshops in Vancouver</p>
@@ -26,6 +26,7 @@ export default function Workshops() {
                                     location='South Vancouver'
                                     image='/images/workshops/workShop01.svg'
                                     alt='Computer Image'
+                                    buttonText='See More'
                                 />
                             </div>
                             <div> 
@@ -34,6 +35,7 @@ export default function Workshops() {
                                     location='North Vancouver'
                                     image='/images/workshops/workShop02.svg'
                                     alt='Yoga Image'
+                                    buttonText='See More'
                                 />
                             </div>
                             <div> 
@@ -42,14 +44,16 @@ export default function Workshops() {
                                     location='Online'
                                     image='/images/workshops/workShop03.svg'
                                     alt='Computer Image'
+                                    buttonText='See More'
                                 />
                             </div>
                             <div> 
                                 <ClassesCard
-                                    title='2-Day Public Speaking Workshop'
+                                    title='2-Day Public Speaking'
                                     location='Waterfront'
                                     image='/images/workshops/workShop04.svg'
                                     alt='Guy speaking image'
+                                    buttonText='See More'
                                 />
                             </div>
                             <div>
@@ -58,6 +62,7 @@ export default function Workshops() {
                                     location='South Vancouver'
                                     image='/images/classCard/classCard05.svg'
                                     alt='Barber Image'
+                                    buttonText='See More'
                                 />
                             </div>
                             <div> 
@@ -66,14 +71,16 @@ export default function Workshops() {
                                     location='West Vancouver'
                                     image='/images/classCard/classCard06.svg'
                                     alt='Page and Pen Image'
+                                    buttonText='See More'
                                 />
                             </div>
                             <div>
                                 <ClassesCard
-                                    title='3-Day Photography Composition'
+                                    title='3-Day Photography '
                                     location='North Vancouver'
                                     image='/images/classCard/classCard07.svg'
                                     alt='Photo Image'
+                                    buttonText='See More'
                                 />
                             </div>
                             <div>
@@ -82,6 +89,7 @@ export default function Workshops() {
                                     location='Gas Town'
                                     image='/images/workshops/workShop08.svg'
                                     alt='People Talking Image'
+                                    buttonText='See More'
                                 />
                             </div>
                             <div>
@@ -90,6 +98,7 @@ export default function Workshops() {
                                     location='West Vancouver'
                                     image='/images/workshops/workShop09.svg'
                                     alt='Mother and Child Image'
+                                    buttonText='See More'
                                 />
                             </div>
                             <div>
@@ -98,6 +107,7 @@ export default function Workshops() {
                                     location='Robson Street'
                                     image='/images/workshops/workShop10.svg'
                                     alt='Mother and Child Image'
+                                    buttonText='See More'
                                 />
                             </div>
                         </div>
