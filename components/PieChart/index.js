@@ -61,7 +61,7 @@ export default function PieChart() {
                 responsive: false
             }
         })
-    })
+    }, [])
 
 
     return(

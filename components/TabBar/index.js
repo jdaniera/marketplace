@@ -25,7 +25,7 @@ export default function TabBar() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/services" passHref>
+                        <Link href="/Services" passHref>
                         <Image 
                             src= {isActive('/Services') ? "/images/tabButtons/services_active.svg" : "/images/tabButtons/services_default.svg"}
                             alt="services button"
