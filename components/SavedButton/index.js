@@ -1,11 +1,12 @@
 import Image from "next/image"
 import styles from './SavedButton.module.css'
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 export default function SavedButton({ prompt }) {
 
     const [load, setLoad] = useState(false);
     const [saved, setSaved] = useState(false);
+    
 
     const sendPrompt = (e, prompt) => {
         console.log("Sending prompt:", prompt)

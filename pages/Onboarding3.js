@@ -2,14 +2,8 @@ import Head from 'next/head';
 import styles from '@/styles/Onboarding.module.css';
 import Image from 'next/image';
 
-export default function Onboarding1() {
+export default function Onboarding3() {
 
-    const headerTitle = 'Welcome, {user}!';
-    const pageLayout = 'layout1';
-    const backButton = true;
-    const searchBar = true;
-    const settings = true;
-  
     return (
       <>
         <Head>
@@ -27,12 +21,12 @@ export default function Onboarding1() {
                 </div>
                 <div className={styles.cardBackground}>
                     <div className={styles.image}>
-                        <Image src="/images/OnboardingImages/onboarding1.svg" alt="Onboarding1" width={324} height={296} />
+                        <Image src="/images/OnboardingImages/onboarding3.svg" alt="Onboarding1" width={324} height={296} />
                     </div>
                     <div className={styles.bodyText}>
-                        <p>Welcome to Neighbourly! A community <br></br> driven app that lets <br></br>everyone helps everyone!</p>
+                        <p>Additionally, you can attend classes held <br></br>by our mentors or partners, and learn a <br></br>variety of new skills.</p>
                     </div>
-                    <div>
+                    <div>  
                         <button className={styles.button}>Continue</button>
                     </div>
                 </div>
