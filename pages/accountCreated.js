@@ -29,8 +29,8 @@ export default function AccountCreated() {
                         <Image className={styles.addPhotoIcon} src="../images/OnboardingImages/addPhotoIcon.svg" alt="addPhotoIcon" width={39} height={39} />
                         <p className={styles.text}><span className={styles.span}>Name:</span> Jalen Smith</p>
                         <p className={styles.text}><span className={styles.span}>Userame:</span> jay_smitty</p>
-                        <p className={styles.text}><span className={styles.span}>E-mail:</span> Jalen Smith</p>
-                        <p className={styles.text}><span className={styles.span}>Phone:</span> Jalen Smith</p>
+                        <p className={styles.text}><span className={styles.span}>E-mail:</span> jalensmith@gmail.com</p>
+                        <p className={styles.text}><span className={styles.span}>Phone:</span> <span className={styles.span2}>+1</span> (604) 563-5242</p>
                         <button className={styles.button}>Edit Info</button>
                         <button className={styles.button2}>Looks Good!</button>
                 </div>
