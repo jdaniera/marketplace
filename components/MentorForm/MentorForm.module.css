@@ -1,0 +1,11 @@
+.outerFormContainer {
+    font-family: 'Hind';
+}
+
+.formContainer input {
+    width: var(--form-width);
+}
+
+.formContainer textarea {
+    width: var(--form-width);
+}

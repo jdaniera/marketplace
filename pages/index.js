@@ -8,6 +8,7 @@ import Map from '@/components/Map'
 import PieChart from '@/components/PieChart';
 import CategoriesHome from '@/components/CategoriesHome';
 
+
 export default function Home() {
 
   const headerTitle = 'Welcome, {user}!';

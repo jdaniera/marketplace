@@ -4,6 +4,7 @@ import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
 import MentorSection from '@/components/MentorSection';
 import FindMentor from '@/components/FindMentor';
+import MentorshipPageCard from '@/components/MentorshipPageCard';
 
 export default function Home() {
 
@@ -25,7 +26,7 @@ export default function Home() {
         <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} searchBar={searchBar} settings={settings}/>
         <main className={`${styles.main}`}>
           <div className={styles.mainInnerContainer}>
-          <FindMentor/>
+          <MentorshipPageCard/>
           <MentorSection/>
           </div>
         </main>

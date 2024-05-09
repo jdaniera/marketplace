@@ -1,34 +1,261 @@
-.iphoneFrame {
-    width: var(--iphone-width);
-  }
-  
-.main {
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: var(--page-margin);
+    margin: 0 2em;
+}
+
+.descContainer {
+    margin-top: 0.8em;
+}
+
+.title h1 {
+    font-family: hindSemiBold;
+    font-size: var(--info-h1);
+    text-align: center;
+    margin-top: 1.1em;
+}
+
+.infoDescription h2 {
+    font-family: hindSemiBold;
+    font-size: 1.2em;
+    line-height: 0em;
+    margin-top: 1.2em;
+}
+
+.infoDescription p,
+.infoDescription li {
+    font-family: Hind;
+    line-height: 1.1em;
+}
+
+.shadowContainer {
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1em;
+    padding: 0 1em 1em;
+}
+
+/* Mentor */
+.mentorBio p {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 0 0.8em;
+}
+
+.mentorDetails {
+    padding-top: 0.5em;
+    font-size: 0.85em;
+    color: var(--dark-grey);
+}
+
+.infoDescription {
+    font-size: 1em;
+}
+
+
+.mentorBioLine {
+    position: relative;
+    width: 88%;
+    height: 1.2px;
+    background-color: var(--dark-grey);
+    margin: 1.2em auto 2.5em;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Classes */
+.classInfoContainer {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin-top: 2em;
+    align-items: center;
+    width: var(--iphone-width);
 }
-  
-.mainInnerContainer {
+
+.classInfoInnerContainer {
     max-width: 397px;
     display: flex;
     flex-direction: column;
-    margin-top: 0em;
-  
+    margin-top: 3em;
+
 }
 
-.main h1 {
-    font-family: hindSemiBold;
-    font-size: 1.5em;
+.skillLevelTag {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1em;
+}
+
+.tagOne{
+    border-radius: 15px;
+    font-family: 'Hind';
+}
+.tagOne p{
+    background-color: var(--beginner-tag-green);
+    padding: 0em 0.5em;
+    border-radius: 15px;
+    font-family: 'Hind';
+    margin-bottom: 0.4em;
+    /* margin-top: 1em; */
+}
+
+.tagTwo{
+    border-radius: 15px;
+    font-family: 'Hind';
+}
+.tagTwo p{
+    background-color: var(--intermediate-tag-yellow);
+    padding: 0em 0.5em;
+    border-radius: 15px;
+    font-family: 'Hind';
+    margin-bottom: 0.5em;
+    /* margin-top: 1em; */
+}
+
+.otherImageContainer {
+    margin-top: 0.6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.viewMoreCardContainer {
+    display: flex;
+    justify-content: center;
+}
+.viewMoreCard {
+    position: relative;
+    width: 88px;
+    height: 88px;
+}
+
+.viewMoreCardOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43, 43, 43, 0.85);
+    z-index: 1;
+}
+
+.viewMoreCardContent {
+    position: relative;
+    width: 88px;
+    height: 88px;
+}
+.viewMoreCardContent p{
+    margin: 0em;
+    padding: 0em;
+    line-height: 1.2em;
+    
+}
+
+.viewMoreCardText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
     text-align: center;
+    z-index: 2;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'hindSemiBold';
+    font-size: 0.9em;
 }
 
-.main h2 {
-    font-family: hindSemiBold;
-    font-size: 1.2em;
+.classInfoHeader {
+    display: flex;
+    justify-content: center;
+    margin: 0em;
 }
 
-.main p,
-.main li {
-    font-family: Hind;
+.classInfoHeader p{
+    font-family: 'hindSemiBold';
+    font-size: 1.1em;
+    margin-bottom: 0em;
+}
+
+.classInfoHeader span{
+    font-family: 'hind';
+    font-size: 1em;
+}
+
+.classInfoButton button{
+    font-size: 1em;
+    font-family: 'HindSemiBold';
+    border: none;
+    background-color: var(--yellow);
+    width: 223px;
+    height: 48px;
+    color: var(--black);
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1.5em;
+}
+.classInfoButton button:hover{
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+}
+
+.classInfoButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.classInfoDescription {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 0em;
+    margin-top: 1em;
+}
+
+.classInfoDescription p{
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+    font-family: 'HindSemiBold';
+    font-size: 1em;
+
+}
+.classInfoDescription p span{
+    font-family: 'Hind';
+    font-size: 1em;
+
+}
+.classDescription h2 {
+    margin: 0em;
+    padding: 0em;
+    font-family: 'hindSemiBold';
+    font-size: 1.3em;
+}
+.classDescription p {
+    margin: 0em;
+    padding: 0em;
+    font-family: 'hind';
+    font-size: 1.1em;
+    line-height: 1.1em;
+}
+
+.main {
+    margin-bottom: 7em;
+}
+
+.classDescription {
+    margin-top: 1em;
+}
+
+.spacingLine {
+    position: relative;
+    width: 191px;
+    height: 2px;
+    background-color: var(--black);
+    margin: 0 auto;
+    border-radius: 50px; 
+    margin-top: -18px;
+    margin-bottom: -15px;
 }

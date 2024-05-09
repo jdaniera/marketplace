@@ -38,7 +38,7 @@ export default function ClassInfo() {
                                 </div>
                                 <div className={styles.viewMoreCardContainer}>
                                     <div className={styles.viewMoreCard}>
-                                    <Link href='/classesAll'>
+                                    <Link href='/ClassesAll'>
                                         <div className={styles.viewMoreCardOverlay}></div>
                                             <div className={styles.viewMoreCardContent}>
                                                 <p className={styles.viewMoreCardText}>View More</p>
@@ -49,7 +49,7 @@ export default function ClassInfo() {
                                 </div>
                             </div>
                             <div className={styles.classInfoButton}>
-                                <button>Entroll Now</button>
+                                <button>Enroll Now</button>
                             </div>
                             <div className={styles.classInfoDescription}>
                                 <div className={styles.classInfoDecriptionContent}><p>Date:<span>September 10th, 2024</span></p></div>

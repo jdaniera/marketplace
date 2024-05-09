@@ -16,8 +16,8 @@ export default function Classes() {
     return (
         <div className={styles.classesContainer}>
             <div className={styles.classesInnerContainer}>
-                <main className={styles.main}>
                 <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} />
+                <main className={styles.main}>
                 <div className={styles.classCardSectionHeader}>
                     <p>Featured Class</p>
                     </div>
@@ -35,34 +35,36 @@ export default function Classes() {
                         <div> 
                             <ClassesCard
                                 title='Ring Making Class'
-                                location='Kitsilano'
+                                subtitle='Kitsilano'
                                 image='/images/classCard/classCard01.svg'
                                 alt='Ring Making Image'
-                                link='./classInfo'
-                                buttonText={'View Class'}
+                                buttonText='View Class'
+                                link='/ClassesInfo'
                             />
                         </div>
                         <div> 
                             <ClassesCard
                                 title='Knitting Class'
-                                location='North Vancouver'
+                                subtitle='North Vancouver'
                                 image='/images/classCard/classCard02.svg'
                                 alt='Knitting Image'
-                                buttonText={'View Class'}
+                                buttonText='View Class'
+                                link='/ClassesInfo'
                             />
                         </div>
                         <div> 
                             <ClassesCard
                                 title='Cooking Class'
-                                location='Vancouver'
+                                subtitle='Vancouver'
                                 image='/images/classCard/classCard03.svg'
-                                alt='Knitting Image'
-                                buttonText={'View Class'}
+                                alt='Cooking Image'
+                                buttonText='View Class'
+                                link='/ClassesInfo'
                             />
                         </div>
                         <div className={styles.viewMoreCardContainer}>
                             <div className={styles.viewMoreCard}>
-                            <Link href='/classesAll'>
+                            <Link href='/ClassesAll'>
                                 <div className={styles.viewMoreCardOverlay}></div>
                                     <div className={styles.viewMoreCardContent}>
                                         <p className={styles.viewMoreCardText}>View More</p>
@@ -79,33 +81,36 @@ export default function Classes() {
                         <div> 
                             <ClassesCard
                                 title='3-Day Technical Barber Workshop'
-                                location='South Vancouver'
+                                subtitle='South Vancouver'
                                 image='/images/classCard/classCard05.svg'
                                 alt='Barber Image'
-                                buttonText={'View Class'}
+                                buttonText='View Class'
+                                link='/ClassesInfo'
                             />
                         </div>
                         <div> 
                             <ClassesCard
                                 title='2-Day Creative Writing Workshop'
-                                location='West Vancouver'
+                                subtitle='West Vancouver'
                                 image='/images/classCard/classCard06.svg'
                                 alt='Page and Pen Image'
-                                buttonText={'View Class'}
+                                buttonText='View Class'
+                                link='/ClassesInfo'
                             />
                         </div>
                         <div>
                             <ClassesCard
                                 title='3-Day Photography Composition'
-                                location='North Vancouver'
+                                subtitle='North Vancouver'
                                 image='/images/classCard/classCard07.svg'
                                 alt='Photo Image'
-                                buttonText={'View Class'}
+                                buttonText='View Class'
+                                link='/ClassesInfo'
                             />
                         </div>
                         <div className={styles.viewMoreCardContainer}>
                             <div className={styles.viewMoreCard}> 
-                            <Link href='/workshops'>
+                            <Link href='/Workshops'>
                                 <div className={styles.viewMoreCardOverlay}></div>
                                     <div className={styles.viewMoreCardContent}>
                                         <p className={styles.viewMoreCardText}>View More</p>

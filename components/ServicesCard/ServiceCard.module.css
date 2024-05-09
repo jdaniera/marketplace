@@ -8,7 +8,6 @@
     max-width: 191px;
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -81,9 +80,9 @@
 }
 
 .cardButton {
-    margin: 0em 0em .25em 0em;
-
+    margin: 0em 0em 0em 0em;
 }
+
 .cardButton button{
     background-color: var(--button-grey);
     border-radius: 6px;
