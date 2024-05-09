@@ -15,7 +15,7 @@
 
 .cardText h2{
     font-size: 1.1em;
-    font-family: 'hindSemiBold';
+    font-family: 'HindSemiBold';
     margin: 0;
     line-height: 0.5em;
     
@@ -29,7 +29,7 @@
 .cardText p{
     text-align: left;
     font-size: 1em;
-    font-family: 'hindRegular';
+    font-family: 'Hind';
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     line-height: 1em;
