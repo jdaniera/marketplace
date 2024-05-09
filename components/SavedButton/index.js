@@ -2,10 +2,14 @@ import Image from "next/image"
 import styles from './SavedButton.module.css'
 import { useState } from "react"
 
-export default function SavedButton({ prompt, dateTime, sendPrompt}) {
+export default function SavedButton({ prompt }) {
 
     const [load, setLoad] = useState(false);
     const [saved, setSaved] = useState(false);
+
+    const sendPrompt = (e, prompt) => {
+        console.log("Sending prompt:", prompt)
+    }
 
     const toggleSaved = () => {
         sendPrompt(prompt);
@@ -37,7 +41,7 @@ export default function SavedButton({ prompt, dateTime, sendPrompt}) {
     return(
         <>
             <button
-                className={styles.heartButton}
+                className={styles.savedButton}
                 onClick={(e) => {
                     sendPrompt(e, prompt)
                     toggleSaved()
