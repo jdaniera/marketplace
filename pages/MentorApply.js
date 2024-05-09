@@ -1,19 +1,14 @@
 import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
-import InfoPage from '@/components/InfoPage';
 import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
-import Image from 'next/image'
 import MentorForm from '@/components/MentorForm';
 
-
-export default function Home() {
+export default function MentorApply() {
 
   const headerTitle = 'Mentee Application';
   const pageLayout = 'layout1';
   const backButton = true;
-  const searchBar = true;
-  const settings = true;
 
   return (
     <>
@@ -26,8 +21,9 @@ export default function Home() {
       <div className={styles.iphoneFrame}>
         <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} />
         <main className={`${styles.main}`}>
-            <MentorForm
-                />
+          <div className={styles.mainInnerContainer}>
+            <MentorForm/>
+          </div>
         </main>
         <TabBar/>
       </div>

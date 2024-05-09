@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
 import NavBar from '@/components/NavBar';
 import TabBar from '@/components/TabBar';
-import ApplicationForm from '@/components/ApplicationForm';
+import MentorForm from '@/components/MentorForm';
 
 export default function MentorApplication() {
 
@@ -22,7 +22,7 @@ export default function MentorApplication() {
         <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} />
         <main className={`${styles.main}`}>
           <div className={styles.mainInnerContainer}>
-            <ApplicationForm/>
+            <MentorForm/>
           </div>
         </main>
         <TabBar/>

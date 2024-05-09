@@ -56,7 +56,7 @@ export default function InfoPage({
               </div>
               <div className={styles.infoDescription}>
                 <h2>Description</h2>
-                <p>{description}</p>
+                <div>{description}</div>
                 <div className={styles.mentorDetails}>
                   <p>Mentorship Type: {mentorType}</p>
                   <p>Session Length: {mentorLength}</p>
