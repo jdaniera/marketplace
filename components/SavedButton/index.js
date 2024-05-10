@@ -12,14 +12,6 @@ export default function SavedButton({ prompt }) {
         console.log("Sending prompt:", prompt)
     }
 
-    const toggleSaved = () => {
-        sendPrompt(prompt);
-        setSaved(!saved);
-        console.log("saved", saved);
-        addToSaved(); // call saveItems function when saved button is clicked
-        console.log("button clicked"); // check if button click works
-    }
-
     const addToSaved = () => {
 
         // convert string to object to add multiple items to local storage in array
@@ -37,6 +29,14 @@ export default function SavedButton({ prompt }) {
             // local storage have to convert object to string 
             localStorage.setItem('savedItems', JSON.stringify(savedItemsArray))
         }
+
+        const toggleSaved = () => {
+            sendPrompt(prompt);
+            setSaved(!saved);
+            console.log("saved", saved);
+            addToSaved(); // call saveItems function when saved button is clicked
+            console.log("button clicked"); // check if button click works
+        }
     }
 
     return(
@@ -50,13 +50,13 @@ export default function SavedButton({ prompt }) {
                 }}
             >
                 {saved ? (
-                   <Image 
+                   <img 
                     src="/images/classesFeaturedCard/heartIconFilled.svg" 
                     width={16.7} 
                     height={15.5} 
                     alt="Heart Icon" /> )
                 : (
-                    <Image 
+                    <img 
                         src="/images/classesFeaturedCard/heartIcon.svg" 
                         width={16.7} 
                         height={15.5} 

@@ -4,4 +4,4 @@
 - Holden Budiman, Jasmine Putri, Jackson Saini
 
 ## Description
-- Service Marketplace app, using next.js framework
+- Neighbourhood-based service marketplace where users can hire freelancers in their community or attend classes/workshops held by hosts in their community

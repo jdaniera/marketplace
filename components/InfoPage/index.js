@@ -105,7 +105,7 @@ export default function InfoPage({
             </div>
             <div className={styles.viewMoreCardContainer}>
               <div className={styles.viewMoreCard}>
-                <Link href='/classesAll'>
+                <Link href='/ClassesAll'>
                     <div className={styles.viewMoreCardOverlay}></div>
                       <div className={styles.viewMoreCardContent}>
                           <p className={styles.viewMoreCardText}>View More</p>

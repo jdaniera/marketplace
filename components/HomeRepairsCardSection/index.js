@@ -8,7 +8,7 @@ export default function HomeRepairsCardSection() {
         <>
             <div className={styles.container}>
                 <div className={styles.repairsCard}>
-                    <Link className={styles.linkedPage} href="/jamesPlunk">
+                    <Link className={styles.linkedPage} href="/JamesPlunk">
                         <HomeRepairsCard
                         image='/images/homeRepairs/bathtub.svg'
                         profilePic='images/homeRepairs/jamesPlunk.svg'
