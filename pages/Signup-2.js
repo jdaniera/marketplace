@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '@/styles/Signup.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Signup1() {
 
@@ -30,7 +31,9 @@ export default function Signup1() {
                     <p className={styles.fieldTitlePass}>Password</p>
                     <input type='text' className={styles.input} placeholder="Please enter your password:" />
                     <input type='text' className={styles.input2} placeholder="Please re-enter your password:" />
+                    <Link href="/TermsConditions">
                     <input type="submit" className={styles.button2} value="Continue" />
+                    </Link>
                   </div>
                 </div>
               </div>

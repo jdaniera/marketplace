@@ -1,0 +1,112 @@
+.iphoneFrame {
+    background-color: var(--teal);
+    height: 932px;
+    width: 430px;
+  }
+  
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 135px;
+    margin-left: 24px;
+  }
+  
+  .cardBackground {
+      height: 528px;
+      width: 398px;
+      background-color: white;
+      border-radius: 10px;
+      margin-left: 16px;
+      box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+      margin-top: 88px;
+  }
+  .innerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.innerContainer h2 {
+    font-family: 'HindSemiBold';
+    font-size: 1.5em;
+    color: black;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+
+}
+
+.inputWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputField p {
+    font-family: 'HindSemiBold';
+    margin-bottom: 1px;
+    align-self: flex-start;
+    margin-left: 8px;
+}
+
+.inputField input {
+    font-family: 'Hind';
+    font-size: 1em;
+    margin-left: 8px;
+    margin-top: 8px;
+    height: 56px;
+    width: 325px;
+    border: solid 2px #e1e1e1;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+
+.inputField img {
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 72px;
+}
+
+.underContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    font-family: 'Hind';
+    color: #bebebe;
+    margin-top: -8px;
+}
+
+.underContainer input {
+    margin-right: -75px;
+    margin-left: -24px;
+}
+
+.text2 {
+    margin-left: 40px;
+    margin-right: -24px;
+}
+
+.innerContainer button {
+
+    height: 48px;
+    width: 223px;
+    background-color: var(--yellow);
+    border: none;
+    border-radius: 10px;
+    font-family: 'HindBold';
+    font-size: 1em;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 64px;
+} 
+
+.innerContainer p {
+    font-family: 'Hind';
+    font-size: 1em;
+    margin-top: 16px;
+}

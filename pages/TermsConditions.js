@@ -1,4 +1,5 @@
 import styles from '@/styles/TermsCond.module.css';
+import Link from 'next/link';
 
 export default function TermsConditions() {
     return (
@@ -19,7 +20,9 @@ To access some features of Neighbourly, you have to create an account. You are r
 <span className={styles.span}>3. Intellectual Property Rights<br></br></span>
 Neighbourly and all materials therein or transferred thereby, including, without limitation, software, images, text, graphics, logos, patents, trademarks, service marks, copyrights, sounds, music, videos, and all intellectual property rights related thereto, are the exclusive property of JHJ Inc. and its licensors.
                     </p>
+                    <Link href="/AccountCreated">
                     <button className={styles.button}>Agree and Continue</button>
+                    </Link>
                 </div>
             </div>
             </main>
