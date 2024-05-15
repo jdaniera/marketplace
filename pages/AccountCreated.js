@@ -19,7 +19,7 @@ export default function AccountCreated() {
                     <h1>Awesome!</h1>
                     <h3>Here is your account!</h3>
                 </div>
-                <div className={styles.cardBackground}>
+                <div className={styles.cardBackground}> 
                     <div className={styles.progressBar}>
                         <Image src="/images/OnboardingImages/progressbar3.svg" alt="accountCreated" width={352} height={31} />
                     </div>

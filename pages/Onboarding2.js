@@ -1,15 +1,27 @@
 import Head from 'next/head';
 import styles from '@/styles/Onboarding.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+
 
 export default function Onboarding2() {
+  const [isExiting, setIsExiting] = useState(false);
+
+  const handleClick = () => {
+    setIsExiting(true);
+    setTimeout(() => {
+      window.location.href = '/Onboarding3';
+    }, 1000); 
+  };
 
     const headerTitle = 'Welcome, {user}!';
     const pageLayout = 'layout1';
     const backButton = true;
     const searchBar = true;
     const settings = true;
-  
+
     return (
       <>
         <Head>
@@ -21,21 +33,36 @@ export default function Onboarding2() {
           <div className={styles.iphoneFrame}>
             <main className={`${styles.main}`}>
             <div className={styles.container}>
-                <div className={styles.topText}>
+            <div className={`${styles.topText}`}>
                     <h1>Welcome!</h1>
                     <h3>Let's get started,</h3>
                 </div>
-                <div className={styles.cardBackground}>
+                <motion.div 
+                  className={`${styles.cardBackground}`}
+                  initial={{ opacity: 0, x: 420 }}
+                  animate={isExiting ? { opacity: 0, x: -420 } : { opacity: 1, x: 0 }}
+                  transition={{ duration: 1, ease: "easeIn" }}
+                  >                    
                     <div className={styles.image}>
                         <Image src="/images/OnboardingImages/onboarding2.svg" alt="Onboarding1" width={324} height={296} />
                     </div>
-                    <div className={styles.bodyText}>
+                    
+                    <motion.div 
+                      className={`${styles.bodyText}`}
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ duration: 0.5, delay: 0.5 }}
+                      >                       
                         <p>Within Neighbourly you can help others with tasks, or do the tasks to help others. Making some extra money and helping your community at the same time!</p>
-                    </div>
-                    <div>
-                        <button className={styles.button}>Continue</button>
-                    </div>
-                </div>
+                    </motion.div>
+                    <motion.div 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.5, delay: 1 }}
+              >                        <button className={styles.button} onClick={handleClick}>Continue</button>
+                    </motion.div>
+                    </motion.div>
+                   
                 </div>
             </main>
           </div>

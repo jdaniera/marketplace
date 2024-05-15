@@ -10,7 +10,7 @@ export default function Map() {
     const loader = new Loader({
       apiKey: googleMapsApiKey,
       version: "weekly",
-      libraries: ["places"], // Add any additional libraries you need
+      libraries: ["places"], 
     });
 
     loader.load().then(() => {
@@ -21,9 +21,8 @@ export default function Map() {
   }, []);
 
   async function initMap() {
-    // The location
+    
     const position = { lat: 49.268421, lng: -123.101623 };
-    // Request needed libraries
     const { Map } = await google.maps.importLibrary("maps");
 
     const map = new Map(document.getElementById("map"), {
