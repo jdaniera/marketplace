@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '@/styles/Signup.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Signup1() {
 
@@ -39,7 +40,9 @@ export default function Signup1() {
                     <input type="tel" className={styles.input} placeholder="(+1) Enter your phone number:" />
                     <p className={styles.fieldTitle}>Home Address</p>
                     <input type="text" className={styles.input} placeholder="Please enter your address:" />
+                    <Link href="/Signup-2">
                     <input type="submit" className={styles.button} value="Continue" />
+                    </Link>
                   </div>
                 </div>
               </div>

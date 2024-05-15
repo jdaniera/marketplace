@@ -1,17 +1,96 @@
 .iphoneFrame {
-    width: var(--iphone-width);
-  }
-  
-  .main {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .mainInnerContainer {
-    max-width: 397px;
+  background-color: var(--teal);
+  height: 932px;
+  width: 430px;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 135px;
+  margin-left: 24px;
+}
+
+.cardBackground {
+    height: 416px;
+    width: 398px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 16px;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 88px;
+}
+
+.innerContainer {
     display: flex;
     flex-direction: column;
-    margin-top: 0em;
-  }
-  
-  
+    align-items: center;
+    margin-top: 16px;
+}
+
+.innerContainer h2 {
+  font-family: 'HindSemiBold';
+  font-size: 1.5em;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.innerContainer button {
+
+    height: 48px;
+    width: 223px;
+    background-color: var(--yellow);
+    border: none;
+    border-radius: 10px;
+    font-family: 'HindBold';
+    font-size: 1em;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: -8px;
+} 
+
+.innerContainer p {
+  font-family: 'Hind';
+  font-size: 1em;
+  color: black;
+}
+
+.text1 {
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.orContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: -16px;
+}
+
+.orContainer:before,
+.orContainer:after {
+  content: '';
+  flex: 0 1 95px;
+  border-bottom: 2px solid #000;
+}
+
+.orContainer:before {
+  margin-right: .5em;
+}
+
+.orContainer:after {
+  margin-left: .5em;
+}
+
+.sigininIcons {
+  display: flex;
+  justify-content: column;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+.icon {
+  margin-left: 12px;
+  margin-right: 12px;
+}
