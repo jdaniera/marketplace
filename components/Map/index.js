@@ -21,11 +21,9 @@ export default function Map() {
   }, []);
 
   async function initMap() {
-
-
-
+    // the location
     const position = { lat: 49.268421, lng: -123.101623 };
-
+    // request needed libraries
     const { Map } = await google.maps.importLibrary("maps");
 
     const map = new Map(document.getElementById("map"), {
