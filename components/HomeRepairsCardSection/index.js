@@ -16,6 +16,7 @@ export default function HomeRepairsCardSection() {
                         rating="★★★★☆"
                         profession="Plumber"
                         price="$20 / hour"
+                        id='jamesPlunk'
                         />
                     </Link>
                 </div>
@@ -27,6 +28,7 @@ export default function HomeRepairsCardSection() {
                     rating="★★★★★"
                     profession="Painter"
                     price="$17 / hour"
+                    id='tiffanySprout'
                     />
                 </div>
                 <div className={styles.repairsCard}>
@@ -37,6 +39,7 @@ export default function HomeRepairsCardSection() {
                     rating="★★★★☆"
                     profession="Drywaller"
                     price="$27 / hour"
+                    id='darioRomano'
                     />
                 </div>
                 <div className={styles.repairsCard}>
@@ -47,6 +50,7 @@ export default function HomeRepairsCardSection() {
                     rating="★★★☆☆"
                     profession="Electrician"
                     price="$25 / hour"
+                    id='chrisSpark'
                     />
                 </div>
                 <div className={styles.repairsCard}>
@@ -57,6 +61,7 @@ export default function HomeRepairsCardSection() {
                     rating="★★★☆☆"
                     profession="Handyman"
                     price="$20 / hour"
+                    id='joseDominguez'
                     />
                 </div>
             </div>

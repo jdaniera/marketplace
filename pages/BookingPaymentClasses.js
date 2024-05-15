@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Confirmation from '@/components/Confirmation';
 import { useState } from 'react';
 
-export default function BookingPayment() {
+export default function BookingPaymentClasses() {
 
   const [showConfirmation, setShowConfirmation] = useState(false);
   const headerTitle = 'Booking';
@@ -38,14 +38,14 @@ export default function BookingPayment() {
                 </div>  
 
                 <div className={styles.plumbingServiceContainer}>
-                    <p className={styles.serviceTitle}>Plumbing Service</p>
+                    <p className={styles.serviceTitle}>Pottery Class</p>
                     <div className={styles.plumbingServiceInnerContainer}>
                         <div className={styles.group1}>
-                            <p>January 1st</p>
-                            <p><span className={styles.spanLighterGrey}>12:00 PM - 1:30 PM</span></p>
+                            <p>September 10th, 2024</p>
+                            <p><span className={styles.spanLighterGrey}>10:00 Am - 1:00 PM</span></p>
                         </div>
                         <div className={styles.lastLine}>
-                        <p>510 Clark Dr. Vancouver, B.C, V5L 3H7<span className={styles.price}>$20.00/Hr</span></p>
+                        <p>West 4th street, Vancouver, B.C, V5L 3H7<span className={styles.price}>$60.00</span></p>
                         </div>
                     </div>
                 </div>

@@ -16,7 +16,7 @@ export default function TabBar() {
         }
         if (href === '/Services' && (router.pathname === '/Mentorship' || router.pathname === '/Services' || router.pathname === '/Ansa')) {
             return true;
-        } else if (href === '/Classes' && (router.pathname === '/Classes' || router.pathname === '/ClassInfo' || router.pathname === '/ClassesAll')) {
+        } else if (href === '/Classes' && (router.pathname === '/Classes' || router.pathname === '/ClassInfo' || router.pathname === '/ClassesAll'|| router.pathname === '/BookingPaymentClasses')) {
             return true; 
         }
             return false;
