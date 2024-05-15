@@ -2,7 +2,15 @@
     background-color: var(--teal);
     height: 932px;
     width: 430px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -100;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 
 .topText {
     padding-top: 50px;
@@ -31,6 +39,8 @@
     margin-top: 32px;
 }
 
+
+
 .image {
     padding-top: 50px;
     display: flex;
@@ -58,3 +68,60 @@
     margin-top: 32px;
     box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 }
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  .fadeIn {
+    opacity: 0; 
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  .fadeIn1 {
+    animation-delay: 0.5s;
+  }
+  
+  .fadeIn2 {
+    animation-delay: 1.5s;
+  }
+  
+  .fadeIn3 {
+    animation-delay: 3s;
+  }
+  .fadeIn4 {
+    animation-delay: .5s;
+  }
+  .fadeIn5 {
+    animation-delay: 1.5s;
+  }
+    .fadeIn6 {
+        animation-delay: 1.5s;
+    }
+  
+  @keyframes fadeOut {  
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-420px);}
+  }
+  
+  .fadeOut {
+    animation-name: fadeOut;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+  }
+  
+  .bottomText {
+    font-family: 'HindBold';
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 400px;
+  }
