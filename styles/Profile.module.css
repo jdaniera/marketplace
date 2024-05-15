@@ -260,6 +260,10 @@
     text-align: center;
 }
 
+.reviewBubbles {
+    margin: 0em;
+}
+
 .bubble1 {
     background-color: var(--yellow);
     font-family: "HindSemiBold";
