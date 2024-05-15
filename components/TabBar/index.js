@@ -11,11 +11,9 @@ export default function TabBar() {
     // }
 
     const isActive = (href) => {
-        // Check if the current route matches the provided href
         if (router.pathname === href) {
             return true;
         }
-        // Highlight "Services" when navigating to the mentor page or when already on the services page
         if (href === '/Services' && (router.pathname === '/Mentorship' || router.pathname === '/Services' || router.pathname === '/Ansa')) {
             return true;
         } else if (href === '/Classes' && (router.pathname === '/Classes' || router.pathname === '/ClassInfo' || router.pathname === '/ClassesAll')) {
