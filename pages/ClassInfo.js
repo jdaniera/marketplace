@@ -3,6 +3,7 @@ import Image from 'next/image';
 import TabBar from '@/components/TabBar';
 import NavBar from '@/components/NavBar';
 import Link from 'next/link';
+import ButtonBox from '@/components/ButtonBox';
 
 export default function ClassInfo() {
 
@@ -48,8 +49,8 @@ export default function ClassInfo() {
                                     </div>
                                 </div>
                             </div>
-                            <div className={styles.classInfoButton}>
-                                <button>Enroll Now</button>
+                            <div className={styles.bookButton}>
+                            <ButtonBox buttonText="Enroll Now" link="/BookingPaymentClasses" />
                             </div>
                             <div className={styles.classInfoDescription}>
                                 <div className={styles.classInfoDecriptionContent}><p>Date:<span>September 10th, 2024</span></p></div>
