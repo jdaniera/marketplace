@@ -38,8 +38,8 @@ export default function MentorForm({ }) {
                                 <div className={styles.name}><p>Jalen Smith</p></div>
                             </div>
                         </div>  
+                    <hr/>
                 </div>
-                <hr/>
 
                 <form action="/submit" method="post" className={styles.formContainer}>
                 
@@ -54,7 +54,6 @@ export default function MentorForm({ }) {
 
                     <label for="reasons">Reasons for Application:</label>
                     <textarea id="reasons" name="reasons" placeholder='Enter Your Reasons' required></textarea>
-
                     <div className={styles.commContainer}>
                         <p>Preferred Communication Channel:</p>
                         <div className={styles.buttonContainer}>
