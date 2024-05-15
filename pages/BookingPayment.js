@@ -29,31 +29,34 @@ export default function BookingPayment() {
             <div className={styles.mainInnerContainer}>
 
                 <div className={styles.pageHeader}><p>Book Now</p></div>
-                
-                <div className={styles.profileContainer}>
-                    <Image className={styles.pfp} src="/images/bookingPaymentImages/jalenPFP.svg" alt="Jalen smith pfp" width={58} height={58} />
-                    <p className={styles.name}>Jalen Smith</p>
-                    <p className={styles.editButton}>Edit</p>
+                <div className={styles.editButton}><p>Edit</p></div>
+                <div className={styles.profileContianer}>
+                    <div className={styles.profileInnerContainer}>
+                        <div className={styles.pfp}><Image src="/images/bookingPaymentImages/jalenPFP.svg" alt="Jalen smith pfp" width={58} height={58} /></div>
+                        <div className={styles.name}><p>Jalen Smith</p></div>
+                    </div>
                 </div>  
 
                 <div className={styles.plumbingServiceContainer}>
                     <p className={styles.serviceTitle}>Plumbing Service</p>
-                    <div className={styles.group1}>
-                        <p>January 1st</p>
-                        <p><span className={styles.spanLighterGrey}>12:00 PM - 1:30 PM</span></p>
+                    <div className={styles.plumbingServiceInnerContainer}>
+                        <div className={styles.group1}>
+                            <p>January 1st</p>
+                            <p><span className={styles.spanLighterGrey}>12:00 PM - 1:30 PM</span></p>
+                        </div>
+                        <div className={styles.lastLine}>
+                        <p>510 Clark Dr. Vancouver, B.C, V5L 3H7<span className={styles.price}>$60.00</span></p>
+                        </div>
                     </div>
-                    <p>510 Clark Dr. Vancouver, B.C, V5L 3H7</p>
-                    <p className={styles.price}>$60.00</p>
                 </div>
 
-                <div className={styles.cardInfo}>
                     <div className={styles.paymentHeader}>
-                        <p>Payment</p>
-                        <p className=   {styles.editAddButton}>Add / Edit</p>
+                        <p>Payment<span className={styles.editAddButton2}> Add / Edit</span></p>
                     </div>
+                    <div className={styles.cardInfo}>
                     <div className={styles.addingCard}>
-                        <Image className={styles.addCardIcon} src="/images/bookingPaymentImages/cardIcon.svg" alt="Add card icon" width={24} height={26} />
-                        <p>Add Credit / Debit Card</p>
+                        <div><Image src="/images/bookingPaymentImages/cardIcon.svg" alt="Add card icon" width={24} height={26} /></div>
+                        <div><p>Add Credit / Debit Card</p></div>
                     </div>
                     <div className={styles.cardInfoContainer}>
                         <div className={styles.group2}>
@@ -64,7 +67,9 @@ export default function BookingPayment() {
                             <p><span className={styles.spanLighterGrey2}>Card Number</span></p>
                             <p>4502 9983 5174 4576</p>
                         </div>
-                        <p>Expiry Date</p>
+                        <div className={styles.expiryDateHeader}>
+                            <p>Expiry Date</p>
+                        </div>
                         <div className={styles.expiryDate}>
                             <p><span className={styles.spanLighterGrey2}>Month</span></p>
                             <p><span className={styles.spanLighterGrey2}>Year</span></p>
@@ -82,11 +87,11 @@ export default function BookingPayment() {
                         <input type="checkbox" id="saveCard" name="saveCard" value="saveCard"/>
                         <p>Remember card for future purchases</p>
                     </div>
-                    <div className={styles.payButtonContainer}>
+                </div>
+                <div className={styles.payButtonContainer}>
                         <p className={styles.payButton} onClick={() => setShowConfirmation(true)}>Pay Now</p>
                     </div>
                     {showConfirmation && <Confirmation className={showConfirmation ? 'confirmation show' : 'confirmation'} />}
-                </div>
             </div>
         </main>
         <TabBar/>

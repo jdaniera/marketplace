@@ -5,43 +5,59 @@
   .main {
     display: flex;
     justify-content: center;
+    background-color: var(--page-grey);
   }
   
   .mainInnerContainer {
-    max-width: 397px;
+    width: 397px;
     display: flex;
     flex-direction: column;
+    
     margin-top: 0em;
   }
 
+.profileInnerContainer {
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2em;
+    align-items: center;
+    background-color: var(--white);
+}
 .profileContainer {
-    width: 398px;
-    height: auto;
+    display: flex;
 }
 
 .pfp {
-    margin-left: 24px;
+    padding-left: 1em;
+    padding-top: 0em;
 }
 
 .pageHeader {
-    font-family: "HindBold";
-    font-size: 16pt;
+    margin-top: 6em;
     text-align: center;
+}
+.pageHeader p{
+    font-family: "HindSemiBold";
+    font-size: 16pt;
+    margin: 0em;
+    line-height: 0em;
+
 }
 
 .name {
     font-family: "Hind";
     font-size: 12pt;
-    position: absolute;
-    transform: translate(100px, -60px);
 }
 
 .editButton {
+    text-align: right;
+}
+.editButton p{
     color: #3498db;
     font-family: "Hind";
-    position: absolute;
-    transform: translateY(-100px);
-    margin-left: 363px;
+    margin: 0em;
 }
 .editAddButton {
     color: #3498db;
@@ -52,18 +68,50 @@
     font-size: 12pt !important;
 }
 
+.editAddButton2 {
+    color: #3498db;
+    font-family: "Hind";
+    position: absolute;
+    margin-left: 16em;
+    font-size: 12pt !important;
+}
+
 .serviceTitle   {
     font-family: "Hind";
-    font-size: 16pt;
+    font-size: 1.2em;
     text-align: center;
+    margin: 0em;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
 }
 
 .plumbingServiceContainer {
-    font-family: "Hind";
+    font-family: 'Hind';
+}
+.plumbingServiceInnerContainer {
+    background-color: var(--white);
+    padding-left: 0.5em;
+}
+.price{
+   padding: 0em;
+   padding-left: 5em;
+   margin: 0em;
+   text-align: right;
+   font-family: "HindSemiBold" !important;
 }
 
 .group1 {
-    line-height: .25;
+}
+
+.lastLine {
+    padding-bottom: 0.2em;
+}
+.lastLine p{
+    margin: 0em;
+}
+.group1 p{
+    margin: 0em;
+    padding-top: 0.2em;
 }
 
 .spanLighterGrey {
@@ -71,44 +119,53 @@
     font-family: "Hind";
 }
 
-.price {
-    text-align: right;
-    position: relative;
-    bottom: 42px;
-    font-family: "HindSemiBold" !important;
-}
-
 .paymentHeader {
     font-family: "Hind";
     font-size: 14pt;
-    margin-top: -24px;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+}
+.paymentHeader p{
+    font-family: "Hind";
+    font-size: 14pt;
+    margin: 0em;
 }
 
-.addCardIcon {
-    margin-left: 24px;
+.addingCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1em;
+    padding-left: 1em;
+    margin-top: 0.5em;
 }
 
 .addingCard p {
     font-family: "Hind";
-    position: absolute;
-    transform: translate(60px, -45px);
+    margin: 0em;
+
 }
 
 .spanLighterGrey2 {
     color: #BDBDBD;
     font-family: "Hind";
-
 }
+
 
 .cardInfoContainer {
     font-family: "Hind";
 }
 
+.cardInfo{
+    background-color: var(--white);
+}
+
 .group2 {
-    line-height: .25;
-    margin-top: 36px;
     margin-left: 24px;
-    margin-bottom: 24px;
+}
+.group2 p{
+    margin-top: 0.1em;
+    margin-bottom: 0.3em;
 }
 
 .expiryDate {
@@ -117,11 +174,20 @@
     grid-template-rows: auto auto;
     line-height: .01;
     margin-left: 24px;
-    margin-bottom: 24px;
+}
+.expiryDateHeader p{
+    margin-left: 1em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-family: 'HindMedium';
+
 }
 
 .cvvContainer {
     margin-left: 24px;
+}
+.cvvContainer p{
+    margin:0em;
 }
 
 .rememberCard input {
@@ -158,6 +224,10 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.payButton:hover {
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
 .payButtonContainer {

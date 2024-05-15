@@ -1,22 +1,53 @@
+.iphoneFrame {
+    width: var(--iphone-width);
+    min-height: var(--iphone-height);
+    background-color: var(--white);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7em;
+}
+
+.mainInnerContainer {
+        width: 397px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0em;
+}
+
 .pageTitles {
-    font-family: "Hind";
+    font-family: "HindSemiBold";
     font-size: 16pt;
-    font-weight: bold;
     color: #000000;
-    margin-left: 16px;
     margin-top: 75px;
     line-height: 1;
 }
 
-.subtitle {
-    font-size: 14pt !important;
+.pageSubTitles p{
+    font-size: 14pt;
+    font-family: 'HindSemiBold';
+    padding: 0em;
+    margin: 0em;
+}
+.pageSubTitles {
+
 }
 
 .datePicker {
     display: flex;
     justify-content: center;
     align-self: center;
-    margin-top: 24px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.calender {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .timePicker {
@@ -32,56 +63,44 @@
     filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
 }
 
+.spacingLineContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .spacingLine {
     width: 312px;
-    height: 2px;
+    height: 1px;
     background-color: var(--black);
     margin-top: 16px;
     border-radius: 50px;
-    position: relative;
-    left: 59px;
 }
 
-.detailsTitle {
-    font-family: "Hind";
+.detailsTitle p{
+    font-family: "HindSemiBold";
     font-size: 14pt;
-    font-weight: bold;
     color: #000000;
-    margin-left: 16px;
     line-height: 1;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.describeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .describe {
     height: 128px;
-    width: 352px;
-    margin-top: 8px;
+    width: 390px;
+    margin-top: 0em;
     margin-bottom: 16px;
-    height: 104px;
-    width: 398px;
     font-family: "Hind";
     font-size: 11pt;
     border-radius: 10px;
     border: none;
     filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
 
-}
-
-.link {
-    text-decoration: none;
-    color: black;
-}
-
-.bookButton {
-    background-color: var(--yellow);
-    border-radius: 10px;
-    width: 223px;
-    height: 48px;
-    font-family: "HindSemiBold";
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 16px;
-    margin-left: 100px;
 }

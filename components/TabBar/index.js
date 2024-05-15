@@ -6,9 +6,22 @@ import { useRouter } from 'next/router'
 export default function TabBar() {
     const router = useRouter();
 
+    // const isActive = (href) => {
+    //     return router.pathname === href;
+    // }
+
     const isActive = (href) => {
-        return router.pathname === href;
-        // checks to see if current page's path (useRouter().pathname) is === given path
+        // Check if the current route matches the provided href
+        if (router.pathname === href) {
+            return true;
+        }
+        // Highlight "Services" when navigating to the mentor page or when already on the services page
+        if (href === '/Services' && (router.pathname === '/Mentorship' || router.pathname === '/Services' || router.pathname === '/Ansa')) {
+            return true;
+        } else if (href === '/Classes' && (router.pathname === '/Classes' || router.pathname === '/ClassInfo' || router.pathname === '/ClassesAll')) {
+            return true; 
+        }
+            return false;
     }
 
     return(

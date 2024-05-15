@@ -41,6 +41,7 @@
     color: var(--black);
     margin-top: 3.5em;
     line-height: 0.9em;
+    
 }
 
 .category img {
@@ -50,4 +51,8 @@
 
 .homeRepairText {
     padding-top: 0.2em;
+}
+
+.homeRepairText {
+    text-decoration: none;
 }

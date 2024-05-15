@@ -1,5 +1,6 @@
 import styles from './CategoriesHome.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function CategoriesHome() {
     return (
@@ -12,10 +13,12 @@ export default function CategoriesHome() {
                     <Image src="/images/homeIcons/icon1.svg" alt="icon 1" width={53} height={62} />
                     <span>Tutoring</span>
                 </button>
+                <Link href="/HomeRepairs" className={styles.homeRepairText}>
                 <button className={styles.category}>
-                    <Image src="/images/homeIcons/icon2.svg" alt="icon 2" width={53} height={62} />
-                    <span className={styles.homeRepairText}>Home <br/> Repair</span>
+                   <Image src="/images/homeIcons/icon2.svg" alt="icon 2" width={53} height={62} />
+                    <span>Home <br/> Repair</span>
                 </button>
+                </Link>
                 <button className={styles.category}>
                     <Image src="/images/homeIcons/icon3.svg" alt="icon 3" width={52} height={65} />
                     <span>Outdoor</span>

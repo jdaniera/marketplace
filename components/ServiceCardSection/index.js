@@ -53,7 +53,7 @@ export default function ServiceCardSection() {
                         </div>
                         <div> 
                         <ServiceCard
-                            title='Tutoring'
+                            title='Elementary Math Tutoring'
                             image='/images/serviceCardImages/tutoring.svg'
                             alt='Couch Image'
                             buttonText='More Info'

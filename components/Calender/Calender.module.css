@@ -5,8 +5,14 @@
     height: 331px;
 }
 
-.highlight {
+.highlight{
     background-color: var(--yellow);
-    color: var(--black);    
+    color: var(--white);    
+    border-radius: 10px;
+}
+
+.highlight:active{
+    background-color: var(--teal);
+    color: var(--white);    
     border-radius: 10px;
 }

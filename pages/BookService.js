@@ -3,6 +3,7 @@ import styles from '@/styles/BookService.module.css';
 import NavBar from '@/components/NavBar';
 import Link from 'next/link';
 import Calender from '@/components/Calender';
+import ButtonBox from '@/components/ButtonBox';
 
 export default function BookService() {
 
@@ -25,8 +26,10 @@ export default function BookService() {
         <main className={`${styles.main}`}>
             <div className={styles.mainInnerContainer}>
                 <div className={styles.pageTitles}>
-                    <p>Please fill out the following:</p>
-                    <p className={styles.subtitle}>Select a Date and Time:</p>
+                    <p>Please fill out the following</p>
+                </div>
+                <div className={styles.pageSubTitles}>
+                    <p>Select a Date and Time:</p>
                 </div>
                 <div className={styles.datePicker}>
                     <input className={styles.timePicker} type="time" id="date" name="date" />
@@ -34,17 +37,17 @@ export default function BookService() {
                 <div className={styles.calender}>
                     <Calender/>
                 </div>
+                <div className={styles.spacingLineContainer}>
                 <div className={styles.spacingLine}></div>
+                </div>
                 <div className={styles.detailsTitle}>
                     <p>Describe Issue:</p>
                 </div>
-                <div>
-                    <input className={styles.describe} type='text' placeholder="Please describe your issue in as much detail as you can:"></input>
+                <div className={styles.describeContainer}>
+                    <input className={styles.describe} type='text' placeholder="Describe your issue in detail"></input>
                 </div>
                 <div className={styles.bookButton}>
-                    <Link className={styles.link} href="/BookingPayment">
-                        <p>Book Now</p>
-                    </Link>
+                    <ButtonBox buttonText="Book Now" link="/BookingPayment" />
                 </div>
             </div>
         </main>
