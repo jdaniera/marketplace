@@ -24,6 +24,7 @@ export default function ServiceCardSection() {
                             alt='Couch Image'
                             buttonText='More Info'
                             display= 'display: none;'
+                            id='furnitureBuilding'
                         />
                         </div>
                         <div> 
@@ -33,6 +34,7 @@ export default function ServiceCardSection() {
                             alt='Couch Image'
                             buttonText='More Info'
                             link='/HomeRepairs'
+                            id='homeRepairs'
                             />
                         </div>
                         <div> 
@@ -41,6 +43,7 @@ export default function ServiceCardSection() {
                             image='/images/serviceCardImages/outdoorWork.svg'
                             alt='Couch Image'
                             buttonText='More Info'
+                            id='outdoorWork'
                         />
                         </div>
                         <div>
@@ -49,6 +52,7 @@ export default function ServiceCardSection() {
                             image='/images/serviceCardImages/automotive.svg'
                             alt='Couch Image'
                             buttonText='More Info'
+                            id='automotiveWork'
                         />
                         </div>
                         <div> 
@@ -57,6 +61,7 @@ export default function ServiceCardSection() {
                             image='/images/serviceCardImages/tutoring.svg'
                             alt='Couch Image'
                             buttonText='More Info'
+                            id='tutoring'
                         />
                         </div>
                         <div>
@@ -65,6 +70,7 @@ export default function ServiceCardSection() {
                             image='/images/serviceCardImages/indoorCleaning.svg'
                             alt='Couch Image'
                             buttonText='More Info'
+                            id='indoorCleaning'
                         />
                         </div>
                         <div>
@@ -73,6 +79,7 @@ export default function ServiceCardSection() {
                             image='/images/serviceCardImages/moving.svg'
                             alt='Couch Image'
                             buttonText='More Info'
+                            id='moving'
                         />
                         </div>
                         <div>
@@ -81,6 +88,7 @@ export default function ServiceCardSection() {
                             image='/images/serviceCardImages/dogWalker.svg'
                             alt='Couch Image'
                             buttonText='More Info'
+                            id='dogWalking'
                         />
                         </div>
                     </div>
