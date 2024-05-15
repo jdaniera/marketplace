@@ -1,55 +1,46 @@
 import { useState } from 'react';
 import styles from './MentorForm.module.css'
 import Image from 'next/image'
+import Confirmation from '@/components/Confirmation';
 
-export default function MentorForm({ mentorName, userName, }) {
+export default function MentorForm({ }) {
 
-    const applicantProfiles = [
-        { name: 'username' },
-        { name: "I'm applying for someone else." }
-    ];
+    const [showConfirmation, setShowConfirmation] = useState(false);
 
-    const preferredComm = [
-        {comm: 'Email'},
-        {comm: 'In Person'},
-        {comm: 'Call'},
-        {comm: 'Other'},
-    ]
+    const preferredCommOptions = [
+        { label: 'Email', icon: '/images/mentor-buttons/email.svg' },
+        { label: 'In Person', icon: '/images/mentor-buttons/in-person.svg' },
+        { label: 'Call', icon: '/images/mentor-buttons/call.svg' },
+        { label: 'Other', icon: '/images/mentor-buttons/other.svg' }
+     ];
     
-    // Default profile = user's profile
-    const [selectedApplicant, setSelectedApplicant] = useState(applicantProfiles[0]); 
-    
-    const [selectedComm, setSelectedComm] = useState();
+    const [selectedComm, setSelectedComm] = useState([]);
 
-    const handleApplicantSwitch = (e) => {
-        const selectedIndex = e.target.value;
-        setSelectedApplicant(applicantProfiles[selectedIndex])
-    };
-
-    const handleSelectComm = (e) => {
-        const selectedIndex = parseInt(e.target.value);
-        setSelectedComm(preferredComm[selectedIndex]);
+    const handleSelectComm = (comm) => {
+        if (selectedComm.includes(comm)) {
+            setSelectedComm(selectedComm.filter(option => option !== comm));
+        } else {
+            setSelectedComm([...selectedComm, comm]);
+        }
     };
 
     return(
         <>
             <div className={styles.outerFormContainer}>
                 <div className={styles.mentorName}>
-                    <h3>Application to be mentored by: {mentorName}</h3>
+                    <div className={styles.pageHeader}><p>Mentee Application</p></div>
                 </div>
                 <div>
-                    <p>Applicant:</p>
-                    <select id='applicant' name='applicant' value={applicantProfiles.indexOf(selectedApplicant)} onChange={handleApplicantSwitch}>
-                        {applicantProfiles.map((profile, index) => (
-                            <option key={index} value={index}>{profile.name}</option>
-                        ))}
-                    </select>
-                </div>
-                <div className={styles.applicant}>
-                    <Image/>
-                    <p>{userName}</p>
+                    <div className={styles.editButton}><p>Edit</p></div>
+                        <div className={styles.profileContainer}>
+                            <div className={styles.profileInnerContainer}>
+                                <div className={styles.pfp}><Image src="/images/bookingPaymentImages/jalenPFP.svg" alt="Jalen smith pfp" width={58} height={58} /></div>
+                                <div className={styles.name}><p>Jalen Smith</p></div>
+                            </div>
+                        </div>  
                 </div>
                 <hr/>
+
                 <form action="/submit" method="post" className={styles.formContainer}>
                 
                     <label for="name">Preferred Pronouns:</label>
@@ -65,22 +56,26 @@ export default function MentorForm({ mentorName, userName, }) {
                     <textarea id="reasons" name="reasons" placeholder='Enter Your Reasons' required></textarea>
 
                     <div className={styles.commContainer}>
-                        <p>Preferred Communication Channel</p>
-                            {preferredComm.map((comm, index) => (
-                                <label for="communication" key={index} className={styles.radioButtons}>
-                                    <input
-                                        type="radio"
-                                        name="communication"
-                                        value={index}
-                                        checked = {selectedComm === index} 
-                                        onChange={handleSelectComm}
-                                    />
-                                    {comm.comm}
-                                </label>
+                        <p>Preferred Communication Channel:</p>
+                        <div className={styles.buttonContainer}>
+                            {preferredCommOptions.map((option, index) => (
+                                <button 
+                                    key={index} 
+                                    className={selectedComm.includes(option.label) ? `${styles.selectedButton} ${styles.circularButton}` : `${styles.button} ${styles.circularButton}`} 
+                                    onClick={() => handleSelectComm(option.label)}
+                                >
+                                    <img src={option.icon} alt={option.label} />
+                                    <p>{option.label}</p>
+                                </button>
                             ))}
-                        </div> 
-
-                    <button type="submit">Submit</button>
+                        </div>
+                    </div> 
+                    <div className={styles.submitButtonOuterContainer}>
+                        <div className={styles.submitButtonInnerContainer}>
+                            <button type="submit" onClick={() => setShowConfirmation(true)}>Submit Application</button>
+                            {showConfirmation && <Confirmation className={showConfirmation ? 'confirmation show' : 'confirmation'} />}
+                        </div>
+                    </div>
                 </form>
             </div>
         </>
