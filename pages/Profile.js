@@ -47,7 +47,7 @@ export default function Profile() {
                         <p>4.9</p>
                       </div>
                       <div className={styles.ratingBody}>
-                        <p>ratings(12)</p>
+                        <p>ratings (12)</p>
                       </div>
                     </div>
                     <div className={styles.ratingSection1}>
@@ -78,7 +78,7 @@ export default function Profile() {
                 </div>
                 <div className={styles.spacingLine5}></div>
                 <div className={styles.reviewSummary}>
-                    <p>James' Review Summary</p>
+                    <p>Jalens Review Summary</p>
                 </div>
                 <div className={styles.reviewBubbles}>
                     <div className={styles.bubble1}><p>Friendliness (8)</p></div>
@@ -91,10 +91,9 @@ export default function Profile() {
                 </div>
                 <div className={styles.contactInfo}>
                   <div className={styles.contactHeading}><p>Contact Info</p></div>
-                  <div className={styles.body2}> <p><span className={styles.span2}>Phone</span>(604) 222 4444</p></div>
-                  <div className={styles.body2}> <p><span className={styles.span2}>Email</span>jalen134@gmail.com</p></div>
-                  <div className={styles.body2}> <p><span className={styles.span2}>Phone</span>(604) 222 4444</p></div>
-                  <div className={styles.body2}> <p><span className={styles.span2}>Phone</span>(604) 222 4444</p></div>
+                  <div className={styles.body2}> <p><span className={styles.span2}>Phone:</span>(604) 222 4444</p></div>
+                  <div className={styles.body2}> <p><span className={styles.span2}>Email:</span>jalen134@gmail.com</p></div>
+                  <div className={styles.body2}> <p><span className={styles.span2}>Contact Preference:</span>“Call/text before 9pm”</p></div>
                 </div>
             </div>
           </main>

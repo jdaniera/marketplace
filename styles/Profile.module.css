@@ -233,10 +233,11 @@
 }
 
 .bottomContainer {
-    margin-top: 20px;
+    margin-top: 1em;
     line-height: .75;
     font-family: "Hind";
     max-width: 398px;
+    height: 275px;
     
 }
 
@@ -249,7 +250,7 @@
 .spacingLine5 {
     width: 398px;
     height: 2px;
-    background-color: #b0b0b0;
+    background-color: var(--med-grey);
     margin: 0 auto;
     border-radius: 10px;
 }
@@ -262,6 +263,7 @@
 
 .reviewBubbles {
     margin: 0em;
+    /* border-bottom: 2px solid var(--med-grey); */
 }
 
 .bubble1 {
@@ -361,10 +363,13 @@
     color: black;
 }
 
-.contactHeading {
+.contactHeading p{
     font-family: "HindSemiBold";
     font-size: 1.2em;
     text-align: left;
+    padding: 0em;
+    margin: 0em;
+    margin-top: 0.5em;
 }
 
 .span2 {
@@ -378,4 +383,17 @@
     font-family: "Hind";
     font-size: 1em;
     line-height: 0.5;
+}
+
+.body2 p{
+    font-family: "Hind";
+    font-size: 1em;
+    line-height: 1em;
+    padding: 0.4em;
+    margin: 0em;
+}
+
+.contactInfo {
+    border-bottom: 2px solid var(--med-grey);
+    border-top: 2px solid var(--med-grey);
 }
