@@ -67,11 +67,15 @@
 
 .buttonContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;   
 }
 
 .commContainer p {
     font-family: 'hindSemiBold';
+}
+
+.commContainer {
+    width: 360px;  
 }
 
 .button {
