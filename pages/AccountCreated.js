@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '@/styles/AccountCreated.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function AccountCreated() {
 
@@ -32,7 +33,9 @@ export default function AccountCreated() {
                         <p className={styles.text}><span className={styles.span}>E-mail:</span> jalensmith@gmail.com</p>
                         <p className={styles.text}><span className={styles.span}>Phone:</span> <span className={styles.span2}>+1</span> (604) 563-5242</p>
                         <button className={styles.button}>Edit Info</button>
+                        <Link href="/Onboarding1">
                         <button className={styles.button2}>Looks Good!</button>
+                        </Link>
                 </div>
                 </div>
               </div>
