@@ -68,6 +68,34 @@ export default function Profile() {
                     </div>
                   </div>
                 </div>
+                <div className={styles.bottomContainer}>
+              <div className={styles.detailsHeader}>
+                  <p>Details</p>
+              </div>
+                <div className={styles.detailsContainer}>
+                    <p>Lives in <span className={styles.span}>Mount Pleasant</span> Neighborhood</p>
+                    <p>Speaks <span className={styles.span}>English</span> and <span className={styles.span}>Hausa</span></p>
+                </div>
+                <div className={styles.spacingLine5}></div>
+                <div className={styles.reviewSummary}>
+                    <p>James' Review Summary</p>
+                </div>
+                <div className={styles.reviewBubbles}>
+                    <div className={styles.bubble1}><p>Friendliness (8)</p></div>
+                    <div className={styles.bubble2}><p>Punctuality (4)</p></div>
+                    <div className={styles.bubble3}><p>Clarity (6)</p></div>
+                    <div className={styles.bubble4}><p>Communication (5)</p></div>
+                    <div className={styles.bubble5}><p>Prompt Payment (3)</p></div>
+                </div>
+                <div className={styles.spacingLine6}></div>
+                </div>
+                <div className={styles.contactInfo}>
+                  <div className={styles.contactHeading}><p>Contact Info</p></div>
+                  <div className={styles.body2}> <p><span className={styles.span2}>Phone</span>(604) 222 4444</p></div>
+                  <div className={styles.body2}> <p><span className={styles.span2}>Email</span>jalen134@gmail.com</p></div>
+                  <div className={styles.body2}> <p><span className={styles.span2}>Phone</span>(604) 222 4444</p></div>
+                  <div className={styles.body2}> <p><span className={styles.span2}>Phone</span>(604) 222 4444</p></div>
+                </div>
             </div>
           </main>
         <TabBar/>
