@@ -1,69 +1,63 @@
-import Image from "next/image"
-import styles from './SavedButton.module.css'
-import { useEffect, useState } from "react"
+import Image from 'next/image';
+import styles from './SavedButton.module.css';
+import { useEffect, useState } from 'react';
 
-export default function SavedButton({ prompt }) {
+export default function SavedButton({ title, subtitle, image, alt, link, buttonText, query, id }) {
+  const [saved, setSaved] = useState(false);
 
-    const [load, setLoad] = useState(false);
-    const [saved, setSaved] = useState(false);
+  useEffect(() => {
+    const savedItemsArray = JSON.parse(localStorage.getItem('savedItems') || '[]');
+    const isSaved = savedItemsArray.some(item => item.id === id);
+    setSaved(isSaved);
+  }, [id]);
+
+  const toggleSaved = () => {
+    const savedItemsArray = JSON.parse(localStorage.getItem('savedItems') || '[]');
+    let updatedItemsArray;
+    // use let so it can update itself each time an item is added
+
+    if (saved) {
+        updatedItemsArray = savedItemsArray.filter(item => item.id !== id);
+      // check to see if item with the same prompt is already on saved list
+    } else {
+        updatedItemsArray = [...savedItemsArray, 
+          { 
+              title,
+              subtitle,
+              image,
+              alt,
+              link,
+              id,
+              buttonText,
+              query,
+          }];
+      }
+
+    localStorage.setItem('savedItems', JSON.stringify(updatedItemsArray));
+    setSaved(!saved);
+  };
+
+  return (
+    <button
+      className={styles.savedButton}
+      onClick={toggleSaved}
+    >
+      {saved ? (
+        <Image
+          src="/images/classesFeaturedCard/heartIconFilled.svg"
+          width={16.7}
+          height={15.5}
+          alt="Heart Icon"
+        />
+      ) : (
+        <Image
+          src="/images/classesFeaturedCard/heartIcon.svg"
+          width={16.7}
+          height={15.5}
+          alt="Heart Icon"
+        />
+      )}
+    </button>
     
-
-    const sendPrompt = (e, prompt) => {
-        console.log("Sending prompt:", prompt)
-    }
-
-    const addToSaved = () => {
-
-        // convert string to object to add multiple items to local storage in array
-        var savedItemsArray = JSON.parse(
-            localStorage.getItem('savedItems') || '[]'
-        );
-
-        var savedItems = {
-            promptKey: prompt,
-        }
-
-        if (prompt){
-            savedItemsArray.push(savedItems);
-
-            // local storage have to convert object to string 
-            localStorage.setItem('savedItems', JSON.stringify(savedItemsArray))
-        }
-
-        const toggleSaved = () => {
-            sendPrompt(prompt);
-            setSaved(!saved);
-            console.log("saved", saved);
-            addToSaved(); // call saveItems function when saved button is clicked
-            console.log("button clicked"); // check if button click works
-        }
-    }
-
-    return(
-        <>
-            <button
-                className={styles.savedButton}
-                onClick={(e) => {
-                    sendPrompt(e, prompt)
-                    toggleSaved()
-                    setLoad(true)
-                }}
-            >
-                {saved ? (
-                   <img 
-                    src="/images/classesFeaturedCard/heartIconFilled.svg" 
-                    width={16.7} 
-                    height={15.5} 
-                    alt="Heart Icon" /> )
-                : (
-                    <img 
-                        src="/images/classesFeaturedCard/heartIcon.svg" 
-                        width={16.7} 
-                        height={15.5} 
-                        alt="Heart Icon" /> 
-                )
-                }
-            </button>
-        </>
-    )
-}
+  )
+};

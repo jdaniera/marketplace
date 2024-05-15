@@ -1,0 +1,29 @@
+.iphoneFrame {
+    width: var(--iphone-width);
+    min-height: var(--iphone-height);
+    background-color: var(--white);
+    /* box-shadow: 0 4px 8px 0 var(--med-grey), 0 6px 20px 0 var(--med-grey); */
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7em;
+  }
+  
+  .mainInnerContainer {
+    max-width: 397px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+  }
+
+  .savedCardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 1.5em;
+    column-gap: 15px;
+    max-width: 397px;
+    margin: 0 auto;
+  }

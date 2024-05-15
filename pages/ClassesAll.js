@@ -28,6 +28,7 @@ export default function ClassesAll() {
                                 alt='Pottery Image'
                                 buttonText='More Info'
                                 link='/ClassInfo'
+                                id='pottery-class'
                             />
                         </div>
                         <div> 
@@ -37,6 +38,7 @@ export default function ClassesAll() {
                                 image='/images/classesAll/classAll02.svg'
                                 alt='Drumming Image'
                                 buttonText='More Info'
+                                id='drumming-class'
                             />
                         </div>
                         <div> 
@@ -46,6 +48,7 @@ export default function ClassesAll() {
                                 image='/images/classesAll/classAll03.svg'
                                 alt='Cocktail Mixing Image'
                                 buttonText='More Info'
+                                id='cooking-class'
                             />
                         </div>
                             <div> 
@@ -55,6 +58,7 @@ export default function ClassesAll() {
                                     image='/images/classesAll/classAll04.svg'
                                     alt='Sign Language image'
                                     buttonText='More Info'
+                                    id='asl-class'
                                 />
                             </div>
                             <div>
@@ -64,6 +68,7 @@ export default function ClassesAll() {
                                     image='/images/classesAll/classAll05.svg'
                                     alt='Stand Up Comedy Image'
                                     buttonText='More Info'
+                                    id='comedy-class'
                                 />
                             </div>
                             <div> 
@@ -73,6 +78,7 @@ export default function ClassesAll() {
                                     image='/images/classesAll/classAll06.svg'
                                     alt='Dog Image'
                                     buttonText='More Info'
+                                    id='pottery-class'
                                 />
                             </div>
                             <div>
@@ -82,6 +88,7 @@ export default function ClassesAll() {
                                     image='/images/classesAll/classAll07.svg'
                                     alt='Wine Image'
                                     buttonText='More Info'
+                                    id='wine-tasting-class'
                                 />
                             </div>
                             <div> 
@@ -91,6 +98,7 @@ export default function ClassesAll() {
                                 image='/images/classCard/classCard01.svg'
                                 alt='Ring Making Image'
                                 buttonText='More Info'
+                                id='ring-class'
                             />
                             </div>
                             <div> 
@@ -100,6 +108,7 @@ export default function ClassesAll() {
                                     image='/images/classCard/classCard02.svg'
                                     alt='Knitting Image'
                                     buttonText='More Info'
+                                    id='knitting-class'
                                 />
                             </div>
                             <div> 
@@ -109,6 +118,7 @@ export default function ClassesAll() {
                                     image='/images/classCard/classCard03.svg'
                                     alt='Knitting Image'
                                     buttonText='More Info'
+                                    id='cooking-class'
                                 />
                             </div>
                         </div>
