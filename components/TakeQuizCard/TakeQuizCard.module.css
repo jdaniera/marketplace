@@ -18,7 +18,7 @@
 }
 .takeQuizContent p{
     color: var(--white);
-    font-family: 'hind';
+    font-family: 'Hind';
     font-size: 0.8em;
     margin: 0em;
     padding: 0em;
@@ -27,7 +27,7 @@
 }
 .takeQuizContent h1{
     color: var(--white);
-    font-family: 'hindSemiBold';
+    font-family: 'HindSemiBold';
     margin: 0em;
     margin-top: 0.7em;
     font-size: 1.2em;
@@ -39,7 +39,7 @@
 
 .takeQuizContent button{
     font-size: 1em;
-    font-family: 'hindSemiBold';
+    font-family: 'HindSemiBold';
     border: none;
     background-color: var(--yellow);
     width: 223px;

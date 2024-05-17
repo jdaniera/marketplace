@@ -7,7 +7,7 @@ import TabBar from '@/components/TabBar';
 
 export default function Ansa() {
 
-  const headerTitle = 'Welcome, {user}!';
+  const headerTitle = 'Ansa Odoom';
   const pageLayout = 'layout1';
   const backButton = true;
   const searchBar = true;

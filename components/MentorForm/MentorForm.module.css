@@ -45,11 +45,23 @@
 
 .outerFormContainer {
     font-family: 'Hind';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formInnerContainer {
     background-color: var(--white);
-    padding: 1em 3em 3em 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .formContainer label {
@@ -74,8 +86,14 @@
     font-family: 'hindSemiBold';
 }
 
-.commContainer {
+.commInnerContainer {
     width: 360px;  
+}
+
+.commContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button {
@@ -119,11 +137,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3em;
+    margin-top: 2em;
+
+
 }
 
 
-.submitButtonInnerContainer button {
+.submitButton button {
     border: none;
     background-color: var(--yellow);
     border-radius: 10px;
@@ -131,9 +151,16 @@
     height: 48px;
     font-family: "HindSemiBold";
     font-size: 13pt;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-bottom: 100px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.submitButton {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
 }

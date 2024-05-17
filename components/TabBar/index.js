@@ -14,9 +14,9 @@ export default function TabBar() {
         if (router.pathname === href) {
             return true;
         }
-        if (href === '/Services' && (router.pathname === '/Mentorship' || router.pathname === '/Services' || router.pathname === '/Ansa')) {
+        if (href === '/Services' && (router.pathname === '/Mentorship' || router.pathname === '/Services' || router.pathname === '/Ansa' || router.pathname === '/HomeRepairs' || router.pathname === '/JamesPlunk' || router.pathname === '/BookService' || router.pathname === '/BookingPayment' || router.pathname === '/MentorApply')) {
             return true;
-        } else if (href === '/Classes' && (router.pathname === '/Classes' || router.pathname === '/ClassInfo' || router.pathname === '/ClassesAll'|| router.pathname === '/BookingPaymentClasses')) {
+        } else if (href === '/Classes' && (router.pathname === '/Classes' || router.pathname === '/ClassInfo' || router.pathname === '/ClassesAll'|| router.pathname === '/BookingPaymentClasses' || router.pathname === '/Workshops')) {
             return true; 
         }
             return false;

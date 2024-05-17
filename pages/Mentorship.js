@@ -8,7 +8,7 @@ import MentorshipPageCard from '@/components/MentorshipPageCard';
 
 export default function Home() {
 
-  const headerTitle = 'Welcome, {user}!';
+  const headerTitle = 'Mentorships';
   const pageLayout = 'layout1';
   const backButton = true;
   const searchBar= true;

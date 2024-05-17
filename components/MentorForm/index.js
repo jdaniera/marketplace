@@ -7,6 +7,12 @@ export default function MentorForm({ }) {
 
     const [showConfirmation, setShowConfirmation] = useState(false);
 
+    const handleSubmission = () => {
+        const audio = new Audio('/audio/confirmation-sound.mp3');
+        audio.play();
+        setShowConfirmation(true);
+    };
+
     const preferredCommOptions = [
         { label: 'Email', icon: '/images/mentor-buttons/email.svg' },
         { label: 'In Person', icon: '/images/mentor-buttons/in-person.svg' },
@@ -42,38 +48,43 @@ export default function MentorForm({ }) {
                 </div>
 
                 <form action="/submit" method="post" className={styles.formContainer}>
-                
-                    <label for="name">Preferred Pronouns:</label>
-                    <input type="text" id="pronouns" name="pronouns" placeholder='Enter Your Preferred Pronoun(s)'/>
+                <div className={styles.formContainer}>
+                    <div className={styles.formInnerContainer}>
+                        <label for="name">Preferred Pronouns:</label>
+                        <input type="text" id="pronouns" name="pronouns" placeholder='Enter Your Preferred Pronoun(s)'/>
 
-                    <label for="career">Career:</label>
-                    <input type="text" id="career" name="career" placeholder='Enter Your Career'/>
+                        <label for="career">Career:</label>
+                        <input type="text" id="career" name="career" placeholder='Enter Your Career'/>
 
-                    <label for="interests">Interests:</label>
-                    <input type="text" id="interests" name="interests" placeholder='Enter Your Interests'/>
+                        <label for="interests">Interests:</label>
+                        <input type="text" id="interests" name="interests" placeholder='Enter Your Interests'/>
 
-                    <label for="reasons">Reasons for Application:</label>
-                    <textarea id="reasons" name="reasons" placeholder='Enter Your Reasons' required></textarea>
+                        <label for="reasons">Reasons for Application:</label>
+                        <textarea id="reasons" name="reasons" placeholder='Enter Your Reasons' required></textarea>
+                    </div>
+                </div>
                     <div className={styles.commContainer}>
-                        <p>Preferred Communication Channel:</p>
-                        <div className={styles.buttonContainer}>
-                            {preferredCommOptions.map((option, index) => (
-                                <button 
-                                    key={index} 
-                                    className={selectedComm.includes(option.label) ? `${styles.selectedButton} ${styles.circularButton}` : `${styles.button} ${styles.circularButton}`} 
-                                    onClick={() => handleSelectComm(option.label)}
-                                >
-                                    <img src={option.icon} alt={option.label} />
-                                    <p>{option.label}</p>
-                                </button>
-                            ))}
+                        <div className={styles.commInnerContainer}>
+                            <p>Preferred Communication Channel:</p>
+                            <div className={styles.buttonContainer}>
+                                {preferredCommOptions.map((option, index) => (
+                                    <button 
+                                        key={index} 
+                                        className={selectedComm.includes(option.label) ? `${styles.selectedButton} ${styles.circularButton}` : `${styles.button} ${styles.circularButton}`} 
+                                        onClick={() => handleSelectComm(option.label)}
+                                    >
+                                        <img src={option.icon} alt={option.label} />
+                                        <p>{option.label}</p>
+                                    </button>
+                                ))}
+                            </div>
                         </div>
                     </div> 
                     <div className={styles.submitButtonOuterContainer}>
-                        <div className={styles.submitButtonInnerContainer}>
-                            <button type="submit" onClick={() => setShowConfirmation(true)}>Submit Application</button>
-                            {showConfirmation && <Confirmation className={showConfirmation ? 'confirmation show' : 'confirmation'} />}
-                        </div>
+                            <div className={styles.submitButton}>
+                                <button type="submit" onClick={handleSubmission}>Submit Application</button>
+                                {showConfirmation && <Confirmation className={showConfirmation ? 'confirmation show' : 'confirmation'} />}
+                            </div>
                     </div>
                 </form>
             </div>
