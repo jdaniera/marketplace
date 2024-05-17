@@ -83,7 +83,7 @@ export default function MentorForm({ }) {
                     <div className={styles.submitButtonOuterContainer}>
                             <div className={styles.submitButton}>
                                 <button type="submit" onClick={handleSubmission}>Submit Application</button>
-                                {showConfirmation && <Confirmation className={showConfirmation ? 'confirmation show' : 'confirmation'} />}
+                                {showConfirmation && <Confirmation name='Ansa Odoom'header='Dear Jalen,' className={showConfirmation ? 'confirmation show' : 'confirmation'} />}
                             </div>
                     </div>
                 </form>

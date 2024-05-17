@@ -97,7 +97,7 @@ export default function BookingPayment() {
                 <div className={styles.payButtonContainer}>
                         <p className={styles.payButton} onClick={handlePayNowClick}>Pay Now</p>
                     </div>
-                    {showConfirmation && <Confirmation className={showConfirmation ? 'confirmation show' : 'confirmation'} />}
+                    {showConfirmation && <Confirmation name="James Plunk" header="Thanks Jalen,"className={showConfirmation ? 'confirmation show' : 'confirmation'} />}
             </div>
         </main>
         <TabBar/>
