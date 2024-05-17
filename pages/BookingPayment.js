@@ -15,6 +15,12 @@ export default function BookingPayment() {
   const searchBar = true;
   const settings = true;
 
+  const handlePayNowClick = () => {
+    const audio = new Audio('/audio/confirmation-sound.mp3');
+    audio.play();
+    setShowConfirmation(true);
+  };
+
   return (
     <>
       <Head>
@@ -89,7 +95,7 @@ export default function BookingPayment() {
                     </div>
                 </div>
                 <div className={styles.payButtonContainer}>
-                        <p className={styles.payButton} onClick={() => setShowConfirmation(true)}>Pay Now</p>
+                        <p className={styles.payButton} onClick={handlePayNowClick}>Pay Now</p>
                     </div>
                     {showConfirmation && <Confirmation className={showConfirmation ? 'confirmation show' : 'confirmation'} />}
             </div>
