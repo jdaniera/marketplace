@@ -26,6 +26,7 @@ export default function ServiceCardSection() {
                             buttonText='More Info'
                             display= 'display: none;'
                             id='furnitureBuilding'
+                            showSavedButton={false}
                         />
                         </div>
                         <div> 
@@ -36,6 +37,7 @@ export default function ServiceCardSection() {
                             buttonText='More Info'
                             link='/HomeRepairs'
                             id='homeRepairs'
+                            showSavedButton={false}
                             />
                         </div>
                         <div> 
@@ -45,6 +47,7 @@ export default function ServiceCardSection() {
                             alt='Couch Image'
                             buttonText='More Info'
                             id='outdoorWork'
+                            showSavedButton={false}
                         />
                         </div>
                         <div>
@@ -54,6 +57,7 @@ export default function ServiceCardSection() {
                             alt='Couch Image'
                             buttonText='More Info'
                             id='automotiveWork'
+                            showSavedButton={false}
                         />
                         </div>
                         <div> 
@@ -63,6 +67,7 @@ export default function ServiceCardSection() {
                             alt='Couch Image'
                             buttonText='More Info'
                             id='tutoring'
+                            showSavedButton={false}
                         />
                         </div>
                         <div>
@@ -72,6 +77,7 @@ export default function ServiceCardSection() {
                             alt='Couch Image'
                             buttonText='More Info'
                             id='indoorCleaning'
+                            showSavedButton={false}
                         />
                         </div>
                         <div>
@@ -81,6 +87,7 @@ export default function ServiceCardSection() {
                             alt='Couch Image'
                             buttonText='More Info'
                             id='moving'
+                            showSavedButton={false}
                         />
                         </div>
                         <div>
@@ -90,6 +97,7 @@ export default function ServiceCardSection() {
                             alt='Couch Image'
                             buttonText='More Info'
                             id='dogWalking'
+                            showSavedButton={false}
                         />
                         </div>
                     </div>

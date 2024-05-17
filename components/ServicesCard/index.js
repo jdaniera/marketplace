@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import SavedButton from "../SavedButton";
 
-export default function ClassesCard({title, subtitle, image, alt, link, buttonText, query, prompt, id}) {
+export default function ClassesCard({title, subtitle, image, alt, link, buttonText, query, prompt, id, showSavedButton}) {
     return(
         <div className={Styles.classesCardContainer}>
             <div className={Styles.classesCardInnerContainer}>
@@ -13,9 +13,11 @@ export default function ClassesCard({title, subtitle, image, alt, link, buttonTe
                 </div>
                 <div className={Styles.cardHeader}>
                     <p>{title}</p>
-                    <SavedButton prompt={prompt}
-                    id={id}
-                    />
+                    {showSavedButton && 
+                        <SavedButton prompt={prompt}
+                        id={id}
+                        />
+                    }
                 </div>
                 <div className={Styles.cardButton}>
                     <Link

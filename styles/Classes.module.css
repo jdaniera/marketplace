@@ -1,7 +1,11 @@
 .classCardContainer {
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
+}
+
+.classesContainer {
+    background-color: var(--page-white);
+    width: var(--iphone-width);
+
 }
 
 .classCardInnerContainer {

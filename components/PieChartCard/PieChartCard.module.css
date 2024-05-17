@@ -1,0 +1,87 @@
+.statsContainer {
+    margin-top: 0em;
+    margin-bottom: 8em;
+  }
+  
+  .statsInnerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    border-radius: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    padding: 0 2em;
+    max-width: 350px;
+  }
+  
+  .statsContainer h3 {
+    font-family: 'HindMedium';
+    font-size: 1.1em;
+    text-align: left;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+  }
+
+  .statsHeader h2{
+    font-family: 'HindMedium';
+    font-size: 1.3em;
+    text-align: left;
+    margin-bottom: 0em;
+    line-height: 0em;
+  }
+
+  .statsHeader p{
+    font-family: 'HindLight';
+    font-size: 1.1em;
+    text-align: left;
+    margin-bottom: 0.7em;
+    margin-top: 0.7em;
+    line-height: 1em;
+  }
+  
+  .mentorship {
+    margin-top: 2em;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.5em;
+
+  }
+
+  .info p {
+    font-family: 'HindMedium';
+    font-size: 1em;
+    margin: 0.3em;
+  }
+
+  .info img {
+    margin: 0.3em;
+  }
+
+  .titleGrey {
+    font-size: 'HindRegular';
+    color: var(--dark-grey);
+    font-size: 0.8em;
+
+  }
+
+  .pieChartContainer {
+    border-bottom: 1px solid var(--med-grey);
+  }
+
+  .infoInnerContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6em;
+    
+  }
+
+  .infoContainer {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+  }

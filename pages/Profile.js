@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export default function Profile() {
 
-  const headerTitle = 'Username';
+  const headerTitle = 'Profile';
   const pageLayout = 'layout1';
   const backButton = true;
   const searchBar = true;

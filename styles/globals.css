@@ -4,7 +4,8 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  background-color: var(--button-grey) 40%;
+  background-color: #F8F8F8;
+  /* background-color: black; */
 }
 
 :root {
@@ -24,6 +25,7 @@ body {
   --beginner-tag-green: #C7FFB4;
   --intermediate-tag-yellow: #FDFFA6;
   --page-grey: #F7F7F7;
+  --page-white: #ffffff;
 
   --info-h1: 20pt; 
   --body-16pt: 16pt;
