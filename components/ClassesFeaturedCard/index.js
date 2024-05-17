@@ -1,9 +1,16 @@
 import Styles from './ClassesFeaturedCard.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
+import SavedButton from '../SavedButton';
 
 
 export default function ClassesFeaturedCard() {
+
+    const handleSaveClassCard = () => {
+        saveToLocalStorage({ id, title, subtitle, image, alt, link, buttonText, query, type: 'class' });
+      };
+
+
     return(
         <div className={Styles.classesFeaturedCardContainer}>
             <div className={Styles.classesFeaturedCardInnerContainer}>
@@ -18,7 +25,18 @@ export default function ClassesFeaturedCard() {
                 </div>
                 <div className={Styles.featuredCardHeader}>
                 <p>Pottery Class</p>
-                    <Image src="/images/classesFeaturedCard/heartIcon.svg" width={16.7} height={15.5} alt="Heart Icon" />
+                <SavedButton 
+                    title='Pottery Class'
+                    subtitle='{subtitle}'
+                    image='/images/classesFeaturedCard/potteryClassesImg.svg'
+                    alt='woman doing pottery'
+                    link='/ClassInfo'
+                    buttonText='More Info'
+                    query=''
+                    id='pottery-class'
+                    type="class"
+                    onClick={handleSaveClassCard}
+                />
                 </div>
                 <div className={Styles.featuredCardLocation}>
                 <p>Kitsilano</p>

@@ -5,6 +5,11 @@ import Link from 'next/link';
 import SavedButton from '../SavedButton';
 
 export default function ClassesCard({ title, subtitle, image, alt, link, buttonText, query, id }) {
+
+  const handleSaveClassCard = () => {
+    saveToLocalStorage({ id, title, subtitle, image, alt, link, buttonText, query, type: 'class' });
+  };
+
   return (
     <div className={Styles.classesCardContainer}>
       <div className={Styles.classesCardInnerContainer}>
@@ -22,6 +27,8 @@ export default function ClassesCard({ title, subtitle, image, alt, link, buttonT
             buttonText={buttonText}
             query={query}
             id={id}
+            type="class"
+            onClick={handleSaveClassCard}
           />
         </div>
         <div className={Styles.cardSubtitle}>
