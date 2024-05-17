@@ -4,6 +4,7 @@
     bottom: 0;
     background-color: var(--teal);
     align-content: center;
+    width: 432px;
 }
 
 .tabContainer ul {
