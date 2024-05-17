@@ -30,7 +30,7 @@ export default function PieChart() {
             label: ["Delivery Service", "Personal Transport", "Selling of Goods"], 
             datasets: [
                 {
-                    label: "# of People (thousand)",
+                    label: "# of People (thousands)",
                     data: [468, 245, 116, 65],
                     borderColor: [
                         'rgb(36, 106, 115)', 

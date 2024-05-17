@@ -9,6 +9,7 @@ import PieChart from '@/components/PieChart';
 import TabBar from '@/components/TabBar';
 import HelloPopup from '@/components/HelloPopup';
 import styles from '@/styles/Home.module.css';
+import PieChartCard from '@/components/PieChartCard';
 
 export default function Home() {
   const [isFirstLoad, setIsFirstLoad] = useState(false);
@@ -50,10 +51,7 @@ export default function Home() {
             </div>
             <HomeCardSection/>
             <div className={styles.statsContainer}>
-              <div className={styles.statsInnerContainer}>
-                <h3>Gig Workers in Canada</h3>
-                <PieChart/>
-              </div>
+                <PieChartCard/>
             </div>
           </div>
         </main>
