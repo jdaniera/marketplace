@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from './SavedButton.module.css';
 import { useEffect, useState } from 'react';
 
-export default function SavedButton({ title, subtitle, image, alt, link, buttonText, query, id }) {
+export default function SavedButton({ title, subtitle, image, alt, link, buttonText, query, id, profilePic, name, rating, profession, price, type }) {
   const [saved, setSaved] = useState(false);
 
   useEffect(() => {
@@ -12,30 +12,30 @@ export default function SavedButton({ title, subtitle, image, alt, link, buttonT
   }, [id]);
 
   const toggleSaved = () => {
-    const savedItemsArray = JSON.parse(localStorage.getItem('savedItems') || '[]');
-    let updatedItemsArray;
-    // use let so it can update itself each time an item is added
-
     if (saved) {
-        updatedItemsArray = savedItemsArray.filter(item => item.id !== id);
-      // check to see if item with the same prompt is already on saved list
+        removeFromLocalStorage(id);
     } else {
-        updatedItemsArray = [...savedItemsArray, 
-          { 
-              title,
-              subtitle,
-              image,
-              alt,
-              link,
-              id,
-              buttonText,
-              query,
-          }];
-      }
-
-    localStorage.setItem('savedItems', JSON.stringify(updatedItemsArray));
+        saveToLocalStorage({ 
+          id, title, subtitle, image, alt, link, buttonText, query, type,  // class card props
+          profilePic, name, rating, profession, price // service card props
+        });
+    }
     setSaved(!saved);
-  };
+};
+
+const saveToLocalStorage = (item) => {
+    const savedItems = JSON.parse(localStorage.getItem('savedItems')) || [];
+
+    savedItems.push(item);
+    localStorage.setItem('savedItems', JSON.stringify(savedItems));
+};
+
+const removeFromLocalStorage = (id) => {
+    const savedItems = JSON.parse(localStorage.getItem('savedItems')) || [];
+
+    const updatedItems = savedItems.filter(item => item.id !== id);
+    localStorage.setItem('savedItems', JSON.stringify(updatedItems));
+};
 
   return (
     <button

@@ -41,6 +41,7 @@ export default function Classes() {
                                 buttonText='View Class'
                                 link='/ClassesInfo'
                                 id='ring-class'
+                                type='class'
                             />
                         </div>
                         <div> 
@@ -52,6 +53,7 @@ export default function Classes() {
                                 buttonText='View Class'
                                 link='/ClassesInfo'
                                 id='knitting-class'
+                                type='class'
                             />
                         </div>
                         <div> 
@@ -63,6 +65,7 @@ export default function Classes() {
                                 buttonText='View Class'
                                 link='/ClassesInfo'
                                 id='cooking-class'
+                                type='class'
                             />
                         </div>
                         <div className={styles.viewMoreCardContainer}>
@@ -90,6 +93,7 @@ export default function Classes() {
                                 buttonText='View Class'
                                 link='/ClassesInfo'
                                 id='barber-workshop'
+                                type='class'
                             />
                         </div>
                         <div> 
@@ -101,6 +105,7 @@ export default function Classes() {
                                 buttonText='View Class'
                                 link='/ClassesInfo'
                                 id='writing-workshop'
+                                type='class'
                             />
                         </div>
                         <div>
@@ -112,6 +117,7 @@ export default function Classes() {
                                 buttonText='View Class'
                                 link='/ClassesInfo'
                                 id='photography-workshop'
+                                type='class'
                             />
                         </div>
                         <div className={styles.viewMoreCardContainer}>
