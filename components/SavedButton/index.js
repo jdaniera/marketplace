@@ -21,6 +21,10 @@ export default function SavedButton({ title, subtitle, image, alt, link, buttonT
         });
     }
     setSaved(!saved);
+
+    if(!saved) {const audio = new Audio('/audio/saved-sound.mp3');
+    audio.play();
+  }
 };
 
 const saveToLocalStorage = (item) => {
