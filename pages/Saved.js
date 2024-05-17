@@ -37,11 +37,11 @@ export default function Saved() {
         <main className={styles.main}>
           <div className={styles.mainInnerContainer}>
             <div className={styles.savedCardContainer}>
+              <div>
+                <h2>Saved Classes & Workshops</h2>
+              </div>
               {savedClasses.length > 0 && (
                   <div className={styles.classesSectionContainer}>
-                    <div>
-                      <h2>Saved Classes & Workshops</h2>
-                    </div>
                     <div className={styles.classesSection}>
                       {savedClasses.map((item, index) => (
                         <ClassesCard
@@ -62,16 +62,22 @@ export default function Saved() {
                         />
                       ))}
                     </div>
-                    
                   </div>
                 )}  
+                <div>
+                  {savedClasses.length === 0 && savedServices.length === 0 && (
+                    <p>No saved items yet.</p>
+                  )}
+                </div>
 
                 <hr/>
               
+              <div className={styles.sectionHeader}>
+                <h2>Saved Services</h2>
+              </div>
               {savedServices.length > 0 && (
                 <div className={styles.servicesSection}>
                   <div>
-                    <h2>Saved Services</h2>
                   </div>
                   {savedServices.map((item, index) => (
                     <HomeRepairsCard
@@ -88,10 +94,12 @@ export default function Saved() {
                   ))}
                 </div>
               )}
+               <div>
+                  {savedClasses.length === 0 && savedServices.length === 0 && (
+                    <p>No saved items yet.</p>
+                  )}
+                </div>
                 
-              {savedClasses.length === 0 && savedServices.length === 0 && (
-                <p>No saved items yet.</p>
-              )}
             </div>
           </div>
         </main>
