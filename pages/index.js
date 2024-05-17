@@ -46,10 +46,10 @@ export default function Home() {
           <div className={styles.mainInnerContainer}>
             <CategoriesHome/>
             <Map/>
+            <HomeCardSection/>
             <div className={styles.mentorship}>
               <FindMentor/>
             </div>
-            <HomeCardSection/>
             <div className={styles.statsContainer}>
                 <PieChartCard/>
             </div>

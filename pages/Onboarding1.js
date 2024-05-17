@@ -45,8 +45,8 @@ export default function Onboarding1() {
               animate={isExiting ? { x: -420 } : { opacity: 1 }}
               transition={{ duration: 1, ease: "easeIn" }}
               >
-              <div className={styles.image}>
-                <Image src="/images/OnboardingImages/onboarding1.svg" alt="Onboarding1" width={324} height={296} />
+              <div className={styles.imageOne}>
+                <Image src="/images/quiz/gnome3.svg" alt="Onboarding1" width={495} height={312} />
               </div>
               <motion.div 
                 className={`${styles.bodyText}`}

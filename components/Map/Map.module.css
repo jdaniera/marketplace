@@ -2,5 +2,6 @@
     font-family: 'HindSemiBold';
     font-size: 1.2500em;
     color: var(--black);
-    margin-bottom: 0.6em;
+    margin-bottom: 0.2em;
+    margin-top: 0.1em;
 }
