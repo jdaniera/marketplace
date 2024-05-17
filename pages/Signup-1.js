@@ -22,7 +22,7 @@ export default function Signup1() {
                 </div>
                 <div className={styles.cardBackground}>
                   <div className={styles.progressBar}>
-                    <Image src="/images/OnboardingImages/progressBar1.svg" alt="progressBar-1" width={352} height={31} />
+                    <Image src="/images/OnboardingImages/ProgressBar1.svg" alt="progressBar-1" width={352} height={31} />
                   </div>
                   <div className={styles.container}>
                     <h3 className={styles.title}>Account Info:</h3>

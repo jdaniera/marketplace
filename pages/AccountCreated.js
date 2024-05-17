@@ -22,7 +22,7 @@ export default function AccountCreated() {
                 </div>
                 <div className={styles.cardBackground}> 
                     <div className={styles.progressBar}>
-                        <Image src="/images/OnboardingImages/progressbar3.svg" alt="accountCreated" width={352} height={31} />
+                        <Image src="/images/OnboardingImages/ProgressBar3.svg" alt="accountCreated" width={352} height={31} />
                     </div>
                     <div className={styles.innerContainer}>
                         <h3>Jalen Smith</h3>
