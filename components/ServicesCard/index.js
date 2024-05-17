@@ -16,8 +16,6 @@ export default function ClassesCard({title, subtitle, image, alt, link, buttonTe
                     <SavedButton prompt={prompt}
                     id={id}
                     />
-
-                    {/* <Image src="/images/classesFeaturedCard/heartIcon.svg" width={16.7} height={15.5} alt="Heart Icon" />                 */}
                 </div>
                 <div className={Styles.cardButton}>
                     <Link
