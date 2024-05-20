@@ -86,7 +86,7 @@
 .cardButton button{
     background-color: var(--button-grey);
     border-radius: 6px;
-    font-family: 'HindSemiBold';
+    font-family: 'HindMedium';
     font-size: 1em;
     border: none;
     padding: 0.1em 1em;

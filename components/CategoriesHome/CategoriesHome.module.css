@@ -47,6 +47,11 @@
 .category img {
     position: absolute;
     top: -10px;
+    transition: top 0.2s ease-in-out;
+}
+
+.category:hover img {
+    top: -15px;
 }
 
 .homeRepairText {
