@@ -10,11 +10,14 @@
     background-color: #f0f0f0;
     border: none;
     border-radius: 10px;
-    font-family: 'HindBold';
+    font-family: 'HindSemiBold';
     font-size: 1em;
     margin-left: 87px;
     margin-top: 16px;
-    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+} 
+.button:hover {
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 } 
 
 .button2 {
@@ -23,11 +26,14 @@
     background-color: var(--yellow);
     border: none;
     border-radius: 10px;
-    font-family: 'HindBold';
+    font-family: 'HindSemiBold';
     font-size: 1em;
     margin-left: 87px;
     margin-top: 16px;
-    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+} 
+.button2:hover {
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 } 
 
 .header {

@@ -44,7 +44,7 @@ export default function Onboarding2() {
                   transition={{ duration: 1, ease: "easeIn" }}
                   >                    
                     <div className={styles.image}>
-                        <Image src="/images/OnboardingImages/onboarding2.svg" alt="Onboarding1" width={324} height={296} />
+                        <Image src="/images/quiz/gnome2.svg" alt="Onboarding1" width={495} height={312} />
                     </div>
                     
                     <motion.div 
@@ -59,7 +59,7 @@ export default function Onboarding2() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1 }}
-              >                        <button className={styles.button} onClick={handleClick}>Continue</button>
+              >                        <button className={styles.button01} onClick={handleClick}>Continue</button>
                     </motion.div>
                     </motion.div>
                    

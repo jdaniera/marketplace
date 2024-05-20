@@ -1,6 +1,6 @@
 .statsContainer {
-    margin-top: 0em;
-    margin-bottom: 8em;
+    margin-top: 17em;
+    margin-bottom: 0em;
   }
   
   .statsInnerContainer {
@@ -25,16 +25,17 @@
 
   .statsHeader h2{
     font-family: 'HindMedium';
-    font-size: 1.3em;
-    text-align: left;
+    font-size: 1.4em;
+    text-align: center;
     margin-bottom: 0em;
-    line-height: 0em;
+    line-height: 0.4em;
   }
 
   .statsHeader p{
-    font-family: 'HindLight';
+    font-family: 'Hind';
+    color: var(--dark-grey);
     font-size: 1.1em;
-    text-align: left;
+    text-align: center;
     margin-bottom: 0.7em;
     margin-top: 0.7em;
     line-height: 1em;

@@ -8,7 +8,7 @@ export default function Confirmation({name, header}) {
         <>
             <div className={styles.overlay}>
                 <div className={styles.checkmark}>
-                    <Image src="/images/confirmation/checkmarkConfirmation.png" width={220} height={220} alt="Checkmark"/>
+                    <Image src="/images/Confirmation/checkmarkConfirmation.png" width={220} height={220} alt="Checkmark"/>
                 </div>
                 <div className={styles.title}>
                     <h1>{header}Your request has been received!</h1>

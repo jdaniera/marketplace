@@ -15,14 +15,14 @@ export default function Login() {
                             <h2>Login</h2>
                             <div className={styles.inputField}>
                                 <div className={styles.inputWrapper}>
-                                    <Image src="./images/signinIcons/mail.svg" alt="user" width={22.5} height={18} />
+                                    <Image src="./images/signInIcons/mail.svg" alt="user" width={22.5} height={18} />
                                     <p>Username</p>
                                     <input type="text" placeholder="Enter Username or Email" />
                                 </div>
                             </div>
                             <div className={styles.inputField}>
                                 <div className={styles.inputWrapper}>
-                                    <Image src="./images/signinIcons/lock.svg" alt="user" width={22.5} height={18} />
+                                    <Image src="./images/signInIcons/lock.svg" alt="user" width={22.5} height={18} />
                                     <p>Password</p>
                                     <input type="text" placeholder="Enter Passworrd" />
                                 </div>
