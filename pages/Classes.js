@@ -9,14 +9,15 @@ import TakeQuizCard from "@/components/TakeQuizCard";
 
 export default function Classes() {
     const headerTitle = 'Classes';
-    const backButton = false;
     const pageLayout = 'layout1';
     const searchBar = true;
+    const backButton = true;
+    const settings = false;
 
     return (
         <div className={styles.classesContainer}>
             <div className={styles.classesInnerContainer}>
-                <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} />
+                <NavBar layout={pageLayout} title={headerTitle} backButton={backButton} searchBar={searchBar} settings={settings} />
                 <main className={styles.main}>
                 <div className={styles.classCardSectionHeader}>
                     <p>Featured Class</p>

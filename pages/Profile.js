@@ -21,7 +21,7 @@ export default function Profile() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavBar layout={pageLayout} title={headerTitle} backButton={false} searchBar={searchBar} settings={false}/>
+      <NavBar layout={pageLayout} title={headerTitle} backButton={false} searchBar={searchBar} settings={true}/>
         <div className={styles.iphoneFrame}>
           <main className={`${styles.main}`}>
             <div className={styles.mainInnerContainer}>
