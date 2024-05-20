@@ -23,7 +23,7 @@ export default function ServiceCardSection() {
                             title='Furniture Building'
                             image='/images/serviceCardImages/furnitureBuilding.svg'
                             alt='Couch Image'
-                            buttonText='More Info'
+                            buttonText='See More'
                             display= 'display: none;'
                             id='furnitureBuilding'
                             showSavedButton={false}
@@ -34,7 +34,7 @@ export default function ServiceCardSection() {
                             title='Home Repairs'
                             image='/images/serviceCardImages/homeRepairs.svg'
                             alt='Couch Image'
-                            buttonText='More Info'
+                            buttonText='See More'
                             link='/HomeRepairs'
                             id='homeRepairs'
                             showSavedButton={false}
@@ -45,7 +45,7 @@ export default function ServiceCardSection() {
                             title='Outdoor Work'
                             image='/images/serviceCardImages/outdoorWork.svg'
                             alt='Couch Image'
-                            buttonText='More Info'
+                            buttonText='See More'
                             id='outdoorWork'
                             showSavedButton={false}
                         />
@@ -55,7 +55,7 @@ export default function ServiceCardSection() {
                             title='Automotive Work'
                             image='/images/serviceCardImages/automotive.svg'
                             alt='Couch Image'
-                            buttonText='More Info'
+                            buttonText='See More'
                             id='automotiveWork'
                             showSavedButton={false}
                         />
@@ -65,7 +65,7 @@ export default function ServiceCardSection() {
                             title='Elementary Math Tutoring'
                             image='/images/serviceCardImages/tutoring.svg'
                             alt='Couch Image'
-                            buttonText='More Info'
+                            buttonText='See More'
                             id='tutoring'
                             showSavedButton={false}
                         />
@@ -75,7 +75,7 @@ export default function ServiceCardSection() {
                             title={<span className="smallerText">Indoor Home Cleaning</span>}
                             image='/images/serviceCardImages/indoorCleaning.svg'
                             alt='Couch Image'
-                            buttonText='More Info'
+                            buttonText='See More'
                             id='indoorCleaning'
                             showSavedButton={false}
                         />
@@ -85,7 +85,7 @@ export default function ServiceCardSection() {
                             title='Moving Assistance'
                             image='/images/serviceCardImages/moving.svg'
                             alt='Couch Image'
-                            buttonText='More Info'
+                            buttonText='See More'
                             id='moving'
                             showSavedButton={false}
                         />
@@ -95,7 +95,7 @@ export default function ServiceCardSection() {
                             title='Dog Walking'
                             image='/images/serviceCardImages/dogWalker.svg'
                             alt='Couch Image'
-                            buttonText='More Info'
+                            buttonText='See More'
                             id='dogWalking'
                             showSavedButton={false}
                         />

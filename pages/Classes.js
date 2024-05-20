@@ -39,7 +39,7 @@ export default function Classes() {
                                 image='/images/classCard/classCard01.svg'
                                 alt='Ring Making Image'
                                 buttonText='View Class'
-                                link='/ClassesInfo'
+                                link='/ClassInfo'
                                 id='ring-class'
                                 type='class'
                             />
@@ -51,7 +51,7 @@ export default function Classes() {
                                 image='/images/classCard/classCard02.svg'
                                 alt='Knitting Image'
                                 buttonText='View Class'
-                                link='/ClassesInfo'
+                                link='/ClassInfo'
                                 id='knitting-class'
                                 type='class'
                             />
@@ -63,7 +63,7 @@ export default function Classes() {
                                 image='/images/classCard/classCard03.svg'
                                 alt='Cooking Image'
                                 buttonText='View Class'
-                                link='/ClassesInfo'
+                                link='/ClassInfo'
                                 id='cooking-class'
                                 type='class'
                             />
@@ -91,7 +91,7 @@ export default function Classes() {
                                 image='/images/classCard/classCard05.svg'
                                 alt='Barber Image'
                                 buttonText='View Class'
-                                link='/ClassesInfo'
+                                link='/ClassInfo'
                                 id='barber-workshop'
                                 type='class'
                             />
@@ -103,7 +103,7 @@ export default function Classes() {
                                 image='/images/classCard/classCard06.svg'
                                 alt='Page and Pen Image'
                                 buttonText='View Class'
-                                link='/ClassesInfo'
+                                link='/ClassInfo'
                                 id='writing-workshop'
                                 type='class'
                             />
@@ -115,7 +115,7 @@ export default function Classes() {
                                 image='/images/classCard/classCard07.svg'
                                 alt='Photo Image'
                                 buttonText='View Class'
-                                link='/ClassesInfo'
+                                link='/ClassInfo'
                                 id='photography-workshop'
                                 type='class'
                             />
